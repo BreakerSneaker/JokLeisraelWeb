@@ -1,0 +1,39 @@
+h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+    background-color: gray;
+
+}
+BookMain{
+    float: left;
+    padding: 5px;
+    width: auto;
+    height: 200px;
+    background-color: aqua;
+
+}
+
+
+nav {
+    float: right;
+    width: 100%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: greenyellow;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+Buttons{
+   
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+   
+    
+}

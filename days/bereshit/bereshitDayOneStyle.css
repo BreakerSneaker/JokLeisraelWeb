@@ -1,0 +1,15 @@
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    
+    
+    
+}
+
+nav{
+    text-align: center;
+    text-size-adjust: 100;
+    -webkit-text-size-adjust: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
