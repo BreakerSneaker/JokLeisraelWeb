@@ -18,6 +18,8 @@ BookMain{
 
 }
 #container{
+    float: none;
+    
     align-content: center;
     display: grid;
     grid: repeat(1,60px) / auto-flow 80px; 
@@ -25,12 +27,13 @@ BookMain{
     margin: 25px;
     width: auto;
     height: auto;
-    float: none;
     padding: auto;
     
 }
 
 #container > div{
+
+    
     padding: auto;
     display: grid;
     text-align: center;
