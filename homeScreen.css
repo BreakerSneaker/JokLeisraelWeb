@@ -1,3 +1,5 @@
+
+
 h1{
     font-size: 60px;
     text-align: center;
@@ -15,7 +17,26 @@ BookMain{
     background-color: aqua;
 
 }
+#container{
+    align-content: center;
+    display: grid;
+    grid: repeat(1,60px) / auto-flow 80px; 
+    gap: 50px;
+    margin: 25px;
+    
+}
 
+#container > div{
+    padding: auto;
+    display: grid;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(182, 182, 182);
+    max-width: 100px;
+   
+    
+}
 
 nav {
     float: right;
