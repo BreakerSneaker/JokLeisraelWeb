@@ -23,6 +23,10 @@ BookMain{
     grid: repeat(1,60px) / auto-flow 80px; 
     gap: 50px;
     margin: 25px;
+    width: auto;
+    height: auto;
+    float: none;
+    padding: auto;
     
 }
 
