@@ -1,4 +1,4 @@
-
+/**/
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ body{
 }
 .box1{
     
-    
+
     color: #720026;
     background-size: 300px 100px;
 }
@@ -25,23 +25,26 @@ body{
 }
 
 /*the link buttons start from here*/
-nav{
-width: 0 auto;
+nav{ /*creates navigation box depending on the content*/
+width: 0 auto; /**/
 height: auto;
+margin: 0;
 background-color:bisque;
 }
 
 
 
 ul{
+    padding: 0%;
     
 
 }
 
 ul li{
-    list-style: none;
+    
     display: inline-block;
-    float: none;
+    padding: 20px;
+   
     line-height: 10vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
     
@@ -51,8 +54,8 @@ ul li{
 ul li a{
     
     text-decoration: none;
-    background-color: white;
-    font-size: 2vh;
+    background-color: white; /*button BG*/
+ 
     padding: 0 40px;
     
 }
@@ -68,6 +71,27 @@ ul li a:hover{
 
 .wrapper{
     margin: 0 auto;
-    width: fit-content;
+    width: fit-content; /*fits inside Ul->Li->a and creates autisde of them a box*/
     
+}
+
+@media only screen and (min-width: 600px){
+
+    .box1{
+    
+
+        color: #720026;
+        background-size: 500px 500px;
+    }
+    #header1{
+        color: antiquewhite;
+        background-color: #720026;
+        font-size: 6vw;
+        text-align: center;
+        
+        
+    }
+
+
+
 }
