@@ -12,10 +12,12 @@ body{
     
 
     color: #720026;
-    background-size: 300px 100px;
+    
 }
 
 #header1{
+    
+    display: none;
     color: antiquewhite;
     background-color: #720026;
     font-size: 6vw;
@@ -24,18 +26,30 @@ body{
     
 }
 
+#header2{
+    
+    display: grid;
+    color: antiquewhite;
+    background-color: #720026;
+    font-size: 12vw;
+    
+    text-align: center;
+    
+    
+}
 /*the link buttons start from here*/
 nav{ /*creates navigation box depending on the content*/
-width: 0 auto; /**/
-height: auto;
+ /**/
 margin: 0;
 background-color:bisque;
+height: 100px;
 }
 
 
 
 ul{
-    padding: 0%;
+    
+    
     
 
 }
@@ -44,26 +58,32 @@ ul li{
     
     display: inline-block;
     padding: 20px;
-   
-    line-height: 10vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    width: 10px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
     
+   
 
 }
 
 ul li a{
     
     text-decoration: none;
-    background-color: white; /*button BG*/
- 
+     /*button BG*/
+    
+    background-color: aliceblue;
     padding: 0 40px;
+    
     
 }
 
-ul li a:hover{
+ul li :hover{
     color: #720026;
+    
 
 }
+
+
+
 /*ends here------------------------*/
 
 /*----------center screen-----------*/
@@ -74,24 +94,65 @@ ul li a:hover{
     width: fit-content; /*fits inside Ul->Li->a and creates autisde of them a box*/
     
 }
-
-@media only screen and (min-width: 600px){
-
-    .box1{
+.wrapper2{
+    margin: 0 auto;
+    width: fit-content; /*fits inside Ul->Li->a and creates autisde of them a box*/
     
+}
+@media only screen and (min-width: 100px)
+{
 
-        color: #720026;
-        background-size: 500px 500px;
+    nav{ /*creates navigation box depending on the content*/
+        /**/
+       margin: 0;
+       background-color:bisque;
+       height: max-content;
+       }
+    
+    
+    ul li a{
+    
+        width: 20px 20px;
+        height: 20px;
+        
+        
     }
+    .wrapper2{
+        margin: 0 auto;
+        width: fit-content; /*fits inside Ul->Li->a and creates autisde of them a box*/
+        
+    }
+
+
+}
+@media only screen and (min-width: 400px)
+{
+
+    nav{ /*creates navigation box depending on the content*/
+        /**/
+       margin: 0;
+       background-color:bisque;
+       height: max-content;
+       }
+    
     #header1{
-        color: antiquewhite;
-        background-color: #720026;
-        font-size: 6vw;
-        text-align: center;
+        display: grid;
+        
+    }
+    ul li a{
+    
+        width: 20px 20px;
+        height: 20px;
         
         
     }
-
+    #header2{
+    
+        display: none;
+     
+        
+        
+    }
 
 
 }
