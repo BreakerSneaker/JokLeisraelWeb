@@ -9,10 +9,13 @@
 .wrapper{
     margin: 0 auto;
     width: fit-content;
+    padding-top:20px ;
 }
 
 nav{
     background-color: bisque;
+    width: 100%;
+    height: fit-content;
 }
 li{
     
@@ -27,7 +30,9 @@ li{
 
 
 #header{
+    display: grid;
     padding-top: 0;
+    font-size: 50px;
     text-align: center;
     color: beige;
     background-color: #720026;
@@ -35,8 +40,17 @@ li{
 }
 
 .box{
+    padding-top: 20px;
     width: fit-content;
     margin: 0 auto;
+    
+}
+
+.box a{
+    text-decoration: none;
+    background-color: aliceblue;
+   
+    
 }
 
 
@@ -59,4 +73,18 @@ li{
 
 body{
     background-color: antiquewhite;
+}
+
+
+
+
+/*------command LIne---------------*/
+@media only screen and (min-width: 400px)/*if less of 100px do !*/
+{
+    #header{
+        display: block;
+        font-size: 80px;
+        
+    }
+
 }
