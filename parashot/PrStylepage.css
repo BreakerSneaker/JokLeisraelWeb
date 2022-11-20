@@ -22,7 +22,8 @@ nav{
 nav li{
     
     display: inline-block;
-    
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
@@ -42,7 +43,7 @@ nav li{
     padding-top: 20px;
     width: fit-content;
     margin: 0 auto;
-    padding-left: ;
+    
     
 }
 

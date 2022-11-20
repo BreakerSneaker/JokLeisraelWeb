@@ -104,19 +104,28 @@ ul li :hover{
     width: fit-content; /*fits inside Ul->Li->a and creates autisde of them a box*/
     
 }
-.box2{
-    margin: 0 auto;
-    width: fit-content; /**/ 
-}
+
 
 
 .box1{
-    
-
     color: #720026;
-    
 }
 
+.box2{
+    height: 200px;
+    
+    margin: 0 auto;
+    width: fit-content; /**/ 
+    padding-top: 200px;
+    padding-bottom: 80px;
+}
+.box2 p{
+    
+    font-size: 200%;
+    text-align: center;
+    margin: 0 auto;
+    height: fit-content;
+}
 
 /*----------------------------------*/
 
