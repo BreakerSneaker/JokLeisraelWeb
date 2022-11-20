@@ -1,19 +1,23 @@
-/**/
+/*default value for the home page*/
 *{
     margin: 0;
     padding: 0;
 }
 
+/*--------------------------------*/
 
+
+/*_________dont touch body________*/
 body{
     background-color: antiquewhite;
 }
-.box1{
-    
+/*---------------------------------*/
 
-    color: #720026;
-    
-}
+
+
+
+
+/*--------------texts section------*/
 
 #header1{
     
@@ -37,6 +41,9 @@ body{
     
     
 }
+
+/*-----------------------------------*/
+
 /*the link buttons start from here*/
 nav{ /*creates navigation box depending on the content*/
  /**/
@@ -47,12 +54,7 @@ height: 100px;
 
 
 
-ul{
-    
-    
-   
 
-}
 
 ul li{
     
@@ -81,26 +83,50 @@ ul li :hover{
     
 
 }
-
-
-
-
 /*ends here------------------------*/
 
+
+
+
+
+
+
+
+
 /*----------center screen-----------*/
-
-
-.wrapper{
+.wrapperParent{
     margin: 0 auto;
     width: fit-content; /*fits inside Ul->Li->a and creates autisde of them a box*/
     
 }
-.wrapper2{
+.wrapperChild{
     margin: 0 auto;
     width: fit-content; /*fits inside Ul->Li->a and creates autisde of them a box*/
     
 }
-@media only screen and (min-width: 100px)
+.box2{
+    margin: 0 auto;
+    width: fit-content; /**/ 
+}
+
+
+.box1{
+    
+
+    color: #720026;
+    
+}
+
+
+/*----------------------------------*/
+
+
+
+
+
+/*----------------"system" commands for css---------------*/
+
+@media only screen and (min-width: 100px)/*if less of 100px do !*/
 {
 
     nav{ /*creates navigation box depending on the content*/
@@ -109,22 +135,14 @@ ul li :hover{
        background-color:bisque;
        height: max-content;
        }
-    
-    
     ul li a{
-    
         width: 20px 20px;
-        height: 20px;
-        
-        
+        height: 20px;   
     }
-
-
-    
-
-
 }
-@media only screen and (min-width: 400px)
+
+
+@media only screen and (min-width: 400px) /*if less of 400px do !*/
 {
 
     nav{ /*creates navigation box depending on the content*/
@@ -139,19 +157,12 @@ ul li :hover{
         
     }
     ul li a{
-    
+
         width: 20px 20px;
         height: 20px;
-        
-        
     }
     #header2{
-    
         display: none;
-     
-        
-        
     }
-
-
 }
+/*-------------------------------------------------*/
