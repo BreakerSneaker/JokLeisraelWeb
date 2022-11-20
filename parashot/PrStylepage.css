@@ -1,14 +1,58 @@
-h1{
-    font-size: 50px;
-    background-color: aquamarine;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+*{
+    padding: 0;
+}
+.wrapper{
+    margin: 0 auto;
+    width: fit-content;
 }
 
 nav{
-    font-size: medium;
-    text-align: center;
+    width: max;
+    background-color: bisque;
+}
+li{
+    
+    display: inline-block;
+    padding-left: 50px;
+    list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
     
     
+}
+
+
+#header{
+    
+    text-align: center;
+    color: beige;
+    background-color: #720026;
+    
+}
+
+.box{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+
+
+
+/*box inside the link to center itself inside the box*/ 
+.linkBox{
+    
+    text-decoration: none;
+    
+    text-align: center;
+    display: inline-block;
+    background-color:white;
+    width: 100px;
+    height: 50px;
+}
+
+
+/*dont touch the body*/
+
+body{
+    background-color: antiquewhite;
 }

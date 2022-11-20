@@ -40,7 +40,7 @@ body{
 /*the link buttons start from here*/
 nav{ /*creates navigation box depending on the content*/
  /**/
-margin: 0;
+
 background-color:bisque;
 height: 100px;
 }
@@ -50,7 +50,7 @@ height: 100px;
 ul{
     
     
-    
+   
 
 }
 
@@ -66,11 +66,11 @@ ul li{
 }
 
 ul li a{
-    
+    background-color: aliceblue;
     text-decoration: none;
      /*button BG*/
     
-    background-color: aliceblue;
+    
     padding: 0 40px;
     
     
@@ -81,6 +81,7 @@ ul li :hover{
     
 
 }
+
 
 
 
@@ -117,11 +118,9 @@ ul li :hover{
         
         
     }
-    .wrapper2{
-        margin: 0 auto;
-        width: fit-content; /*fits inside Ul->Li->a and creates autisde of them a box*/
-        
-    }
+
+
+    
 
 
 }
