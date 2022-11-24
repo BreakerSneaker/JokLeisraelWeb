@@ -23,6 +23,8 @@ body{
 .wrapperChild{
     margin: 0 auto;
     width: auto;
+    padding-right: 15px;
+    padding-left: 0px;
 }
 
 /* links design*/
