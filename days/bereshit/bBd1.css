@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: antiquewhite;
+}
+
+
+/*-----------clasess section----------*/
+
+.wrapper{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    background-color: bisque;
+    
+}
+
+.wrapperChild{
+    margin: 0 auto;
+    width: auto;
+    
+
+}
+
+/* links design*/
+
+
+
+.navBox{
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 15px;
+    
+}
+
+.navBoxChild{
+   
+    display: inline-block;
+    text-align: center;
+    
+    width: 100px;
+    height: 50px;
+    background-color: beige;
+}
+
+
+
+
+/*--------------id section------------------*/
+
+#header{
+    
+    color: beige;
+    background-color: #720026;
+    width: auto;
+    height: 80px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
