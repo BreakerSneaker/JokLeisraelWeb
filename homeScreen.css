@@ -1,23 +1,23 @@
-/*default value for the home page*/
+
 *{
     margin: 0;
     padding: 0;
 }
 
-/*--------------------------------*/
 
 
-/*_________dont touch body________*/
+
+
 body{
     background-color: antiquewhite;
 }
-/*---------------------------------*/
 
 
 
 
 
-/*--------------texts section------*/
+
+
 
 #header1{
     
@@ -42,33 +42,39 @@ body{
     
 }
 
-/*-----------------------------------*/
 
-/*the link buttons start from here*/
-nav{ /*creates navigation box depending on the content*/
- /**/
+
+
+nav{ 
 
 background-color:bisque;
-height: 100px;
+
 }
 
 
-
+ul{
+    padding-left: 25px;
+}
 
 
 ul li{
-    
+        
     display: inline-block;
-    padding: 20px;
+    padding-top: 15px;
+    padding-left: 20px;
     width: 10px 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
    
 
 }
 
-ul li a{
-    background-color: aliceblue;
+#link{
+    
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color: white;
     text-decoration: none;
      /*button BG*/
     
@@ -79,11 +85,11 @@ ul li a{
 }
 
 ul li :hover{
-    color: #720026;
+    color: wheat;
     
 
 }
-/*ends here------------------------*/
+
 
 
 
@@ -97,7 +103,7 @@ ul li :hover{
 .wrapperParent{
     margin: 0 auto;
     width: fit-content; /*fits inside Ul->Li->a and creates autisde of them a box*/
-    
+    padding-bottom: 10px;
 }
 .wrapperChild{
     margin: 0 auto;
@@ -109,13 +115,14 @@ ul li :hover{
 
 .box1{
     color: #720026;
+    padding-bottom: 20px;
 }
 
 .box2{
     height: 200px;
     
     margin: 0 auto;
-    width: fit-content; /**/ 
+     /**/ 
     padding-top: 200px;
     padding-bottom: 80px;
 }

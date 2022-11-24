@@ -45,12 +45,14 @@ body{
     color: black;
     display: inline-block;
     text-align: center;
-    
+    text-decoration: none;
     width: 100px;
     height: 50px;
     background-color: rgb(247, 247, 238);
 }
-
+.navBoxChild:hover{
+    color: wheat;
+}
 
 
 
@@ -64,7 +66,7 @@ body{
     height: 80px;
     text-align: center;
     font-size: 60px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 
 }
 
@@ -78,7 +80,14 @@ body{
 }
 
 #backBt a{
-    
+    color: rgb(0, 0, 0);
     font-size: 20px;
-    
+    text-decoration: none;
 }
+
+#backBt a:hover{
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+}
+

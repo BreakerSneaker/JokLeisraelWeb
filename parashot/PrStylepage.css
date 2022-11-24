@@ -13,10 +13,10 @@
 }
 
 nav{
+    padding-left: 25px;
     background-color: bisque;
     width: 100%;
     height: fit-content;
-    
 }
 nav li{
     
@@ -25,8 +25,6 @@ nav li{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
-
-
 
 #header{
     display: grid;
@@ -47,24 +45,34 @@ nav li{
 }
 
 .box a{
+    color: black;
     text-decoration: none;
-    background-color: aliceblue;
+    font-size: 20;
+   
+    
+}
+.box a:hover{
+    color: red;
    
     
 }
 
 
 
-
 /*box inside the link to center itself inside the box*/ 
 .linkBox{
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
     text-decoration: none;
     text-align: center;
     display: inline-block;
     background-color:white;
     width: 100px;
     height: 50px;
+}
+.linkBox:hover{
+    color: wheat;
+
 }
 .linkBoxChild{
     
@@ -94,7 +102,7 @@ body{
 {
     #header{
         display: block;
-        font-size: 80px;
+        font-size: 60px;
         
     }
 
