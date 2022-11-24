@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -15,6 +15,7 @@ body{
     text-align: center;
     margin: 0 auto;
     width: 100%;
+    height: fit-content;
     background-color: bisque;
     
 }
@@ -22,8 +23,6 @@ body{
 .wrapperChild{
     margin: 0 auto;
     width: auto;
-    
-
 }
 
 /* links design*/
@@ -37,17 +36,19 @@ body{
     height: 50px;
     padding-top: 20px;
     padding-left: 15px;
+    padding-bottom: 20px;
     
 }
 
 .navBoxChild{
-   
+    
+    color: black;
     display: inline-block;
     text-align: center;
     
     width: 100px;
     height: 50px;
-    background-color: beige;
+    background-color: rgb(247, 247, 238);
 }
 
 
@@ -62,9 +63,22 @@ body{
     width: auto;
     height: 80px;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 
 
+#backBt{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    text-align: center;
+}
+
+#backBt a{
+    
+    font-size: 20px;
+    
+}
