@@ -15,14 +15,14 @@
 nav{
     
     background-color: bisque;
-    width: 100%;
-    height: fit-content;
+    padding-bottom: 50px;
+    
 }
 
 ul{
-    padding-bottom: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
     
 
 }
@@ -114,6 +114,22 @@ body{
         display: block;
         font-size: 60px;
         
+    }
+
+    ul{
+        
+    
+    }
+
+}
+
+@media only screen and (min-width: 100px)/*if less of 100px do !*/
+{
+
+    ul{
+        padding-left: 35px;
+        padding-right: 35px;
+    
     }
 
 }

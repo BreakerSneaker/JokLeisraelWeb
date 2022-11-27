@@ -59,7 +59,6 @@ ul{
 
 ul li{
     color: black;
-        
     display: inline-block;
     padding-top: 15px;
     padding-left: 20px;
@@ -72,15 +71,12 @@ ul li{
 
 #link{
     color: black;
-    
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     display: inline-block;
     background-color: white;
     text-decoration: none;
      /*button BG*/
-    
-    
     padding: 0 40px;
     
     
