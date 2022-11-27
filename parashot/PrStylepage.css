@@ -27,6 +27,7 @@ nav li{
 }
 
 #header{
+    width: 100%;
     display: grid;
     padding-top: 0;
     font-size: 50px;
