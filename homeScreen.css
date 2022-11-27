@@ -53,11 +53,12 @@ background-color:bisque;
 
 
 ul{
-    padding-left: 25px;
+    padding-left: 50px;
 }
 
 
 ul li{
+    color: black;
         
     display: inline-block;
     padding-top: 15px;
