@@ -108,7 +108,10 @@ body{
 
 
 /*------command LIne---------------*/
-@media only screen and (min-width: 400px)/*if less of 100px do !*/
+
+
+
+@media only screen and (min-width: 300px)/*if less of 100px do !*/
 {
     #header{
         display: block;
@@ -116,18 +119,14 @@ body{
         
     }
 
-    ul{
-        
-    
-    }
-
+   
 }
 
 @media only screen and (min-width: 100px)/*if less of 100px do !*/
 {
 
     ul{
-        padding-left: 30px;
+        padding-left: 40px;
     
     }
 
