@@ -9,25 +9,25 @@
 .wrapper{
     margin: 0 auto;
     width: fit-content;
-    padding-top:20px ;
+    
 }
 
 nav{
     
     background-color: bisque;
-    padding-bottom: 50px;
+    
     
 }
 
 ul{
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
     
 
 }
 ul li{
-    padding-left: 20px;
+    
     display: inline-block;
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -47,6 +47,7 @@ ul li{
 }
 
 .box{
+    padding-bottom: 20px;
     padding-top: 20px;
     text-align: center;
     margin: 0 auto;
@@ -79,6 +80,7 @@ ul li{
     background-color:white;
     width: 100px;
     height: 50px;
+    
 }
 .linkBox:hover{
     color: wheat;
@@ -88,13 +90,15 @@ ul li{
     
     text-decoration: none;
     text-align: center;
-    padding-right: 25px;
-    padding-left: 25px;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+    
     display: inline-block;
-    width: 100px;
-    height: 50px;
+   
 }
 
 
@@ -125,11 +129,5 @@ body{
 @media only screen and (min-width: 100px)/*if less of 100px do !*/
 {
 
-    ul{
-        padding-left: 40px;
-    
-    }
-
-    
 
 }
