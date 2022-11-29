@@ -6,4 +6,58 @@
 
 #backButton{
     text-align: center;
+    list-style: none;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+/*----------positioning------------*/
+.wrapper{
+    margin: 0 auto;
+    padding: 0;
+}
+.wrapperParent{
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    text-align: center;
+
+}
+.wrapperChild{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.wrapperChild2{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+
+.wrapperBook{
+    
+    padding-top: 0;
+    text-align: center;
+    
+    
+}
+
+
+/*--------textStyles-------------*/
+
+#bookHeader{
+
+   font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 100%;
+    line-height: 0;
+    display: inline-block;
+    
+}
+#text1{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
 }
