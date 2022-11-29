@@ -77,9 +77,10 @@ body{
     content: attr(data-msg);
     position: absolute;
     width: 100%;
-    
-    min-width: 1500%;
-    padding: 1rem;
+    text-align: justify;
+    text-justify: inter-word ;
+    min-width: 500%;
+    padding: 1%;
     background-color: white;
     left: 50%;
     top: -1rem;
