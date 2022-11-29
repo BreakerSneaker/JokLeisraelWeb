@@ -12,6 +12,12 @@
     padding-bottom: 50px;
 }
 
+body{
+    margin: auto;
+    padding: 0;
+    width: max-content;
+    height: max-content;
+}
 /*----------positioning------------*/
 .wrapper{
     margin: 0 auto;
