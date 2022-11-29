@@ -75,7 +75,7 @@ body{
 }
 [data-msg]:focus::before, [data-msg]:hover::before{
     content: attr(data-msg);
-    position: absolute;
+    position: static;
     width: 100%;
     text-align: justify;
     text-justify: inter-word ;
@@ -84,5 +84,5 @@ body{
     background-color: white;
     left: 50%;
     top: -1rem;
-    font-family: 'Times New Roman', Times, serif;
+    
 }
