@@ -68,3 +68,20 @@ body{
     
 
 }
+
+
+[data-msg]{
+    position: relative;
+}
+[data-msg]:focus::before, [data-msg]:hover::before{
+    content: attr(data-msg);
+    position: absolute;
+    width: 100%;
+    
+    min-width: 1500%;
+    padding: 1rem;
+    background-color: white;
+    left: 50%;
+    top: -1rem;
+    
+}
