@@ -58,13 +58,14 @@
     
 }
 #text1{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
     text-justify: inter-word ;
 }
 #text2{
+    font-size: 15px;
     text-align: justify;
     text-justify: inter-word ;
 
