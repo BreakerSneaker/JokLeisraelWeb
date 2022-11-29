@@ -60,4 +60,11 @@
 #text1{
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-justify: inter-word ;
+}
+#text2{
+    text-align: justify;
+    text-justify: inter-word ;
+
 }
