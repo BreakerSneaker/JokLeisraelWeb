@@ -69,20 +69,21 @@ body{
 
 }
 
+#bubble{
+    list-style: none;
+    
+    text-decoration: none;
+    
+}
+
 
 [data-msg]{
-    position: relative;
+    display: relative;
+    
 }
-[data-msg]:focus::before, [data-msg]:hover::before{
+[data-msg]:focus::after, [data-msg]:hover::after{
     content: attr(data-msg);
-    position: static;
-    width: 100%;
-    text-align: justify;
-    text-justify: inter-word ;
-    min-width: 500%;
-    padding: 1%;
-    background-color: white;
-    left: 50%;
-    top: -1rem;
+    
+    
     
 }
