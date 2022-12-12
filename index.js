@@ -4,8 +4,6 @@ const month = date.getMonth();
 const mes = Math.floor(month);
 const day = date.getDay();
 const dia = Math.floor(day);
-
-
 const semana = 51;
 
 
@@ -19,29 +17,17 @@ const semana = 51;
     {
       //si la semana es la semana 50 y toca bereshit
       if(result[1]===50){
-        weekFiftyOne();
+        weekFifty();
+        
         
         
       }else if(result[1]===51){
-        weekFifty();
+        
+        weekFiftyOne();
         
       }
     } 
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
