@@ -53,7 +53,7 @@ background-color:bisque;
 
 
 ul{
-    padding-left: 30px;
+    padding-left: 0px 0px 0px 30px;
 }
 
 
@@ -70,6 +70,7 @@ ul li{
 }
 
 #link{
+    text-align: center;
     color: black;
     width: 45px;
     height: 45px;
@@ -182,16 +183,16 @@ ul li :hover{
 /*-------------------------------------------------*/
 
 
-.buttonStyle{
-    text-align: center;
-    text-decoration: none;
-    list-style: none;
-    
-    left: 60%;
-    right: 60%;
-    
-}
+
 #button{
     
-    background-color: aliceblue;
+    text-align: center;
+    color: black;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    background-color: white;
+    text-decoration: none;
+     /*button BG*/
+    padding: 0 40px;
 }
