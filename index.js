@@ -1,9 +1,9 @@
 const result = getWeekNumber(new Date());
-const date = new Date('2022-12-12');
+const date = new Date();
 const month = date.getMonth();
 const mes = Math.floor(month);
 const day = date.getDay();
-const dia = Math.floor(day);
+
 const semana = 51;
 
 
@@ -17,16 +17,51 @@ const semana = 51;
     {
       //si la semana es la semana 50 y toca bereshit
       if(result[1]===50){
-        weekFifty();
-        
-        
-        
+        weekFifty();//week 50
       }else if(result[1]===51){
-        
-        weekFiftyOne();
-        
+        weekFiftyOne();//week51
       }
     } 
+
+
+
+
+
+
+    function weekFifty(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('Pdocument\\bereshit\\brd5.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
+    function weekFiftyOne(){
+      if(day===0){
+        alert("domingo")
+      }else if(day===1){
+        alert("lunes")
+      }else if(day===2){
+        alert("martes")
+      }else if(day===3){
+        alert("miercoles")
+      }else if(day===4){
+        alert("jueves")
+      }else if(day===5){
+        alert("viernes")
+      }else if(day===6){
+        alert("sabado")
+      }
+    }
     
 
 
@@ -58,51 +93,6 @@ const semana = 51;
 
 
 
-  function weekFifty()
-      {
-        if(dia===0){
-          window.open('Pdocument\\bereshit\\brd1.html')
-
-        }else if(dia===1){
-          window.open('Pdocument\\bereshit\\brd2.html')
-          
-
-        }else if(dia===2){
-          window.open('Pdocument\\bereshit\\brd3.html')
-
-        }else if(dia===3){
-          window.open('Pdocument\\bereshit\\brd4.html')
-
-        }else if(dia===4){//crear un html especifico para el con jueves noche o dia
-          window.open('Pdocument\\bereshit\\brd5.html')
-
-        }else if(dia===5){
-          window.open('Pdocument\\bereshit\\brd7.html')
-        }
-      }
-
-      function weekFiftyOne()
-      {
-        if(dia===0){
-          alert('domingo')
-
-        }else if(dia===1){
-          alert('lunes')
-          
-
-        }else if(dia===2){
-          alert('martes')
-
-        }else if(dia===3){
-          alert('miercoles')
-
-        }else if(dia===4){//crear un html especifico para el con jueves noche o dia
-          alert('jueves')
-
-        }else if(dia===5){
-          alert('viernes')
-        }
-      }
       
     
   
