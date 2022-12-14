@@ -4,7 +4,7 @@
     list-style: none;
     text-decoration: none;
     padding-top: 20px;
-    padding-bottom: 50px;
+    
 }
 
 body{
@@ -16,8 +16,9 @@ body{
 }
 /*----------positioning------------*/
 .wrapper{
-    margin: 0 auto;
-    padding: 0;
+   
+    position: sticky;
+    
 }
 .wrapperHeader{
     
