@@ -40,7 +40,7 @@ const semana = 51;
       }else if(day===3){
         window.open('Pdocument\\bereshit\\brd4.html')
       }else if(day===4){
-        window.open('Pdocument\\bereshit\\brd5.html')
+        window.open('thu.html')
       }else if(day===5){
         window.open('Pdocument\\bereshit\\brd7.html')
       }else if(day===6){

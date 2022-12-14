@@ -5,6 +5,7 @@
     text-decoration: none;
     padding-top: 20px;
     
+    
 }
 
 body{
@@ -16,8 +17,8 @@ body{
 }
 /*----------positioning------------*/
 .wrapper{
+   position: sticky
    
-    position: sticky;
     
 }
 .wrapperHeader{
