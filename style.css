@@ -35,10 +35,7 @@ body{
     
     
 }
-ul{
-    
-    
-}
+
 
 .wrapper{
     width: 100%;
@@ -102,7 +99,7 @@ border-radius: 8px;
     text-align: center;
     display: inline-block;
     background-color:white;
-    width: 250px;
+    width: 380px;
     height: 50px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
@@ -185,19 +182,54 @@ border-radius: 8px;
 }
 
 
-#button{
-    
-    
-    
-    
-    
-    /* Inside auto layout */
-    
-    
 
-}
-
-
-/*----------------"system" commands for css---------------*/
-
-
+@media only screen and (max-width: 600px) {
+    .linkBox{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+        background-color:white;
+        width: 150px;
+        height: 100px;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        
+        
+    }
+    .wrapper{
+        width: 100%;
+        height: 200px;
+        
+        
+        
+    }
+    .buttonBox{
+    
+    
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+        background-color:white;
+        width: 325px;
+        height: 50px;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        
+        
+    }
+    .linkBoxBt{
+    
+        text-decoration: none;
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: inline-block;
+       
+    
+  }
