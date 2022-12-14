@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+   
 }
 
 
@@ -11,13 +12,6 @@
 body{
     background-color: antiquewhite;
 }
-
-
-
-
-
-
-
 
 #header1{
     
@@ -32,62 +26,108 @@ body{
 
 #header2{
     
-    display: grid;
+    width: auto;
     color: antiquewhite;
     background-color: #720026;
-    font-size: 12vw;
+    font-size: 50px;
     
     text-align: center;
     
     
 }
-
-
-
-
-nav{ 
-
-background-color:bisque;
-
+ul{
+    
+    
 }
+
+.wrapper{
+    width: 100%;
+    height: 500px;
+    background-color: red;
+    
+    
+}
+
+
 
 
 ul{
-    padding-left: 0px 0px 0px 30px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    
+
 }
-
-
 ul li{
-    color: black;
+    
     display: inline-block;
-    padding-top: 15px;
-    padding-left: 20px;
-    width: 10px 10px;
+    list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
-   
-
+    
 }
-
-#link{
-    text-align: center;
+.linkBox{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
-    width: 45px;
-    height: 45px;
-    display: inline-block;
-    background-color: white;
     text-decoration: none;
-     /*button BG*/
-    padding: 0 40px;
+    text-align: center;
+    display: inline-block;
+    background-color:white;
+    width: 250px;
+    height: 340px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
     
     
 }
 
-ul li :hover{
-    color: wheat;
-    
 
+.linkBoxChild{
+    
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+   
 }
+.buttonBox{
+    
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    background-color:white;
+    width: 350px;
+    height: 50px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    
+    
+}
+.linkBoxBt{
+    
+    text-decoration: none;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+   
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -99,16 +139,8 @@ ul li :hover{
 
 
 /*----------center screen-----------*/
-.wrapperParent{
-    margin: 0 auto;
-    width: fit-content; /*fits inside Ul->Li->a and creates autisde of them a box*/
-    padding-bottom: 10px;
-}
-.wrapperChild{
-    margin: 0 auto;
-    width: fit-content; /*fits inside Ul->Li->a and creates autisde of them a box*/
-    
-}
+
+
 
 
 
@@ -134,65 +166,25 @@ ul li :hover{
 }
 
 /*----------------------------------*/
-
-
-
-
-
-/*----------------"system" commands for css---------------*/
-
-@media only screen and (min-width: 100px)/*if less of 100px do !*/
-{
-
-    nav{ /*creates navigation box depending on the content*/
-        /**/
-       margin: 0;
-       background-color:bisque;
-       height: max-content;
-       }
-    ul li a{
-        width: 20px 20px;
-        height: 20px;   
-    }
-}
-
-
-@media only screen and (min-width: 400px) /*if less of 400px do !*/
-{
-
-    nav{ /*creates navigation box depending on the content*/
-        /**/
-       margin: 0;
-       background-color:bisque;
-       height: max-content;
-       }
+.link{
     
-    #header1{
-        display: grid;
-        
-    }
-    ul li a{
-
-        width: 20px 20px;
-        height: 20px;
-    }
-    #header2{
-        display: none;
-    }
+    position: sticky;
 }
-/*-------------------------------------------------*/
-
 
 
 #button{
     
-    text-align: center;
-    color: black;
-    width: 45px;
-    height: 45px;
-    display: inline-block;
-    background-color: white;
-    text-decoration: none;
-     /*button BG*/
-    padding: 0 40px;
+    
+    
+    
+    
+    /* Inside auto layout */
+    
+    
+
 }
+
+
+/*----------------"system" commands for css---------------*/
+
+

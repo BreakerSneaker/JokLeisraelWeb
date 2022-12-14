@@ -8,6 +8,8 @@ const semana = 51;
 
 
 
+
+
   document.getElementById("button").addEventListener("click", function() 
   {
 
@@ -45,6 +47,8 @@ const semana = 51;
         alert('es Shabat!. el acceso automatico esta bloqueado!')
       }
     }
+
+
     function weekFiftyOne(){
       if(day===0){
         alert("domingo")
