@@ -84,25 +84,15 @@ body{
     
     
 }
+
+.stick{
+    position: sticky;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 80px;
+    height: 25px;
+    top: 320px;
+    background-color: white;
+    
+}
 /*intenal link*/
-#n1{
-    color: red;
-}
-#n2{
-    color: red;
-}
-#n3{
-    color: red;
-}
-#n4{
-    color: red;
-}
-#n5{
-    color: red;
-}
-#n6{
-    color: red;
-}
-#n7{
-    color: red;
-}
