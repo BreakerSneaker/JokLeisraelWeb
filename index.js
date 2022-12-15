@@ -28,7 +28,515 @@ const semana = 51;
 
 
 
+    function weekOne(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
+    function weekTwo(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }function weekThree(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
+    function weekFour(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
+    function weekFive(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
+    function weekSix(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
+    function weekSeven(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }function weekEight(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
+    function weekNine(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
+    function weekTen(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
+    function weekEleven(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
+    function weekTwelve(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }function weekThirteen(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
+    function weekFourTeen(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
+    function weekFiveTeen(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
+    function weekSixTeen(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
+    function weekSevenTeen(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
+    function weekEightTeen(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
+    function weekNineTeen(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
+    function weekTwenty(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
+    function weekTwentyOne(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
 
+    function weekTwentyTwo(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
+
+    function week(weekTwentyThree){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
+    function weekTwentyFour(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
+    function weekTwentyFive(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
+    function weekTwentySix(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
+    function weekTwentySeven(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
+    function weekTwentyEight(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
+    function weekTwentyNine(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
+    function weekThirty(){
+      if(day===0){
+        window.open('Pdocument\\bereshit\\brd1.html')
+      }else if(day===1){
+        window.open('Pdocument\\bereshit\\brd2.html')
+      }else if(day===2){
+        window.open('Pdocument\\bereshit\\brd3.html')
+      }else if(day===3){
+        window.open('Pdocument\\bereshit\\brd4.html')
+      }else if(day===4){
+        window.open('thu.html')
+      }else if(day===5){
+        window.open('Pdocument\\bereshit\\brd7.html')
+      }else if(day===6){
+        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      }
+    }
 
     function weekFifty(){
       if(day===0){
