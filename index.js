@@ -23,16 +23,23 @@ const semana = 51;
       }else if(result[1]===51){
         weekFiftyOne();//week51
       }else if(result[1]===52){
-        alert(result[1])
-      }else if(result[1]===1){
-        weekOne();
-      }else if(result[1]===2){
-        weekTwo();
-      }else if(result[1]===3){
-        weekThree();
+        weekFiftyOne();
       }
       
-    } 
+    }else if(mes===0){
+      if(result[1]===1){
+        alert(mes)
+        
+      }
+      if(result[1]===2){
+        weekTwo();
+      }
+      if(result[1]===2){
+        weekThree();
+      }
+    }
+
+    
 
 
 
