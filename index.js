@@ -37,8 +37,14 @@ const semana = 51;
       if(result[1]===2){
         weekThree();
       }
+      if(result[1]===2){
+        weekFour();
+      }
+      if(result[1]===2){
+        weekFive();
+      }
+  
     }
-
     
 
 
