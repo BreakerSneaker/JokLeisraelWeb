@@ -46,10 +46,6 @@ const semana = 51;
   
     }
     
-
-
-
-
     function weekOne(){
       if(day===0){
         window.open('Pdocument\\bereshit\\brd1.html')

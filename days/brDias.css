@@ -40,10 +40,12 @@ body{
     padding-left: 15px;
     padding-bottom: 20px;
     
+    
 }
 
 .navBoxChild{
-    
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
     color: black;
     display: inline-block;
     text-align: center;
