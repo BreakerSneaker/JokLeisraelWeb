@@ -39,7 +39,7 @@ const semana = 51;
     }else
 
 
-//enero
+
     if(mes === 1){
 
 
@@ -204,139 +204,299 @@ const semana = 51;
     function weekOne(){
 
       
-      if(day===0){
-        alert("enero domingo semana 1")
-      }else if(day===1){
-        alert("ener1o lunes semana 1")
-      }else if(day===2){
-        alert("ener1o martes semana 1")
-      }else if(day===3){
-        alert("ener1o miercoles semana 1")
-      }else if(day===4){
-        alert("ener1o jueves semana 1")
-      }else if(day===5){
-        alert("ener1o viernes semana 1")
-      }else if(day===6){
-        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      if(day===0)
+      {
+        alert("domingo3")
+        return
+      }
+      if(day===1)
+      {
+        alert("lunes3")
+        return
+      }
+      if(day===2)
+      {
+        alert("martes3")
+        return
+      }
+      if(day===3)
+      {
+        alert("miercoles3")
+        return
+      }
+      if(day===4)
+      {
+        alert("jueves3")
+        return
+      }
+      if(day===5)
+      {
+        alert("viernes3")
+        return
+      }
+      if(day===6)
+      {
+        alert("sabado3")
+        return
       }
     }
     function weekTwo(){
-      if(day===0){
-        alert("enero domingo semana 2")
-      }else if(day===1){
-        window.open('Pdocument\\bereshit\\brd2.html')
-      }else if(day===2){
-        window.open('Pdocument\\bereshit\\brd3.html')
-      }else if(day===3){
-        window.open('Pdocument\\bereshit\\brd4.html')
-      }else if(day===4){
-        window.open('thu.html')
-      }else if(day===5){
-        window.open('Pdocument\\bereshit\\brd7.html')
-      }else if(day===6){
-        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      if(day===0)
+      {
+        alert("domingo3")
+        return
+      }
+      if(day===1)
+      {
+        alert("lunes3")
+        return
+      }
+      if(day===2)
+      {
+        alert("martes3")
+        return
+      }
+      if(day===3)
+      {
+        alert("miercoles3")
+        return
+      }
+      if(day===4)
+      {
+        alert("jueves3")
+        return
+      }
+      if(day===5)
+      {
+        alert("viernes3")
+        return
+      }
+      if(day===6)
+      {
+        alert("sabado3")
+        return
       }
       
     }function weekThree(){
-      if(day===0){
-        alert("enero domingo semana 3")
-      }else if(day===1){
-        window.open('Pdocument\\bereshit\\brd2.html')
-      }else if(day===2){
-        window.open('Pdocument\\bereshit\\brd3.html')
-      }else if(day===3){
-        window.open('Pdocument\\bereshit\\brd4.html')
-      }else if(day===4){
-        window.open('thu.html')
-      }else if(day===5){
-        window.open('Pdocument\\bereshit\\brd7.html')
-      }else if(day===6){
-        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      if(day===0)
+      {
+        alert("domingo3")
+        return
+      }
+      if(day===1)
+      {
+        alert("lunes3")
+        return
+      }
+      if(day===2)
+      {
+        alert("martes3")
+        return
+      }
+      if(day===3)
+      {
+        alert("miercoles3")
+        return
+      }
+      if(day===4)
+      {
+        alert("jueves3")
+        return
+      }
+      if(day===5)
+      {
+        alert("viernes3")
+        return
+      }
+      if(day===6)
+      {
+        alert("sabado3")
+        return
       }
     }
     function weekFour(){
-      if(day===0){
-        alert("enero domingo semana 4")
-      }else if(day===1){
-        window.open('Pdocument\\bereshit\\brd2.html')
-      }else if(day===2){
-        window.open('Pdocument\\bereshit\\brd3.html')
-      }else if(day===3){
-        window.open('Pdocument\\bereshit\\brd4.html')
-      }else if(day===4){
-        window.open('thu.html')
-      }else if(day===5){
-        window.open('Pdocument\\bereshit\\brd7.html')
-      }else if(day===6){
-        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      if(day===0)
+      {
+        alert("domingo3")
+        return
+      }
+      if(day===1)
+      {
+        alert("lunes3")
+        return
+      }
+      if(day===2)
+      {
+        alert("martes3")
+        return
+      }
+      if(day===3)
+      {
+        alert("miercoles3")
+        return
+      }
+      if(day===4)
+      {
+        alert("jueves3")
+        return
+      }
+      if(day===5)
+      {
+        alert("viernes3")
+        return
+      }
+      if(day===6)
+      {
+        alert("sabado3")
+        return
       }
     }
     function weekFive(){
-      if(day===0){
-        alert("enero domingo semana 5")
-      }else if(day===1){
-        window.open('Pdocument\\bereshit\\brd2.html')
-      }else if(day===2){
-        window.open('Pdocument\\bereshit\\brd3.html')
-      }else if(day===3){
-        window.open('Pdocument\\bereshit\\brd4.html')
-      }else if(day===4){
-        window.open('thu.html')
-      }else if(day===5){
-        window.open('Pdocument\\bereshit\\brd7.html')
-      }else if(day===6){
-        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      if(day===0)
+      {
+        alert("domingo3")
+        return
+      }
+      if(day===1)
+      {
+        alert("lunes3")
+        return
+      }
+      if(day===2)
+      {
+        alert("martes3")
+        return
+      }
+      if(day===3)
+      {
+        alert("miercoles3")
+        return
+      }
+      if(day===4)
+      {
+        alert("jueves3")
+        return
+      }
+      if(day===5)
+      {
+        alert("viernes3")
+        return
+      }
+      if(day===6)
+      {
+        alert("sabado3")
+        return
       }
     }
     function weekSix(){
-      if(day===0){
-        alert("ener1o domingo semana 1")
-      }else if(day===1){
-        alert("ener1o lunes semana 1")
-      }else if(day===2){
-        alert("ener1o martes semana 1")
-      }else if(day===3){
-        alert("ener1o miercoles semana 1")
-      }else if(day===4){
-        alert("ener1o jueves semana 1")
-      }else if(day===5){
-        alert("ener1o viernes semana 1")
-      }else if(day===6){
-        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      if(day===0)
+      {
+        alert("domingo3")
+        return
+      }
+      if(day===1)
+      {
+        alert("lunes3")
+        return
+      }
+      if(day===2)
+      {
+        alert("martes3")
+        return
+      }
+      if(day===3)
+      {
+        alert("miercoles3")
+        return
+      }
+      if(day===4)
+      {
+        alert("jueves3")
+        return
+      }
+      if(day===5)
+      {
+        alert("viernes3")
+        return
+      }
+      if(day===6)
+      {
+        alert("sabado3")
+        return
       }
       
     }
     function weekSeven(){
-      if(day===0){
-        alert("ener1o domingo semana 2")
-      }else if(day===1){
-        window.open('Pdocument\\bereshit\\brd2.html')
-      }else if(day===2){
-        window.open('Pdocument\\bereshit\\brd3.html')
-      }else if(day===3){
-        window.open('Pdocument\\bereshit\\brd4.html')
-      }else if(day===4){
-        window.open('thu.html')
-      }else if(day===5){
-        window.open('Pdocument\\bereshit\\brd7.html')
-      }else if(day===6){
-        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      if(day===0)
+      {
+        alert("domingo3")
+        return
+      }
+      if(day===1)
+      {
+        alert("lunes3")
+        return
+      }
+      if(day===2)
+      {
+        alert("martes3")
+        return
+      }
+      if(day===3)
+      {
+        alert("miercoles3")
+        return
+      }
+      if(day===4)
+      {
+        alert("jueves3")
+        return
+      }
+      if(day===5)
+      {
+        alert("viernes3")
+        return
+      }
+      if(day===6)
+      {
+        alert("sabado3")
+        return
       }
     }function weekEight(){
-      if(day===0){
-        alert("ener1o domingo semana 3")
-      }else if(day===1){
-        window.open('Pdocument\\bereshit\\brd2.html')
-      }else if(day===2){
-        window.open('Pdocument\\bereshit\\brd3.html')
-      }else if(day===3){
-        window.open('Pdocument\\bereshit\\brd4.html')
-      }else if(day===4){
-        window.open('thu.html')
-      }else if(day===5){
-        window.open('Pdocument\\bereshit\\brd7.html')
-      }else if(day===6){
-        alert('es Shabat!. el acceso automatico esta bloqueado!')
+      if(day===0)
+      {
+        alert("domingo3")
+        return
+      }
+      if(day===1)
+      {
+        alert("lunes3")
+        return
+      }
+      if(day===2)
+      {
+        alert("martes3")
+        return
+      }
+      if(day===3)
+      {
+        alert("miercoles3")
+        return
+      }
+      if(day===4)
+      {
+        alert("jueves3")
+        return
+      }
+      if(day===5)
+      {
+        alert("viernes3")
+        return
+      }
+      if(day===6)
+      {
+        alert("sabado3")
+        return
       }
     }
     function weekNine(){
