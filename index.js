@@ -42,7 +42,9 @@ const semana = 51;
 
 
       if(result[1]===0){
-        alert("ENERO1") 
+
+        weekOne();
+       
 
         
 
@@ -50,28 +52,33 @@ const semana = 51;
         return
       }
       if(result[1]===1){
+        weekOne();
 
-        alert("ENERO") 
+        
         return
 
       }
       if(result[1]===2){
-        alert("ENERO2")  
+        weekOne();
+        
 
         return
       }
       if(result[1]===3){
-        alert("ENERO3")  
+        weekOne();
+      
 
         return
       }
       if(result[1]===4){
-        alert("ENERO4")  
+        weekOne();
+     
 
         return
       }
       if(result[1]===5){
-        alert("ENERO5")  
+        weekOne();
+      
 
         return
       }
@@ -80,25 +87,26 @@ const semana = 51;
       return
 
     }
+
+
+
     if(mes === 1){
 
 
       if(result[1]===6){
-        alert("febrero 1") 
-
-        
-
+        weekTwo();
 
         return
       }
       if(result[1]===7){
+        weekTwo();
 
-        alert("febrero 2") 
         return
 
       }
       if(result[1]===8){
-        alert("febrero 3")  
+        weekTwo();
+         
 
         return
       }
@@ -196,17 +204,17 @@ const semana = 51;
 
       
       if(day===0){
-        window.open('Pdocument\\bereshit\\brd1.html')
+        alert("ener1o domingo")
       }else if(day===1){
-        window.open('Pdocument\\bereshit\\brd2.html')
+        alert("ener1o lunes")
       }else if(day===2){
-        window.open('Pdocument\\bereshit\\brd3.html')
+        alert("ener1o martes")
       }else if(day===3){
-        window.open('Pdocument\\bereshit\\brd4.html')
+        alert("ener1o miercoles")
       }else if(day===4){
-        window.open('thu.html')
+        alert("ener1o jueves")
       }else if(day===5){
-        window.open('Pdocument\\bereshit\\brd7.html')
+        alert("ener1o viernes")
       }else if(day===6){
         alert('es Shabat!. el acceso automatico esta bloqueado!')
       }
