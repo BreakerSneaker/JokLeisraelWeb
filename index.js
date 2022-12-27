@@ -34,7 +34,7 @@ const semana = 51;
         return
       }
       
-      
+      return
      
     }
 
@@ -77,34 +77,34 @@ const semana = 51;
       }
 
       
-
+      return
 
     }
     if(mes === 1){
 
 
-      if(result[1]===0){
-        alert("ENERO1") 
+      if(result[1]===6){
+        alert("febrero 1") 
 
         
 
 
         return
       }
-      if(result[1]===1){
+      if(result[1]===7){
 
-        alert("ENERO2") 
+        alert("febrero 2") 
         return
 
       }
-      if(result[1]===2){
-        alert("ENERO3")  
+      if(result[1]===8){
+        alert("febrero 3")  
 
         return
       }
 
       
-
+      return
 
     }
     
