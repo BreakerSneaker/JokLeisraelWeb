@@ -204,34 +204,34 @@ const semana = 51;
 
       
       if(day===0){
-        alert("ener1o domingo")
+        alert("ener1o domingo semana 1")
       }else if(day===1){
-        alert("ener1o lunes")
+        alert("ener1o lunes semana 1")
       }else if(day===2){
-        alert("ener1o martes")
+        alert("ener1o martes semana 1")
       }else if(day===3){
-        alert("ener1o miercoles")
+        alert("ener1o miercoles semana 1")
       }else if(day===4){
-        alert("ener1o jueves")
+        alert("ener1o jueves semana 1")
       }else if(day===5){
-        alert("ener1o viernes")
+        alert("ener1o viernes semana 1")
       }else if(day===6){
         alert('es Shabat!. el acceso automatico esta bloqueado!')
       }
     }
     function weekTwo(){
       if(day===0){
-        window.open('Pdocument\\bereshit\\brd1.html')
+        alert("ener1o domingo semana 2")
       }else if(day===1){
-        window.open('Pdocument\\bereshit\\brd2.html')
+        alert("ener1o lunes semana 2")
       }else if(day===2){
-        window.open('Pdocument\\bereshit\\brd3.html')
+        alert("ener1o martes semana 2")
       }else if(day===3){
-        window.open('Pdocument\\bereshit\\brd4.html')
+        alert("ener1o miercoles semana 2")
       }else if(day===4){
-        window.open('thu.html')
+        alert("ener1o jueves semana 2")
       }else if(day===5){
-        window.open('Pdocument\\bereshit\\brd7.html')
+        alert("ener1o viernes semana 2")
       }else if(day===6){
         alert('es Shabat!. el acceso automatico esta bloqueado!')
       }
