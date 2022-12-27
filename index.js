@@ -14,7 +14,7 @@ const semana = 51;
   {
 
 
-    if(mes === 0){
+    if(mes === 11){
 
       if(result[1]===50){
 
@@ -38,24 +38,67 @@ const semana = 51;
      
     }
 
-    if(mes === 11){
+    if(mes === 0){
 
 
-      if(result[1]===50){
+      if(result[1]===0){
+        alert("ENERO1") 
 
         
 
 
         return
       }
-      if(result[1]===51){
+      if(result[1]===1){
 
-
+        alert("ENERO") 
         return
 
       }
-      if(result[1]===52){
-        alert("ENERO")  
+      if(result[1]===2){
+        alert("ENERO2")  
+
+        return
+      }
+      if(result[1]===3){
+        alert("ENERO3")  
+
+        return
+      }
+      if(result[1]===4){
+        alert("ENERO4")  
+
+        return
+      }
+      if(result[1]===5){
+        alert("ENERO5")  
+
+        return
+      }
+
+      
+
+
+    }
+    if(mes === 1){
+
+
+      if(result[1]===0){
+        alert("ENERO1") 
+
+        
+
+
+        return
+      }
+      if(result[1]===1){
+
+        alert("ENERO2") 
+        return
+
+      }
+      if(result[1]===2){
+        alert("ENERO3")  
 
         return
       }
