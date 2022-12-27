@@ -34,13 +34,13 @@ const semana = 51;
         return
       }
       
-      return
+      
      
-    }
+    }else
 
 
-
-    if(mes === 0){
+//enero
+    if(mes === 1){
 
 
       if(result[1]===0){
@@ -85,27 +85,27 @@ const semana = 51;
       }
 
       
-      return
+      
 
-    }
-
-
-
-    if(mes === 1){
+    }else
 
 
-      if(result[1]===0){
+//febrero
+    if(mes === 2){
+
+
+      if(result[1]===6){
         weekSix();
 
         return
       }
-      if(result[1]===1){
+      if(result[1]===7){
         weekSeven();
 
         return
 
       }
-      if(result[1]===2){
+      if(result[1]===8){
         weekEight();
          
 
@@ -774,6 +774,8 @@ const semana = 51;
       }
       
     }
+
+
     function weekFiftyTwo(){
       if(day===0)
       {
