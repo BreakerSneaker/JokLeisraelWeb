@@ -14,39 +14,144 @@ const semana = 51;
   {
 
 
+    if(mes === 0){
 
-    if(mes===11)//si es diciemmbre
-    {
-      //si la semana es la semana 50 y toca bereshit
       if(result[1]===50){
-        weekFifty();//week 50
-      }else if(result[1]===51){
-        weekFiftyOne();//week51
-      }else if(result[1]===52){
+
+        weekFifty();
+
+        return;
+      }
+      if(result[1]===51){
+
         weekFiftyOne();
+        return
+
+      }
+      if(result[1]===52){
+
+        weekFiftyTwo();
+        return
       }
       
-    }else if(mes===0){
-      if(result[1]===1){
-        alert(mes)
+      
+     
+    }
+
+    if(mes === 11){
+
+
+      if(result[1]===50){
+
         
+
+
+        return
       }
-      if(result[1]===2){
-        weekTwo();
+      if(result[1]===51){
+
+
+        return
+
       }
-      if(result[1]===2){
-        weekThree();
+      if(result[1]===52){
+        alert("ENERO")  
+
+        return
       }
-      if(result[1]===2){
-        weekFour();
-      }
-      if(result[1]===2){
-        weekFive();
-      }
-  
+
+      
+
+
     }
     
+
+    
+
+
+    
+
+
+   
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     function weekOne(){
+
+      
       if(day===0){
         window.open('Pdocument\\bereshit\\brd1.html')
       }else if(day===1){
@@ -558,25 +663,6 @@ const semana = 51;
 
     function weekFifty(){
       if(day===0){
-        window.open('Pdocument\\bereshit\\brd1.html')
-      }else if(day===1){
-        window.open('Pdocument\\bereshit\\brd2.html')
-      }else if(day===2){
-        window.open('Pdocument\\bereshit\\brd3.html')
-      }else if(day===3){
-        window.open('Pdocument\\bereshit\\brd4.html')
-      }else if(day===4){
-        window.open('thu.html')
-      }else if(day===5){
-        window.open('Pdocument\\bereshit\\brd7.html')
-      }else if(day===6){
-        alert('es Shabat!. el acceso automatico esta bloqueado!')
-      }
-    }
-
-
-    function weekFiftyOne(){
-      if(day===0){
         alert("domingo")
       }else if(day===1){
         alert("lunes")
@@ -590,8 +676,89 @@ const semana = 51;
         alert("viernes")
       }else if(day===6){
         alert("sabado")
+      }else{
+        
       }
     }
+
+
+    function weekFiftyOne(){
+      if(day===0)
+      {
+        alert("domingo1")
+        return
+      }
+      if(day===1)
+      {
+        alert("lunes1")
+        return
+      }
+      if(day===2)
+      {
+        alert("martes1")
+        return
+      }
+      if(day===3)
+      {
+        alert("miercoles1")
+        return
+      }
+      if(day===4)
+      {
+        alert("jueves1")
+        return
+      }
+      if(day===5)
+      {
+        alert("viernes1")
+        return
+      }
+      if(day===6)
+      {
+        alert("sabado1")
+        return
+      }
+      
+    }
+    function weekFiftyTwo(){
+      if(day===0)
+      {
+        alert("domingo3")
+        return
+      }
+      if(day===1)
+      {
+        alert("lunes3")
+        return
+      }
+      if(day===2)
+      {
+        alert("martes3")
+        return
+      }
+      if(day===3)
+      {
+        alert("miercoles3")
+        return
+      }
+      if(day===4)
+      {
+        alert("jueves3")
+        return
+      }
+      if(day===5)
+      {
+        alert("viernes3")
+        return
+      }
+      if(day===6)
+      {
+        alert("sabado3")
+        return
+      }
+      
+    }
+    
     
 
 

@@ -1,0 +1,212 @@
+ if(mes === 0)//enero
+    {
+      if(result[1]===1){
+        //semana 1
+      }else if(result[1]===2){
+        //semana 2
+
+      }else if(result[1]===3){
+        //semana 3
+      }else if(result[1]===4){
+        //semana 4
+
+      }else if(result[1]===5){
+
+        //semana 5
+
+      }
+
+    
+
+    }
+    
+
+
+    if(mes === 2)//febrero
+    {
+      if(result[1]===6){
+        //semana 1
+      }else if(result[1]===7){
+        //semana 2
+
+      }else if(result[1]===8){
+        //semana 3
+      }else if(result[1]===9){
+        //semana 4
+
+      }
+
+    }
+
+
+
+    if(mes === 3)//marzo
+    {
+      if(result[1]===10){
+        //semana 1
+      }else if(result[1]===11){
+        //semana 2
+
+      }else if(result[1]===12){
+        //semana 3
+      }else if(result[1]===13){
+        //semana 4
+
+      }
+
+    }
+
+
+
+    if(mes === 3)//abril
+    {
+      if(result[1]===14){
+        //semana 1
+      }else if(result[1]===15){
+        //semana 2
+
+      }else if(result[1]===16){
+        //semana 3
+      }else if(result[1]===17){
+        //semana 4
+
+      }
+
+    }
+
+
+    if(mes === 4)//mayo
+    {
+      if(result[1]===18){
+        //semana 1
+      }else if(result[1]===19){
+        //semana 2
+
+      }else if(result[1]===20){
+        //semana 3
+      }else if(result[1]===21){
+        //semana 4
+
+      }
+      else if(result[1]===22){
+        //semana 4
+
+      }
+
+    }
+
+
+
+    if(mes === 5)//junio
+    {
+      if(result[1]===23){
+        //semana 1
+      }else if(result[1]===24){
+        //semana 2
+
+      }else if(result[1]===25){
+        //semana 3
+      }else if(result[1]===26){
+        //semana 4
+
+      }
+
+    }
+
+
+
+    if(mes === 6)//julio
+    {
+      if(result[1]===27){
+        //semana 1
+      }else if(result[1]===28){
+        //semana 2
+
+      }else if(result[1]===29){
+        //semana 3
+      }else if(result[1]===30){
+        //semana 4
+
+      }else if(result[1]===31){
+
+        //semana 5
+
+      }
+
+    }
+
+
+
+    if(mes === 7)//agosto
+    {
+      if(result[1]===32){
+        //semana 1
+      }else if(result[1]===33){
+        //semana 2
+
+      }else if(result[1]===34){
+        //semana 3
+      }else if(result[1]===35){
+        //semana 4
+
+      }
+
+    }
+
+
+
+    if(mes === 8)//septiembre
+    {
+      if(result[1]===36){
+        //semana 1
+      }else if(result[1]===37){
+        //semana 2
+
+      }else if(result[1]===38){
+        //semana 3
+      }else if(result[1]===39){
+        //semana 4
+
+      }
+
+    }
+
+
+    if(mes === 9)//octubre
+    {
+      if(result[1]===40){
+        //semana 1
+      }else if(result[1]===41){
+        //semana 2
+
+      }else if(result[1]===42){
+        //semana 3
+      }else if(result[1]===43){
+        //semana 4
+
+      }else if(result[1]===44){
+
+        //semana 5
+
+      }
+
+    }
+
+
+    if(mes === 10)//noviembre
+    {
+      if(result[1]===45){
+        //semana 1
+      }else if(result[1]===46){
+        //semana 2
+
+      }else if(result[1]===47){
+        //semana 3
+      }else if(result[1]===48){
+        //semana 4
+
+      }
+
+    }
+    
+    
