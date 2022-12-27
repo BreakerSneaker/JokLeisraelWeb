@@ -16,7 +16,6 @@ const semana = 51;
 
     if(mes === 11){
       alert(day, mes, "semana ", result[1])
-
       return
     }
 
