@@ -48,36 +48,35 @@ const semana = 51;
 
         
 
-
         return
       }
       if(result[1]===1){
-        weekOne();
+        weekTwo();
 
         
         return
 
       }
       if(result[1]===2){
-        weekOne();
+        weekThree();
         
 
         return
       }
       if(result[1]===3){
-        weekOne();
+        weekFour();
       
 
         return
       }
       if(result[1]===4){
-        weekOne();
+        weekFive();
      
 
         return
       }
       if(result[1]===5){
-        weekOne();
+        weekSix();
       
 
         return
@@ -94,18 +93,18 @@ const semana = 51;
 
 
       if(result[1]===6){
-        weekTwo();
+        weekSix();
 
         return
       }
       if(result[1]===7){
-        weekTwo();
+        weekSeven();
 
         return
 
       }
       if(result[1]===8){
-        weekTwo();
+        weekEight();
          
 
         return
@@ -221,20 +220,21 @@ const semana = 51;
     }
     function weekTwo(){
       if(day===0){
-        alert("ener1o domingo semana 2")
+        window.open('Pdocument\\bereshit\\brd1.html')
       }else if(day===1){
-        alert("ener1o lunes semana 2")
+        window.open('Pdocument\\bereshit\\brd2.html')
       }else if(day===2){
-        alert("ener1o martes semana 2")
+        window.open('Pdocument\\bereshit\\brd3.html')
       }else if(day===3){
-        alert("ener1o miercoles semana 2")
+        window.open('Pdocument\\bereshit\\brd4.html')
       }else if(day===4){
-        alert("ener1o jueves semana 2")
+        window.open('thu.html')
       }else if(day===5){
-        alert("ener1o viernes semana 2")
+        window.open('Pdocument\\bereshit\\brd7.html')
       }else if(day===6){
         alert('es Shabat!. el acceso automatico esta bloqueado!')
       }
+      
     }function weekThree(){
       if(day===0){
         window.open('Pdocument\\bereshit\\brd1.html')
@@ -288,20 +288,21 @@ const semana = 51;
     }
     function weekSix(){
       if(day===0){
-        window.open('Pdocument\\bereshit\\brd1.html')
+        alert("ener1o domingo semana 2")
       }else if(day===1){
-        window.open('Pdocument\\bereshit\\brd2.html')
+        alert("ener1o lunes semana 2")
       }else if(day===2){
-        window.open('Pdocument\\bereshit\\brd3.html')
+        alert("ener1o martes semana 2")
       }else if(day===3){
-        window.open('Pdocument\\bereshit\\brd4.html')
+        alert("ener1o miercoles semana 2")
       }else if(day===4){
-        window.open('thu.html')
+        alert("ener1o jueves semana 2")
       }else if(day===5){
-        window.open('Pdocument\\bereshit\\brd7.html')
+        alert("ener1o viernes semana 2")
       }else if(day===6){
         alert('es Shabat!. el acceso automatico esta bloqueado!')
       }
+      
     }
     function weekSeven(){
       if(day===0){
