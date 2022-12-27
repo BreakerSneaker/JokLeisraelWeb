@@ -1,7 +1,7 @@
 const result = getWeekNumber(new Date());
 const date = new Date();
 const month = date.getMonth();
-const mes = Math.floor(month);
+const mes = Math.floor(month); //0-11
 const day = date.getDay();
 
 const semana = 51;
@@ -15,110 +15,9 @@ const semana = 51;
 
 
     if(mes === 11){
-
-      if(result[1]===50){
-
-        weekFifty();
-
-        return;
-      }
-      if(result[1]===51){
-
-        weekFiftyOne();
-        return
-
-      }
-      if(result[1]===52){
-
-        weekFiftyTwo();
-        return
-      }
-      
-      
-     
+      alert(day)
     }
 
-
-
-    if(mes === 1){
-
-
-      if(result[1]===0){
-
-        weekFiftyOne();
-       
-
-        
-
-        return
-      }
-      if(result[1]===1){
-        weekFiftyOne();
-
-        
-        return
-
-      }
-      if(result[1]===2){
-        weekFiftyOne();
-        
-
-        return
-      }
-      if(result[1]===3){
-        weekFiftyOne();
-      
-
-        return
-      }
-      if(result[1]===4){
-        weekFiftyOne();
-     
-
-        return
-      }
-      if(result[1]===5){
-        weekFiftyOne();
-      
-
-        return
-      }
-
-      
-      
-
-    }
-
-
-//febrero
-    if(mes === 2){
-
-
-      if(result[1]===6){
-        weekFiftyOne();
-
-        return
-      }
-      if(result[1]===7){
-        weekFiftyOne();
-
-        return
-
-      }
-      if(result[1]===8){
-        weekFiftyOne();
-         
-
-        return
-      }
-
-      
-      
-
-    }
-    
-
-    
 
 
     
