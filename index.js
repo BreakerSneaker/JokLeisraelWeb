@@ -34,9 +34,9 @@ const semana = 51;
         return
       }
       
-      
+      return
      
-    }else
+    }
 
 
 
@@ -85,9 +85,9 @@ const semana = 51;
       }
 
       
-      
+      return
 
-    }else
+    }
 
 
 //febrero
@@ -113,7 +113,7 @@ const semana = 51;
       }
 
       
-      return
+      
 
     }
     
