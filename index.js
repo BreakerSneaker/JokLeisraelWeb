@@ -38,6 +38,8 @@ const semana = 51;
      
     }
 
+
+
     if(mes === 0){
 
 
@@ -92,18 +94,18 @@ const semana = 51;
     if(mes === 1){
 
 
-      if(result[1]===6){
+      if(result[1]===0){
         weekSix();
 
         return
       }
-      if(result[1]===7){
+      if(result[1]===1){
         weekSeven();
 
         return
 
       }
-      if(result[1]===8){
+      if(result[1]===2){
         weekEight();
          
 
@@ -203,7 +205,7 @@ const semana = 51;
 
       
       if(day===0){
-        alert("ener1o domingo semana 1")
+        alert("enero domingo semana 1")
       }else if(day===1){
         alert("ener1o lunes semana 1")
       }else if(day===2){
