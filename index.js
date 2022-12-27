@@ -17,21 +17,21 @@ const semana = 51;
     if(mes === 11){
       alert(day)
       alert(mes)
-      alert(result[0])
+      alert(result[1])
       return
     }
 
     if(mes === 0){
       alert(day)
       alert(mes)
-      alert(result[0])
+      alert(result[1])
       return
     
     }
     if(mes === 1){
       alert(day)
       alert(mes)
-      alert(result[0])
+      alert(result[1])
       return
     
     }
