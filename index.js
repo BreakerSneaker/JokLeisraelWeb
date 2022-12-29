@@ -1,5 +1,5 @@
 const result = getWeekNumber(new Date());
-const date = new Date('janu 19, 1975 23:15:30');
+const date = new Date();
 const month = date.getMonth();
 const mes = Math.floor(month); //0-11
 const day = date.getDay();
@@ -16,84 +16,84 @@ const semana = 51;
 
     
     if(mes === 0){//enero
-      alert(" el dia es: "+ day)//
-      alert("el mes es: "+ mes)//
-      alert("y la semana es: "+ result[1])
+      alert(day)//
+      alert('enero')//
+      alert(result[1])
       return
     
     }
     if(mes === 1){//febrero 
-      alert(" el dia es: "+ day)//
-      alert("el mes es: "+ mes)//
-      alert("y la semana es: "+ result[1])
+      alert(day)//
+      alert('febrero')//
+      alert(result[1])
       return
     
     }
 
     if(mes === 2){//marzo
-      alert(" el dia es: "+ day)//
-      alert("el mes es: "+ mes)//
-      alert("y la semana es: "+ result[1])
+      alert(day)//
+      alert('marzo')//
+      alert(result[1])
       return
     
     }
 
     if(mes===3){//abril
-      alert(" el dia es: "+ day)//
-      alert("el mes es: "+ mes)//
-      alert("y la semana es: "+ result[1])
+      alert(day)//
+      alert('abril')//
+      alert(result[1])
       return
     }
     if (mes===4){//mayo
-      alert(" el dia es: "+ day)//
-      alert("el mes es: "+ mes)//
-      alert("y la semana es: "+ result[1])
+      alert(day)//
+      alert('mayo')//
+      alert(result[1])
       return
     }
 
     if(mes===5){//junio
-      alert(" el dia es: "+ day)//
-      alert("el mes es: "+ mes)//
-      alert("y la semana es: "+ result[1])
+      alert(day)//
+      alert('junio')//
+      alert(result[1])
       return
     }
     if(mes===6){//julio
-      alert(" el dia es: "+ day)//
-      alert("el mes es: "+ mes)//
-      alert("y la semana es: "+ result[1])
+      alert(day)//
+      alert('julio')//
+      alert(result[1])
       return
     }
     if (mes===7){//agosto
-      alert(" el dia es: "+ day)//
-      alert("el mes es: "+ mes)//
-      alert("y la semana es: "+ result[1])
+      alert(day)//
+      alert('agosto')//
+      alert(result[1])
       return
     }
     if (mes === 8){//septiembre
-      alert(" el dia es: "+ day)//
-      alert("el mes es: "+ mes)//
-      alert("y la semana es: "+ result[1])
+      alert(day)//
+      alert('septiembre')//
+      alert(result[1])
       return
     }
     if (mes === 9){//octubre
-      alert(" el dia es: "+ day)//
-      alert("el mes es: "+ mes)//
-      alert("y la semana es: "+ result[1])
+      alert(day)//
+      alert('octubre')//
+      alert(result[1])
       return
     }
 
     if (mes===10){//noviembre
-      alert(" el dia es: "+ day)//
-      alert("el mes es: "+ mes)//
-      alert("y la semana es: "+ result[1])
+      alert(day)//
+      alert('noviembre')//
+      alert(result[1])
       return
     }
     
     if(mes === 11){//diciembre
-      alert('el dia es: '+day )//
-      alert('el mes es: '+ mes)//
-      alert("y la semana es: "+ result[1])
-      return
+      alert(day)//
+      alert('diciembre')//
+      alert(result[1])
+      
     }
 
 
