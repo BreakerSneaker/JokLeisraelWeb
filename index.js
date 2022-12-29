@@ -1,5 +1,5 @@
 const result = getWeekNumber(new Date());
-const date = new Date();
+const date = new Date('janu 19, 1975 23:15:30');
 const month = date.getMonth();
 const mes = Math.floor(month); //0-11
 const day = date.getDay();
