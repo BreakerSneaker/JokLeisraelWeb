@@ -4,6 +4,8 @@ const month = date.getMonth();
 const mes = Math.floor(month); //0-11
 const day = date.getDay();
 
+let a = day + 1;
+
 const semana = 51;
 
 
@@ -79,7 +81,7 @@ const semana = 51;
     }
     
     if(mes === 11){//diciembre
-      alert("el dia es: "+ day + " el mes es: "+  mes +" numero de semana: " + result[1])//
+      alert("el dia es: "+ a + " el mes es: "+  mes +" numero de semana: " + result[1])//
 
       return
     }
