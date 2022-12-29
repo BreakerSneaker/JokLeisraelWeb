@@ -14,27 +14,88 @@ const semana = 51;
   {
 
 
-    if(mes === 11){
-      alert(day)
-      alert(mes)
-      alert(result[1])
+    
+    if(mes === 0){//enero
+      alert(" el dia es: "+ day)//
+      alert("el mes es: "+ mes)//
+      alert("y la semana es: "+ result[1])
+      return
+    
+    }
+    if(mes === 1){//febrero 
+      alert(" el dia es: "+ day)//
+      alert("el mes es: "+ mes)//
+      alert("y la semana es: "+ result[1])
+      return
+    
+    }
+
+    if(mes === 2){//marzo
+      alert(" el dia es: "+ day)//
+      alert("el mes es: "+ mes)//
+      alert("y la semana es: "+ result[1])
+      return
+    
+    }
+
+    if(mes===3){//abril
+      alert(" el dia es: "+ day)//
+      alert("el mes es: "+ mes)//
+      alert("y la semana es: "+ result[1])
+      return
+    }
+    if (mes===4){//mayo
+      alert(" el dia es: "+ day)//
+      alert("el mes es: "+ mes)//
+      alert("y la semana es: "+ result[1])
       return
     }
 
-    if(mes === 0){
-      alert(day)
-      alert(mes)
-      alert(result[1])
+    if(mes===5){//junio
+      alert(" el dia es: "+ day)//
+      alert("el mes es: "+ mes)//
+      alert("y la semana es: "+ result[1])
       return
-    
     }
-    if(mes === 1){
-      alert(day)
-      alert(mes)
-      alert(result[1])
+    if(mes===6){//julio
+      alert(" el dia es: "+ day)//
+      alert("el mes es: "+ mes)//
+      alert("y la semana es: "+ result[1])
       return
-    
     }
+    if (mes===7){//agosto
+      alert(" el dia es: "+ day)//
+      alert("el mes es: "+ mes)//
+      alert("y la semana es: "+ result[1])
+      return
+    }
+    if (mes === 8){//septiembre
+      alert(" el dia es: "+ day)//
+      alert("el mes es: "+ mes)//
+      alert("y la semana es: "+ result[1])
+      return
+    }
+    if (mes === 9){//octubre
+      alert(" el dia es: "+ day)//
+      alert("el mes es: "+ mes)//
+      alert("y la semana es: "+ result[1])
+      return
+    }
+
+    if (mes===10){//noviembre
+      alert(" el dia es: "+ day)//
+      alert("el mes es: "+ mes)//
+      alert("y la semana es: "+ result[1])
+      return
+    }
+    
+    if(mes === 11){//diciembre
+      alert('el dia es: '+day )//
+      alert('el mes es: '+ mes)//
+      alert("y la semana es: "+ result[1])
+      return
+    }
+
 
 
 
