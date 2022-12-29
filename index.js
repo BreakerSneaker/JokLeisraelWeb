@@ -292,7 +292,7 @@ const semana = 51;
     d = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
     // Set to nearest Thursday: current date + 4 - current day number
     // Make Sunday's day number 7
-    d.setUTCDate(d.getUTCDate() - 1 - (d.getUTCDay()||7));
+    d.setUTCDate(d.getUTCDate() - 2 - (d.getUTCDay()||7));
     // Get first day of year
     var yearStart = new Date(Date.UTC(d.getUTCFullYear(),0,1));
     // Calculate full weeks to nearest Thursday
