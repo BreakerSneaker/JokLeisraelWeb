@@ -9,18 +9,18 @@
 }
 .wrap{display: inline-block;}
 .splitScreen{
-    color: #ff9500;
+
     height: 50vh;
     width: auto;
-    background-color: #333533;
+    background-color: antiquewhite;
     overflow: scroll;
 
 }
 .splitScreen2{
-    color: #ff9500;
+
     height: 50vh;
     width: auto;
-    background-color: #333533;
+    background-color: antiquewhite;
     overflow: scroll;
 
 }
@@ -58,7 +58,7 @@ body{
 /*--------textStyles-------------*/
 
 #bookHeader{
-    color: #ff9500;
+  
    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 120%;
@@ -67,7 +67,7 @@ body{
     
 }
 #textMain{
-    color: #ff9500;
+
     font-size: 20px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
@@ -117,7 +117,7 @@ body{
 /*intenal link*/
 .whiteSpace{
 
-    background-color: #ff9500;
+
 
     padding-top: 5px;
     padding-bottom: 5px;
