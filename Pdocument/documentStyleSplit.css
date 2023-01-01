@@ -8,20 +8,30 @@
     
 }
 .wrap{display: inline-block;}
+.splitScreen::-webkit-scrollbar {
+    display: none;
+  }
 .splitScreen{
 
     height: 50vh;
     width: auto;
     background-color: antiquewhite;
     overflow: scroll;
+ 
+    -ms-overflow-style: none;  
 
 }
+.splitScreen2::-webkit-scrollbar {
+    display: none;
+  }
 .splitScreen2{
-
+    
     height: 50vh;
     width: auto;
     background-color: antiquewhite;
     overflow: scroll;
+
+    -ms-overflow-style: none;  
 
 }
 body{
