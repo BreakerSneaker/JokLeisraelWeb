@@ -9,18 +9,18 @@
 }
 .wrap{display: inline-block;}
 .splitScreen{
-
+    
     height: 50vh;
     width: auto;
-    background-color: red;
+    background-color: wheat;
     overflow: scroll;
 
 }
 .splitScreen2{
-
+    
     height: 50vh;
     width: auto;
-    background-color: blue;
+    background-color: wheat;
     overflow: scroll;
 
 }
@@ -114,3 +114,8 @@ body{
     
 }
 /*intenal link*/
+.whiteSpace{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

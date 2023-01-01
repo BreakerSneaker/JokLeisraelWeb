@@ -18,12 +18,12 @@ body{
     
 }
 /*----------positioning------------*/
-.wrapper{
+.wrapperHe{
    position: sticky
    
     
 }
-.wrapperHeader{
+.wrapperHeaderHe{
     
     padding-top: 0;
     text-align: center;
@@ -31,7 +31,7 @@ body{
     
 }
 
-.wrapperParent{
+.wrapperParentHe{
     margin: 0 auto;
     padding: 0;
     width: 80%;
@@ -43,7 +43,7 @@ body{
 
 /*--------textStyles-------------*/
 
-#bookHeader{
+#bookHeaderHe{
     direction: rtl;
    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -52,7 +52,7 @@ body{
     display: inline-block;
     
 }
-#textMain{
+#textMainHe{
     direction: rtl;
     font-size: 20px;
     font-weight: bold;
@@ -60,7 +60,7 @@ body{
     text-align: justify;
     text-justify: inter-word ;
 }
-#textSecond{
+#textSecondHe{
     direction: rtl;
     font-size: 15px;
     text-align: justify;
