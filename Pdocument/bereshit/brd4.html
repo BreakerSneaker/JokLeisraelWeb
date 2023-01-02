@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
     <link rel="stylesheet" href="..\documentStyleSplit.css">
+    
     <link rel="stylesheet" href="..\..\Pdocument\documentStyleHebreoSplit.css">
     <title>Document</title>
 </head>
@@ -13,11 +15,7 @@
         <li id="backButton"><a href="..\..\days\bereshit\brDiasPage.html">DIAS</a></li>
         <li id="backButton"><a href="..\..\index.html">INICIO</a></li>
     </div>
-    <div  class="stick">
-        <section>
-            <a  href="..\..\Pdocument\bereshit\brHebreo\brd4H.html">Hebreo</a>
-        </section>
-    </div>
+    
     <div class="wrapperHeader">
         <section id="bookHeader">
             <p>Bereshit para el día Miércoles</p>
@@ -25,152 +23,396 @@
             <p>Génesis 1:16-21</p>
         </section>
     </div>
-
-    <div>
-        <section class="wrapperParent">
-            <p id="textMain"> 
-                (16) El Omnipotente hizo las dos grandes luminarias: la luminaria grande para regir durante el día y la luminaria pequeña para regir durante la noche, y las estrellas.  (17) El Omnipotente las puso en la expansión de los cielos para alumbrar sobre la tierra, (18) y para regir de día y de noche, y para separar la luz de la obscuridad.  Y vio el Eterno que era bueno. (19) Y hubo anochecer y hubo mañana, cuarto día.  (20) El Omnipotente dijo: “Que las aguas produzcan seres pululantes, de alma viviente, y aves que vuelen sobre la tierra frente a la expansión de los cielos”.  (21) Y el Omnipotente creó a los grandes monstruos marinos y a todo ser viviente que se arrastra, que las aguas produjeron según sus especies, y a toda ave según su especie.  Y vio el Omnipotente que era bueno.
-            </p>
-        </section>
-    </div>
-
-    <div>
-        <section class="wrapperParent">
-            <p>Rashi</p>
-            <p id="textSecond">
-                16.הַמְּארת הַגְּדלִים  / LAS DOS GRANDES LUMINARIAS, ETC. Al principio, ambas luminarias fueron creadas iguales tanto en tamaño como en intensidad, pero la luna            fue reducida porque protestó y dijo: “Es imposible que dos reyes iguales utilicen una    misma corona”.  וְאֵת הַכּוֹכָבִים / Y LAS ESTRELLAS. Puesto que había reducido a la       luna, HaShem multiplicó el séquito de la luna con el propósito de apaciguarla. 20.נֶפֶשׁ חַיָּה / ALMA VIVIENTE. Es decir, que tenga vida.  שֶׁרֶץ / SERES PULULANTES. Cualquier ser viviente que no se eleve mucho sobre el nivel del suelo es llamado en hebreo שֶׁרֶץ.  Entre los seres alados, como las moscas; entre las sabandijas, como las hormigas, los escarabajos y los gusanos; y entre criaturas más grandes, como los topos, los ratones, las lagartijas y similares, así como todos los peces.  21. הַתַּנִּינִם / MONSTRUOS MARINOS. Este término se refiere a los peces enormes que hay en el mar.  Y según la Hagadá, aquí la Torá se refiere específicamente al Leviatán y a su pareja, de los que el Eterno creó macho y hembra.  Y mató a la hembra y la aderezó en salmuera para preservarla para los justos en el Mundo Venidero, pues si se hubiesen multiplicado, el mundo no hubiera podido sobrevivir a causa de ellos.  Por esta razón, está escrito הַתַּנִּינִם.נֶפֶשׁ חַיָּה/ SER VIVIENTE. Es decir, que posee vida.
-
+    <!---hebreo------------------->
+    <div class="wrap">
+        <div id="source" class="splitScreen">
+            <div>
+                <div>
+                    <section class="wrapperParent">
+                        <p id="textSecond">יכוון בקריאת ששה פסוקים אלו שהם כנגד וָ דמילוי וו דשם ב"ן
+                            לקנות הארת נפש יתירה משבת שעברה:
+                            </p>
+                        <p id="textMain" >
+                            טז וַיַּ֣עַשׂ אֱלֹהִ֔ים אֶת־שְׁנֵ֥י הַמְּאֹרֹ֖ת הַגְּדֹלִ֑ים אֶת־הַמָּא֤וֹר הַגָּדֹל֙ לְמֶמְשֶׁ֣לֶת הַיּ֔וֹם וְאֶת־הַמָּא֤וֹר הַקָּטֹן֙ לְמֶמְשֶׁ֣לֶת הַלַּ֔יְלָה וְאֵ֖ת הַכּֽוֹכָבִֽים: וַעֲבַד יְיָ יָת תְּרֵין נְהוֹרַיָּא רַבְרְבַיָּא יָת נְהוֹרָא רַבָּא לְמִשְׁלַט בִּימָמָא וְיָת נְהוֹרָא זְעֵרָא לְמִשְׁלַט בְּלֵילְיָא וְיָת כּוֹכְבַיָּא: יז וַיִּתֵּ֥ן אֹתָ֛ם אֱלֹהִ֖ים בִּרְקִ֣יעַ הַשָּׁמָ֑יִם לְהָאִ֖יר עַל־הָאָֽרֶץ: וִיהַב יָתְהוֹן יְיָ בִּרְקִיעָא דִשְׁמַיָּא לְאַנְהָרָא עַל אַרְעָא: יח וְלִמְשֹׁל֙ בַּיּ֣וֹם וּבַלַּ֔יְלָה וּֽלֲהַבְדִּ֔יל בֵּ֥ין הָא֖וֹר וּבֵ֣ין הַח֑שֶׁךְ וַיַּ֥רְא אֱלֹהִ֖ים כִּי־טֽוֹב: וּלְמִשְׁלַט בִּימָמָא וּבְלֵילְיָא וּלְאַפְרָשָׁא בֵּין נְהוֹרָא וּבֵין חֲשׁוֹכָא וַחֲזָא יְיָ אֲרֵי טָב: יט וַֽיְהִי־עֶ֥רֶב וַֽיְהִי־בֹ֖קֶר י֥וֹם רְבִיעִֽי: וַהֲוָה רְמַשׁ וַהֲוָה צְפַר יוֹם רְבִיעָאִי: כ וַיֹּ֣אמֶר אֱלֹהִ֔ים יִשְׁרְצ֣וּ הַמַּ֔יִם שֶׁ֖רֶץ נֶ֣פֶשׁ חַיָּ֑ה וְעוֹף֙ יְעוֹפֵ֣ף עַל־הָאָ֔רֶץ עַל־פְּנֵ֖י רְקִ֥יעַ הַשָּׁמָֽיִם: וַאֲמַר יְיָ יִרְחֲשׁוּן מַיָּא רְחֵשׁ נַפְשָׁא חַיְתָא וְעוֹפָא יְפָרַח עַל אַרְעָא עַל אַפֵּי רְקִיעָא דִשְׁמַיָּא: כא וַיִּבְרָ֣א אֱלֹהִ֔ים אֶת־הַתַּנִּינִ֖ם הַגְּדֹלִ֑ים וְאֵ֣ת כָּל־נֶ֣פֶשׁ הַֽחַיָּ֣ה | הָֽרֹמֶ֡שֶׂת אֲשֶׁר֩ שָֽׁרְצ֨וּ הַמַּ֜יִם לְמִֽינֵהֶ֗ם וְאֵ֨ת כָּל־ע֤וֹף כָּנָף֙ לְמִינֵ֔הוּ וַיַּ֥רְא אֱלֹהִ֖ים כִּי־טֽוֹב: וּבְרָא יְיָ יָת תַּנִּינַיָּא רַבְרְבַיָּא וְיָת כָּל נַפְשָׁא חַיְתָא דְּרָחֵשָׁא דִּי אַרְחִישׁוּ מַיָּא לִזְנֵיהוֹן וְיָת כָּל עוֹפָא דְפָרַח לִזְנוֹהִי וַחֲזָא יְיָ אֲרֵי טָב:
+            
+                        </p>
+                        
+                    </section>
+                </div>
+            
+                <div>
+                    <section class="wrapperParent">
+                        <p>רש"י</p>
+                        <p id="textSecond">
+                            (טז)המארת הגדולים. שוים נבראו, ונתמעטה הלבנה, על שקטרגה ואמרה אי אפשר לשני מלכים שישתמשו בכתר אחד: ואת הכוכבים. על ידי שמיעט את הלבנה, הרבה צבאיה להפיס דעתה:(כ)נפש חיה. שיהא בה חיות: שרץ. כל דבר חי שאינו גבוה מן הארץ קרוי שרץ. בעוף כגון זבובים, בשקצים כגון נמלים וחיפושים ותולעים, ובבריות כגון חולד ועכבר וחומט וכיוצא בהם וכן הדגים:(כא)התנינם. דגים גדולים שבים. ובדברי אגדה (פרק הספינה בבא בתרא עד:) הוא לויתן ובת זוגו, שבראם זכר ונקבה, והרג את הנקבה ומלחה לצדיקים לעתיד לבא, שאם יפרו וירבו, לא יתקיים העולם בפניהם: נפש החיה. נפש שיש בה חיות:
+                            
+                            
+                        
+            
+                        </p>
+                    </section>
+                </div>
+            
+            
+            
+            
+            
+            <!----------book header--------->
+                <div class="wrapperHeader">
+                    <section id="bookHeader">
+                        <p>נביאים </p>
+                <p>ישעיה - פרק מ"ב</p>
+                    </section>
+                </div>
+            <!-----------------content---------------->
+            
+                <div>
+                    <section class="wrapperParent">
+                        <p id="textMain">
+                            כ רָא֥וֹת רַבּ֖וֹת וְלֹ֣א תִשְׁמֹ֑ר פָּקֹחַ אָזְנַ֖יִם וְלֹ֥א יִשְׁמָֽע: חֲזֵיתוּן סַגִיאָן וְלָא נְטַרְתּוּן אִתְפַּתָּחָה אוּדְנֵיכוֹן וְלָא קַבֵּלְתּוּן אוּלְפַן: כא יְהֹוָ֥ה חָפֵ֖ץ לְמַ֣עַן צִדְק֑וֹ יַגְדִּ֥יל תּוֹרָ֖ה וְיַאְדִּֽיר: יְיָ רָעֵי בְּדִיל לְזַכָּאוּתֵהּ יִשְׂרָאֵל יְרַבֵּי לְעָבְדֵי אוֹרַיתֵיהּ וְיַתְקֵף יַתְהוֹן: כב וְהוּא֘ עַם־בָּז֣וּז וְשָׁסוּי֒ הָפֵ֤חַ בַּֽחוּרִים֙ כֻּלָּ֔ם וּבְבָתֵּ֥י כְלָאִ֖ים הָחְבָּ֑אוּ הָי֤וּ לָבַז֙ וְאֵ֣ין מַצִּ֔יל מְשִׁסָּ֖ה וְאֵֽין־אֹמֵ֥ר הָשַֽׁב: וְהוּא עַם בָּזִּיז וַאֲנֵיס אִתְחַפִּיאוּ בַּהֲתָא עוּלְמֵין כּוּלְהוֹן וּבְבָתֵּי יְסוּרִין עֲגִינִין הֲווֹ לַעֲדִי וְלֵית דִמְשֵׁזִיב לְבִיזָא וְלֵית דַּאֲמַר אֲתִיב: כג מִ֥י בָכֶ֖ם יַֽאֲזִ֣ין זֹ֑את יַקְשִׁי֥ב וְיִשְׁמַ֖ע לְאָחֽוֹר: מַן בְּכוֹן יָצִית דָּא יְקַבֵּל וִיסַבֵּר לְסוֹפָא: כד מִֽי נָתַ֨ן לִמְשִׁוסָּ֧ה֓ יַעֲקֹ֛ב וְיִשְׂרָאֵ֥ל לְבֹֽזְזִ֖ים הֲל֣וֹא יְהֹוָ֑ה ֚זוּ חָטָ֣אנוּ ל֔וֹ וְלֹֽא־אָב֤וּ בִדְרָכָיו֙ הָל֔וֹךְ וְלֹ֥א שָֽׁמְע֖וּ בְּתֽוֹרָתֽוֹ: מַן מְסַר לַעֲדִי יַעֲקֹב וְיִשְׂרָאֵל לִבְזוּזִין הֲלָא יְיָ מִן קֳדָם דְּחָבוּ קֳדָמוֹהִי וְלָא אָבוּ לִמְהַך בְּאוֹרְחָן דְתַקְנָן קֳדָמוֹהִי וְלָא קַבִּילוּ אוּלְפָן אוֹרַיְיתֵיהּ: כה וַיִּשְׁפֹּ֤ךְ עָלָיו֙ חֵמָ֣ה אַפּ֔וֹ וֶֽעֱז֖וּז מִלְחָמָ֑ה וַתְּלַֽהֲטֵ֤הוּ מִסָּבִיב֙ וְלֹ֣א יָדָ֔ע וַתִּבְעַר־בּ֖וֹ וְלֹֽא־יָשִׂ֥ים עַל־לֵֽב: וּשְׁפַּךְ עֲלֵיהוֹן חֵימַת רוּגְזֵיהּ וּתְקוֹף עָבְדֵי קְרָבֵיהּ אַיְיתֵי עֲלֵיהוֹן וּקְטָלוּ בְהוֹן מִסְּחוֹר סְחוֹר וְלָא יְדַעוּ וְשַׁלִיטוּ בְהוֹן וְלָא שַׁוִיאוּ דַחֲלְתֵּיהּ עַל לִבָּא:
+                            
+            
+                           
+            
+                        </p>
+                    </section>
+                </div>
+            
+            
+                <div>
+                    <section class="wrapperParent"> 
+                        <p>רש"י</p>
+                        <p id="textSecond">
+                            (כ) רָאֹיֹת רַבּוֹת רְאָיוֹת הַרְבֵּה לִפְנֵיהֶם: וְלֹא תִשְׁמֹר וְאֵינְכֶם שׁוֹמְרִים לְהַבִּיט בְּמַעֲשַׂי: פָּקֹחַ אָזְנַיִם אֲנִי עָסוּק לִפְתֹּחַ אָזְנֵיכֶם: (כא) ה' חָפֵץ לְהַרְאוֹתְכֶם: לְמַעַן צִדְקוֹ וְלָכֵן מַגְדִּיל לָכֶם תּוֹרָתוֹ: (כב) וְהוּא עַם זֶה: הָפֵחַ בַּחוּרִים בַּחוּרֵיהֶם פַּחֵי נֶפֶשׁ: הָחְבָּאוּ נִטְמָנִים: (כג) לְאָחוֹר דָּבָר שֶׁיַּעֲמֹד לוֹ בַּאַחֲרוֹנָה: (כה) וְלֹא יָדָע עָשָׂה עַצְמוֹ כְּלֹא יָדַע: וְלֹא יָשִׂים עַל לֵב לְהָבִין זֹאת וְלָשׁוּב מֵרִשְׁעוֹ:
+            
+            
+                            
+                            
+                            
+                        </p>
+                    </section>
+                </div>
+            
+            
+            
+                <div class="wrapperHeader" >
+                    <section id="bookHeader">
+                        <p>כתובים </p>
+                        <p>משלי א</p>
+                    </section>
+                </div>
+            
+            
+                <div>
+                    <section class="wrapperParent">
+                        <p id="textMain">
+                            טז כִּ֣י ֖רַגְלֵיהֶם לָרַ֣ע יָר֑וּצוּ ֜וִֽימַהֲר֗וּ לִשְׁפָּךְ־דָּֽם: מְטוּל דְרִגְלֵיהוֹן לְבִישְׁתָּא רָהֲטָן וּמִסְתַּרְהֲבִין לְמִשְׁפַּךְ דְּמָא: יז כִּֽי־֖חִנָּם מְזֹרָ֣ה הָרָ֑שֶׁת ֜בְּעֵינֵ֗י כָּל־בַּ֥עַל כָּנָֽף: מְטוּל דְּמַגָּן פְּרִיסָא מְצוּדְתָּא עַל פִּרְחֲתָא דְגַפָּא: יח ֖וְהֵם לְדָמָ֣ם יֶאֱרֹ֑בוּ ֜יִצְפְּנ֗וּ לְנַפְשֹׁתָֽם: וְהִנוּן לִדְמָהוֹן כָּמְנִין וּמִטְשִׁין לְנַפְשָׁתְהוֹן: יט כֵּ֗ן ֖אָרְחוֹת כָּל־בֹּ֣צֵֽעַ בָּ֑צַע אֶת־נֶ֖פֶשׁ בְּעָלָ֣יו יִקָּֽח: הֵיכְדֵין אִנוּן אָרְחָתָא דְכָל דְּעָבְדִין עִילָא נַפְשָׁתָא דְמָרֵיהוֹן נָסְבִין: כ ֖חָכְמוֹת בַּח֣וּץ תָּרֹ֑נָּה ֜בָּרְחֹב֗וֹת תִּתֵּ֥ן קוֹלָֽהּ: חָכְמְתָא בְשׁוּקָא מִשְׁתַּבְּחָא וּמִשְׁקָקֵי יָהֲבָה קָלָהּ: כא בְּרֹ֥אשׁ הֹמִיּ֗וֹת תִּ֫קְרָ֥א, בְּפִתְחֵ֖י שְׁעָרִ֥ים בָּעִ֗יר אֲמָרֶ֥יהָ תֹאמֵֽר: בְּרֵישׁ בִּירָתָא מַכְרְזָא וּבְמַעֲלָנָא דְתַרְעֵי בִּכְרַכֵּי מִלָהָא אָמְרָה:
+                            
+                             
+                        </p>
+                    </section>
+                </div>
+            
+            
+                <div>
+                    <section class="wrapperParent">
+                        <p>רש"י</p>
+                        <p id="textSecond">
+                            (טז) לָרַע יָרוּצוּ לְרָעַת עַצְמָם הֵם רָצִים וְאֵינָם יוֹדְעִים לָתֵת לֵב לַדָּבָר (יז) כִּי חִנָם הָעוֹפוֹת הָרוֹאוֹת חִטִּים אוֹ קִטְנִיּוֹת מְזֹרִים עַל הָרֶשֶׁת חִנָּם הוּא בְּעֵינֵיהֶם שֶׁאֵין מַכִּירִים עַל מָה הִיא נזרית, וְיוֹרְדִין בָּהּ וְאוֹכְלִין: (יח) וְהֵם לְדָמָם יֶאֱרֹבוּ הַצַּיָּדִים יֶאֱרוֹבוּ לְדָמָם שֶל עוֹפוֹת: (יט) בֹצֵעַ בָּצַע גּוֹזֵל גְּזֵלָה, נָאָה וְנֶחְמֶדֶת הִיא לוֹ, וְחִנָּם הִיא לוֹ: וְסוֹפוֹ. נֶפֶשׁ בְּעָלָיו יִקָּח  נֶפֶש עַצְמוֹ, שֶׁנַּעֲשֶׂה עַכְשָׁו בַּעַל הַמָּמוֹן שֶׁגָּזַל מֵחֲבֵרוֹ: (כ) חָכְמוֹת בַּחוּץ תָרוֹנָה הֲרֵי חַכְמוֹתֶיהָ שֶׁל תּוֹרָה בחוּצוֹתֶיהָ תִּזְעַקְנָה, לְהַזְהִירְכֶם לָסוּר אֲלֵיהֶם; וּמָה הֵן חוּצוֹתֶיהָ? בָּתֵּי מִדְּרָשׁוֹת: בָרְחֹבוֹת בְּמָקוֹם שֶׁמַּרְחִיבִין אוֹתָם בְּבָתֵּי מִדְרָשׁוֹת: (כא) בְרֹאשׁ הֹמִיּוֹת בְּמָקוֹם שֶׁהִיא נִשְׁמַעַת ונכרזת, שם היא קוראת ואומרת ענין שלמטה עד מתי פתים וגו': בפתחי שערים הם מקום ישיבת הזקנים:
+                            
+                            
+                            
+                        </p>
+                    </section>
+                </div>
                 
-
-            </p>
-        </section>
+                <div class="wrapperHeader">
+                    <section id="bookHeader">
+                        <p>משנה </p>
+                        <p>בבא קמא פרק א</p>
+                    </section>
+                </div>
+            
+            
+                <div>
+                    <section class="wrapperParent">
+                        <p id="textMain">
+                            א אַרְבָּעָה אֲבוֹת נְזִיקִים, הַשּׁוֹר וְהַבּוֹר וְהַמַּבְעֶה וְהַהֶבְעֵר. לֹא הֲרֵי הַשּׁוֹר כַּהֲרֵי הַמַּבְעֶה, וְלֹא הֲרֵי הַמַּבְעֶה כַּהֲרֵי הַשּׁוֹר. וְלֹא זֶה וָזֶה שֶׁיֵּשׁ בָּהֶן רוּחַ חַיִּים, כַּהֲרֵי הָאֵשׁ שֶׁאֵין בּוֹ רוּחַ חַיִּים. וְלֹא זֶה וָזֶה, שֶׁדַּרְכָּן לֵילֵךְ וּלְהַזִּיק, כַּהֲרֵי הַבּוֹר שֶׁאֵין דַּרְכּוֹ לֵילֵךְ וּלְהַזִּיק. הַצַּד הַשָּׁוֶה שֶׁבָּהֶן, שֶׁדַּרְכָּן לְהַזִּיק וּשְׁמִירָתָן עָלֶיךָ. וּכְשֶׁהִזִּיק, חָב הַמַּזִּיק לְשַׁלֵּם תַּשְׁלוּמֵי נֶזֶק בְּמֵיטַב הָאָרֶץ: ב כָּל שֶׁחַבְתִּי בִּשְׁמִירָתוֹ, הִכְשַׁרְתִּי אֶת נִזְקוֹ. הִכְשַׁרְתִּי בְמִקְצָת נִזְקוֹ, חַבְתִּי בְתַשְׁלוּמִין כְּהֶכְשֵׁר כָּל נִזְקוֹ. נְכָסִים שֶׁאֵין בָּהֶם מְעִילָה, נְכָסִים שֶׁל בְּנֵי בְרִית, נְכָסִים הַמְּיֻחָדִים, (וּבְכָל מָקוֹם) חוּץ מֵרְשׁוּת הַמְיֻחֶדֶת לַמַּזִּיק וּרְשׁוּת הַנִּזָּק וְהַמַּזִּיק. וּכְשֶׁהִזִּיק, חָב הַמַּזִּיק לְשַׁלֵּם תַּשְׁלוּמֵי נֶזֶק בְּמֵיטַב הָאָרֶץ: ג שׁוּם כֶּסֶף, וְשָׁוֶה כֶסֶף, בִּפְנֵי בֵית דִּין, וְעַל פִּי עֵדִים בְּנֵי חוֹרִין בְּנֵי בְרִית. וְהַנָּשִׁים בִּכְלָל הַנֶּזֶק. וְהַנִּזָּק וְהַמַּזִּיק בְּתַשְׁלוּמִין: ד חֲמִשָּׁה תַמִין וַחֲמִשָּׁה מוּעָדִין, הַבְּהֵמָה אֵינָהּ מוּעֶדֶת לֹא לִגַּח וְלֹא לִגּוֹף וְלֹא לִשּׁוֹךְ וְלֹא לִרְבֹּץ וְלֹא לִבְעֹט. הַשֵּׁן מוּעֶדֶת לֶאֱכֹל אֶת הָרָאוּי לָהּ, הָרֶגֶל מוּעֶדֶת לְשַׁבֵּר בְּדֶרֶךְ הִלּוּכָהּ, וְשׁוֹר הַמּוּעָד, וְשׁוֹר הַמַּזִּיק בִּרְשׁוּת הַנִּזָּק, וְהָאָדָם. הַזְּאֵב וְהָאֲרִי וְהַדֹּב וְהַנָּמֵר וְהַבַּרְדְּלָס וְהַנָּחָשׁ, הֲרֵי אֵלּוּ מוּעָדִין. רַבִּי אֱלִיעֶזֶר אוֹמֵר, בִּזְמַן שֶׁהֵן בְּנֵי תַרְבּוּת, אֵינָן מוּעָדִין. וְהַנָּחָשׁ מוּעָד לְעוֹלָם. מַה בֵּין תָּם לְמוּעָד. אֶלָּא שֶׁהַתָּם מְשַׁלֵּם חֲצִי נֶזֶק מִגּוּפוֹ, וּמוּעָד מְשַׁלֵּם נֶזֶק שָׁלֵם מִן הָעֲלִיָּה:
+                            
+                            
+            
+            
+                        </p>
+                    </section>
+                </div>
+                
+            
+                <div>
+                    <section class="wrapperParent">
+                        <p>ר' עובדיה מברטנורא</p>
+                        <p id="textSecond">
+                            א ארבעה אבות נזיקין. משום דאיכא לכל חד מנייהו תולדות, קרי להו אבות: השור. הוא הרגל, דהיינו מה שהבהמה מזקת ברגליה דרך הלוכה כדכתיב (שמות כב) ושלח את בעירה. ותניא ושלח זה הרגל וכן הוא אומר (ישעיה לב) משלחי רגל השור והחמור. ותולדה דרגל היא כשהזיקה בגופה דרך הלוכה, או בשערה דרך הלוכה שנדבקו כלים בשערה וגררתן ושברתן. או בשליף שעליה, והוא משאוי שבאמתחות ובמרצופין שעליה. או בזוג שבצוארה: והבור. הפותח בור ברשות הרבים ונפל שמה שור או חמור ומת אם הבור עמוק עשרה טפחים, או הוזק אם הוא פחות מי' טפחים. דכתיב (שמות כא) כי יפתח איש בור וגו'. ותולדה דבור, כגון כיחו וניעו לאחר שנחו ברה"ר והזיקו: והמבעה. זה השן, שאכלה בהמתו בשדה חבירו כדכתיב (שם כב) וביער בשדה אחר. ונקרא השן מבעה מפני שהוא פעמים מכוסה פעמים מגולה, מלשון נבעו מצפוניו (עובדיה א) דמתרגמינן אגליין מטמרוהי. ותולדה דשן היא, כשנתחככה בכותל להנאתה כדרך הבהמות שמתחככות ושברה את הכותל, או טנפה פירות כשנתחככה בהן להנאתה: וההבער. זו הדליקה שיצאה והזיקה כדכתיב (שמות כב) כי תצא אש וגו' ונאכל גדיש או הקמה או השדה. ותולדה דאש, אבנו וסכינו ומשאו שהניחן בראש גגו ונפלו ברוח מצויה והזיקו, דומיא דאש שהרוח מוליכה. והא דלא חשיב תנא דידן קרן בכלל אבות נזיקין, משום דלא מיירי אלא בנזיקין שהם מועדים מתחלתן כלומר שמשלמין נזק שלם מתחלתן, אבל בתמין ואחר כך מועדים לא קא מיירי: לא הרי השור כהרי המבעה. כלומר, אי כתב רחמנא שור לא נפיק מבעה מיניה. דהוה אמינא רגל דהזיקה מצוי חייביה רחמנא, שן דאין הזיקה מצוי לא חייביה רחמנא. ואי כתב רחמנא שן, הוה אמינא שן דיש הנאה להזיקה חייב, רגל דאין הנאה להזיקה אינו חייב. ואי כתב רחמנא שן ורגל ולא כתב אש, הוה אמינא שן ורגל שיש בהן רוח חיים כלומר, שבאים מכח בעלי חיים, חייב, אבל אש שאין בה רוח חיים לא לחייב. ואם נכתבו שלשתן ולא כתב רחמנא בור, הוה אמינא הני לחייבו שדרכן לילך ולהזיק, אבל בור שאין דרכו לילך ולהזיק לא לחייב עליה. משום הכי איצטריכו כולהו. ובגמרא מסיק, דאי כתב בור וחד מהנך אתו כולהו שאר, לבד מקרן, בהצד השוה שבהן שדרכן להזיק. ולא הוצרכו כולן אלא מפני שהן חלוקים בהלכותיהן, שיש בזה מה שאין בזה. שן ורגל פטורים ברשות הרבים, מה שאין כן בבור ואש. בור פטר ביה קרא אדם וכלים דכתיב (שמות כא) ונפל שמה שור או חמור, דדרשינן שור ולא אדם, חמור ולא כלים, מה שאין כן בשאר אבות נזיקים. אש פטר בו את הטמון, שאם היו בגדים טמונים בגדיש פטור המבעיר, דכתיב (שם כב) או הקמה מה קמה בגלוי אף כל בגלוי. ובשאר אבות נזיקים לא פטר את הטמון: הצד השוה שבהן ובו'. אף אני אביא כל שדרכו להזיק ושמירתו עליך, שאם הזיק נתחייב המזיק לשלם תשלומי הנזק שהזיק: במיטב הארץ. מעידית שבנכסיו, מן המשובח שבהם, אם בא ליתן לו קרקע בתשלומי נזקו. דכתיב (שם) מיטב שדהו ומיטב כרמו ישלם. אבל אם בא ליתן לו מטלטלין קיי"ל כל מילי מיטב הוא, דאי לא מזדבן הכא מזדבן במתא אחריתי, ויהיב ליה כל מאי דבעי ואפילו סובין. והני מילי לנזקין. אבל לבעל חוב אי אית ליה זוזי מחייבינן ליה למיתן זוזי, ואי לית ליה זוזי יהיב ליה מטלטלי מאי דבעי, ואי מגבי ליה ארעא יהיב ליה בבינונית. ושכיר, אפילו לית ליה זוזי למשכיר לא מצי יהיב ליה באגריה אלא זוזי, ומחייבינן ליה לזבוני מנכסיה עד דמשכח זוזי ויהיב ליה: ב כל שחבתי בשמירתו וכו'. כל דבר שנתחייבתי לשמרו: הכשרתי את נזקו. אם לא שמרתיו כראוי והזיק, אני הוא שהכשרתי וזמנתי אותו היזק, ואני חייב עליו. כגון המוסר שורו לחרש שוטה וקטן חייב, שעליו היה מוטל שמירת שורו והרי לא שמרו כראוי לו: הכשרתי במקצת נזקו וכו'. ואם תקנתי וזמנתי מקצת הנזק אף על פי שלא זמנתי ותקנתי את כולו, נתחייבתי עליו כאילו זמנתיו כולו. כגון החופר בור תשעה ברה"ר ובא אחר והשלימו לעשרה, ונפל שמה שור או חמור ומת, האחרון חייב. אע"פ שלא תקן אלא מקצת הנזק, כאילו עשה כל הנזק, כיון דבתשעה ליכא מיתה: נכסים שאין בהם מעילה. ועל איזה נכסים אני חייב לשלם אם הזקתי, על נכסים שאין בהם מעילה. כגון נכסים שאינן הקדש. שאם הזקתי נכסים של הקדש איני חייב לשלם, דכתיב שור רעהו ולא שור של הקדש. והוא הדין לכל שאר נזקים: נכסים שהם של בני ברית. שאם הזיק נכסים של נכרי, פטור: נכסים המיוחדים. שיש להם בעלים מיוחדים, שאם הזיק נכסים של הפקר, פטור: חוץ מרשות המיוחדת למזיק. בכל מקום שהזיקו נכסיו את נכסי חבירו חייב המזיק, חוץ מרשות המיוחדת למזיק. שאם נכנס שור ניזק ברשות המזיק והזיקו שור המזיק, פטור, דאמר ליה תורך ברשותי מאי בעי. ודוקא בשהזיקו נכסיו, אבל המזיק עצמו שחבל בחברו, אף על פי שהוא עומד ברשותו, חייב, דאמר ליה הנחבל נהי דאית לך רשותא לאפוקי, לאזוקי לית לך רשותא: ורשות הניזק והמזיק. ורשות המיוחדת לניזק ולמזיק, כגון חצר של שניהם, והזיק שורו של אחד מהם באותה חצר בשן ורגל, פטור. והוא שתהיה אותה חצר מיוחדת לשוורים גם כן. אבל אם היתה מיוחדת לפירות ולא לשורים, והזיק בשן ורגל, חייב. ואם הזיק בקרן, בכל ענין חייב: ג שום כסף. שום זה של נזקים לא יהא אלא בכסף. שיהו בית דין שמין כמה שוה הנזק וכך ישלם לו. ואם הזיקה פרתו של ראובן טליתו של שמעון שדרסה עליו ברשות הניזק ושברתו, ואח"כ אירע שנשברה רגלה של פרה זו של ראובן בטליתו של שמעון ברה"ר דהוי נמי בור ברה"ר, אין אומרים הואיל וזה הזיק וזה הזיק יצא הזיקו של זה בהזיקו של זה, אלא שמין שני הנזקים בדמים, ומי שהזיק לחבירו יותר, ישלם: ושוה כסף. וכשבאים לשלם ההיזק מנכסי היתומים, לא יפרעו אלא מן הקרקעות שהם שוה כסף, ולא ממטלטלין שהם עצמם כסף. דכל מידי דמיטלטל חשוב כאילו הוא כסף, דאי לא מזדבן הכא מזדבן במתא אחריתי: בפני ב"ד. והשומא והתשלומין של נזקים לא יהיו אלא בפני ב"ד מומחין, ולא בפני ב"ד של הדיוטות: ועל פי עדים בני חורין ובני ברית. לאפוקי עבדים ונכרים שאינם כשרים לעדות של נזקין: והנשים בכלל הנזק. בין שהזיקה היא את אחרים, בין שאחרים הזיקוה, דין האיש ודין האשה שוין בנזקין: והניזק והמזיק בתשלומין. פעמים שהניזק שייך עם המזיק בתשלומין של ניזק. כגון אם פחתה הנבלה משעת מיתה עד שעת העמדה בדין, שפחת נבלה דניזק הוא, בין בתם בין במועד, ונמצא שאין המזיק משלם לו אפילו אותו חצי נזק שזכתה לו תורה אם הוא תם. או נזק שלם אם הוא מועד, הרי שהניזק הוא מפסיד ושייך בתשלומין הללו עם המזיק: ד חמשה תמין. שאינם רגילים להזיק, ואם הזיקו משלמין חצי נזק: וחמשה מועדין. שהם רגילין להזיק, ומשלמין נזק שלם: לא ליגח. בקרן: ולא ליגוף. דחיפת כל הגוף. וכולהו הוו תולדה דקרן ומשלמין חצי נזק. הרי חמשה תמין: ושור המועד. שלש פעמים ליגח או ליגוף או לרבוץ או לבעוט או לישוך. הרי הן חמשה מועדים לשלם נזק שלם. ולגבי מועד חשיב להו חד: ושור המזיק ברשות הניזק. אפילו קרן תמה. הוי מועד לשלם נזק שלם. ומתניתין אתיא כמאן דאמר משונה קרן בחצר הניזק שמשלמת נזק שלם ואפילו היא תמה. ואין כן הלכה: והאדם. הוי מועד מתחלתו נמי, ומשלם נזק שלם אם הזיק: הזאב והארי וכו'. מועדים מתחלתן. והא דלא חשיב להו בכלל חמשה מועדים דלעיל וליהוו אחד עשר מועדים, משום דהני לא שכיחי בישוב: ברדלס. חיה שקורין לה בערבי אלצב"ע: רבי אליעזר אומר וכו'. ואין הלכה כר' אליעזר: מן העליה. מעידית שבנכסיו. ואפילו אין הנוגח שוה שיעור הנזק. דבמועד כתיב (שמות כ"א) ישלם שור תחת השור, ולא כתיב ביה דמגוף הנוגח יפרע:
+                            
+            
+            
+                            
+                        </p>
+                    </section>
+                </div>
+            
+            
+                <div class="wrapperHeader">
+                    <section id="bookHeader">
+                        <p>גמרא </p>
+                        <p>ב"ק דף ט"ז ע"ב</p>
+                    </section>
+                </div>
+            
+            
+                <div>
+                    <section class="wrapperParent">
+                        <p id="textMain">
+                            מַאי עֲלִיָּה? אָמַר רַבִּי אֶלְעָזָר: בִּמְעוּלָה שֶׁבִּנְכָסָיו וְכֵן הוּא אוֹמֵר (דה"ב לב) וַיִּשְׁכַּב חִזְקִיָּהוּ עִם אֲבוֹתָיו וַיִּקְבְּרוּהוּ בְּמַעֲלֵה קִבְרֵי בְנֵי דָוִד. וְאָמַר רַבִּי אֱלִיעֶזֶר בְּמַעֲלֶה אֵצֶל מְעוּלִּים שֶׁבַּמִּשְׁפָּחָה וּמָאן נִינְהוּ דָּוִד וּשְׁלֹמֹה. (שם טז) וַיִּקְבְּרוּהוּ בְּקִבְרוֹתָיו אֲשֶׁר כָּרָה לוֹ בְּעִיר דָּוִד וְגוֹ'. וַיַּשְׁכִּיבוּהוּ בַּמִּשְׁכָּב אֲשֶׁר מִלֵּא בְּשָׂמִים וּזְנִים. רַבִּי אֶלְעָזָר אוֹמֵר: זִינֵי זִינֵי רַבִּי שְׁמוּאֵל בַּר נַחֲמֵנִי אָמַר בְּשָׂמִים שֶׁכָּל הַמֵּרִיחַ בָּהֶם בָּא לִידֵי זִמָּה (שם דף יז) אָמַר רַבִּי יוֹחָנָן מִשּׁוּם רַבִּי שִׁמְעוֹן בֶּן יוֹחָאי: מַאי דִּכְתִיב (ישעיה לב) אַשְׁרֵיכֶם זוֹרְעֵי עַל כָּל מַיִם מְשַׁלְּחֵי רֶגֶל הַשּׁוֹר וְהַחֲמוֹר כָּל הָעוֹסֵק בַּתּוֹרָה וּבִגְמִילוּת חֲסָדִים זוֹכֶה לְנַחֲלַת ב' שְׁבָטִים, שֶׁנֶּאֱמַר: אַשְׁרֵיכֶם זוֹרְעֵי וְאֵין זְרִיעָה אֶלָּא צְדָקָה, שֶׁנֶּאֱמַר (הושע י) זִרְעוּ לָכֶם לִצְדָקָה וְקִצְרוּ לְפִי חֶסֶד. וְאֵין מַיִם אֶלָּא תּוֹרָה, שֶׁנֶּאֱמַר (ישעיה נה): הוֹי כָּל צָמֵא לְכוּ לַמַּיִם. וְזוֹכֵה לְנַחַלַת שְׁנֵי שְׁבַטִים זוֹכֵה לְכִילָה כְּיוֹסֵף דִכְתִיב (בראשית מט) בֵּן פּוֹרַת יוֹסֵף וגו' בְּנוֹת צְעַדָה עֲלֵי שׁוֹר וְזוֹכֶה לְנַחֲלַת יִשָׂשְׁכָר דִּכְתִיב (שם) יִשָׂשְׂכָר חֲמוֹר גָּרֶם. אִית דְּאַמְרֵי אוֹיְבָיו נוֹפְלִים לְפָנָיו כְּיוֹסֵף, דִּכְתִיב (דברים לג) בָּהֶם עַמִּים יְנַגַּח יַחְדָּו אַפְסֵי אָרֶץ. וְזוֹכֶה לְבִינָה כְּיִשָׂשְׂכָר, דִּכְתִיב (דה"א יא) וּמִבְּנֵי יִשָׂשְׂכָר יוֹדְעֵי בִינָה לָעִתִּים לָדַעַת מַה יַעֲשֶׂה יִשְׂרָאֵל וְגוֹ':
+                           
+                            
+                        </p>
+                    </section>
+                </div>
+                
+            
+            
+                <div>
+                    <section class="wrapperParent">
+                        <p>תרגום הגמרא</p>
+                        <p id="textSecond">
+                            מהי עליה (שנאמרה במשנה. שור מועד משלם נזק שלם מן העליה)? אמר רבי אלעזר: במעולה שבנכסיו, וכן נאמר (דברי הימים ב' ל"ב): "וישכב יחזקיהו עם אבותיו ויקברוהו במעלה קברי בני דוד" ואמר רבי אליעזר: פירוש המלה "במעלה"- אצל המעולים שבמשפחה, ומי הם?! דוד ושלמה. נאמר שם (ט"ז) "ויקברוהו בקברותיו אשר כרה לו בעיר דוד וגו' וישכיבוהו במשכב אשר מלא בשמים וזנים". מה הם בשמים וזנים, רבי אלעזר אומר: זנים רבים של בשמים. רבי שמואל בר נחמני אמר: בשמים משובחים שכל המריח בהם בא לידי זימה. אמר רבי יוחנן בשם רבי שמעון בן יוחאי: מה שכתוב (ישעיה ל"ב): "אשריכם זורעי על כל מים משלחי רגל השור והחמור"- פירושו כל העוסק בתורה ובגמילות חסדים זוכה לנחלת שני השבטים המרומזים כאן, שור- הוא יוסף ("בכור שורו הדר לו"), וחמור- הוא יששכר ("יששכר חמור גרם"), שנאמר: "אשריכם זורעי" ואין זריעה אלא צדקה שנאמר (הושע י'): "זרעו לכם לצדקה וקצרו לפי חסד". ואין מים אלא תורה, שנאמר (ישעיה נ"ה): "הוי כל צמא לכו למים. וזוכה לנחלת שני שבטים: זוכה לכילה (אפריון, כלומר כבוד והדר) כיוסף, שנאמר (בראשית מ"ט) "בן פורת יוסף וגו' בנות צעדה עלי שור". וזוכה לנחלת יששכר (עשירות) שנאמר (שם): "יששכר חמור גרם". יש מפרשים: אויביו נופלים לפניו כשם שנפלו לפני יוסף שנאמר (דברים ל"ג): "בהם עמים ינגח יחדיו אפסי ארץ". וזוכה לבינה כיששכר שנאמר (דה"א י"ב): "ובבני יששכר יודעי בינה לעתים לדעת מה יעשה ישראל".               
+                        </p>
+                    </section>
+                </div>
+            
+                <div>
+                    <section class="wrapperParent">
+                        <p>רש"י</p>
+                        <p id="textSecond">
+                            ויקברוהו במעלה וכו' בחזקיהו כתיב בספר דברי הימים: וישכבוהו במשכב באסא מלך יהודה: זיני זיני מיני בשמים הרבה כדמתרגמינן למינהו לזנוהי: זורעי היינו צדקה כדמפרש לקמיה: לנחלת שני שבטים דהכי משמע רגליהם ישולחו בנחלת השור והחמור יוסף ויששכר: בנות צעדה עלי שור היינו כילה: חמור גרם מתרגמינן עתיר בנכסין. יוסף איקרי שור דכתיב בכור שורו הדר לו (דברים ל"ב):
+                          
+                            
+                            
+                        </p>
+                    </section>
+                </div>
+            
+                <div class="wrapperHeader">
+                    <section id="bookHeader">
+                        <p>זוהר</p>
+                        <p>בראשית מ"ז ע"א</p>
+                    </section>
+                </div>
+            
+                <div>
+                    <section class="wrapperParent">
+                        <p id="textMain">
+                            וַיְכֻלּוּ הַשָּׁמַיִם וְהָאָרֶץ וְכָל צְבָאָם. רַבִּי אֶלְעָזָר פָּתַח (תהלים לא) מָה רַב טוּבְךָ אֲשֶׁר צָפַנְתָּ לִירֵאֶיךָ פָּעַלְתָּ לַחוֹסִים בָּךְ נֶגֶד בְּנֵי אָדָם. תָּא חֲזֵי קֻדְשָׁא בְּרִיךְ הוּא בָּרָא לְבַר נָשׁ בְּעָלְמָא וְאַתְקִין לֵהּ לְמֶהֱוֵי שְׁלִים בְּפוּלְחָנֵיהּ וּלְאִתְתַּקָּנָא אָרְחוֹי בְּגִין דְּיִזְכֵּי לִנְהוֹרָא עִלָּאָה דְּגָנִיז קֻדְשָׁא בְּרִיךְ הוּא לְצַדִּיקַיָּא כְּמָה דְּאַתְּ אָמֵר (ישעיה סד) עַיִן לֹא רָאָתָה אֱלֹהִים זוּלָתְךָ יֵעָשֶׂה לִמְחַכֵּה לוֹ וּבְמָה יִזְכֵּי לֵהּ לְבַר נָשׁ לְהַהוּא נְהוֹרָא בְּאוֹרָיְתָא. דְּכָל מָאן דְּאִשְׁתְּדַל בְּאוֹרָיְתָא בְּכָל יוֹמָא יִזְכֵּי לְמֶהֱוֵי לֵהּ חוּלָקָא בְּעָלְמָא דְּאָתֵי וְיִתְחַשֵּׁב לֵהּ כְּאִלּוּ בָּאנֵי עָלְמִין דְּהָא בְּאוֹרָיְתָא אִתְבְּנֵי עָלְמָא וְיִשְׁתַּכְלַל, הֲדָא הוּא דִּכְתִיב (משלי ג) יְיָ בְּחָכְמָה יָסַד אֶרֶץ כּוֹנֵן שָׁמַיִם בִּתְבוּנָה. וּכְתִיב (שם ט) וָאֶהְיֶה אֶצְלוֹ אָמוֹן וָאֶהְיֶה שַׁעֲשׁוּעִים יוֹם יוֹם וְכָל דְּאִשְׁתְּדַל בָּהּ שַׁכְלִיל עָלְמִין וְקַיֵּם לֵהּ. וְתָא חֲזֵי בְּרוּחָא עָבִיד קֻדְשָׁא בְּרִיךְ הוּא עָלְמָא וּבְרוּחָא מִתְקַיְּמָא רוּחָא דְּאִנּוּן דְּלָעָאן בְּאוֹרָיְתָא. וְכָל שֶׁכֵּן רוּחָא דְּהָבָל דְּבֵי רַב מָה רַב טוּבְךָ דָּא טוֹבָה דְּאִתְגְנִיז לִירֵאֶיךָ לְאִנּוּן דַּחֲלֵי חַטָּאָה פָּעַלְתָּ לַחוֹסִים בָּךְ מַאי פָּעַלְתָּ? דָּא עוֹבָדָא דִּבְרֵאשִׁית. רַבִּי אַבָּא אָמֵר: דָּא גַּן עֵדֶן דְּהָא  בְּאוּמָנוּתָא עָבִיד לֵהּ קֻדְשָׁא בְּרִיךְ הוּא בְּאַרְעָא כְּגַוְנָא דִּלְעֵלָּא לְאִתַּתְקְפָא בֵּהּ צַדִּיקַיָּא (דמ"ז עב) הֲדָא הוּא דִּכְתִיב (תהילים לא) פָּעַלְתָּ לַחוֹסִים בָּךְ נֶגֶד בְּנֵי אָדָם. דְּהָא הוּא נֶגֶד בְּנֵי אָדָם הֲוֵי וַאֲפִלּוּ אָחֳרָא נֶגֶד בְּנֵי אָדָם הֲוֵי לְאִתְכַּנְּשָׁא בֵּהּ צַדִּיקַיָּא דְּעַבְדֵי רְעוּתָא דְּמָארֵיהוֹן. וַיְכֻלּוּ דְּכַלּוּ עוֹבָדִין דִּלְעֵלָּא וְעוֹבְדִין דִּלְתַתָּא הַשָּׁמַיִם וְהָאָרֶץ לְעֵילָּא וְתַתָּא. רַבִּי שִׁמְעוֹן אָמַר עוֹבָדָא וְאָמָּנוּתָא דְּאוֹרָיְתָא שֶׁבְּכְתָב וְעוֹבָדָא וְאוּמָנוּתָא דְּתוֹרָה שֶׁבְּעַל פֶּה. וְכָל צְבָאָם אִלֵּין פְּרָטֵי דְּאוֹרָיְתָא אַפִּין דְּאוֹרָיְתָא שִׁבְעִים פָּנִים לַתּוֹרָה. וַיְכֻלּוּ דְּאִתְקְיָמוּ וְאִשְׁתַּכְלָלוּ דָּא בְּדָא שָׁמַיִם וָאָרֶץ פְּרָט וּכְלָל. וְכָל צְבָאָם רָזֵי דְּאוֹרָיְתָא דַּכְיָין דְּאוֹרָיְתָא מְסָאֲבָן דְּאוֹרָיְתָא.
+                            
+                           
+                        </p>
+                    </section>
+                </div>
+            
+                <div class="wrapperHeader">
+                    <section id="bookHeader">
+                        <p>יוסף לחוק</p>
+                        <p>הלכה פסוקה</p>
+                        <p>שולחן ערוך אורח חיים סימן של"ט ש"מ</p>
+                    </section>
+                </div>
+            
+                <div>
+                    <section class="wrapperParent">
+                        <p id="textMain">
+                            א אֵין מְטַפְּחִין לְהַכּוֹת כַּף אַל כַּף וְלֹא מְסַפְּקִין לְהַכּוֹת כַּף אֶל יֶרֶךְ וְלֹא מְרַקְּדִין, גְּזֵרָה שֶׁמָּא יְתַקֵּן כְּלֵי שִׁיר. וַאֲפִלּוּ לְהַכּוֹת בָּאֶצְבַּע עַל הַקַּרְקַע אוֹ עַל הַלּוּחַ אוֹ אַחַת כְּנֶגֶד אַחַת כְּדֶרֶךְ הַמְשׁוֹרְרִים אוֹ לְקַשְׁקֵשׁ בֶּאֱגוֹז לְתִינוֹק אוֹ לְשַׂחֵק בּוֹ בְּזוּג כְּדֵי שֶׁיִּשְׁתֹּק. כָּל זֶה וְכַיּוֹצֵא בּוֹ אָסוּר גְּזֵרָה שֶׁמָּא יְתַקֵּן כְּלִי שִׁיר וּלְסַפֵּק כִּלְאַחַר יָד מֻתָּר: ב אָסוּר לִטֹּל שְׂעָרוֹ אוֹ צִפָּרְנָיו בֵּין בַּיָּד בֵּין בַּכְּלִי, בֵּין לְעַצְמוֹ, בֵּין לַאֲחֵרִים וְחַיָּב עַל שְׁתֵּי שְׂעָרוֹת וּמְלַקֵּט לְבָנוֹת מִתּוֹךְ שְׁחוֹרוֹת אֲפִלּוּ בְּאַחַת חַיָּב וְדָבָר זֶה אֲפִלּוּ בַּחֹל אָסוּר מִשּׁוּם לֹא יִלְבַּשׁ גֶּבֶר שִׂמְלַת אִשָּׁה: ג הַמּוֹחֵק דְּיוֹ שֶׁעַל הַקְּלָף אוֹ שַׁעֲוָה שֶׁעַל הַפִּנְקָס אִם יֵשׁ בִּמְקוֹמוֹ כְּדֵי לִכְתֹּב שְׁתֵּי אוֹתִיּוֹת חַיָּב: ד יִזָּהֵר שֶׁלֹּא לִכְתֹּב בְּאֶצְבָּעוֹ בְּמַשְׁקִין עַל הַשֻּׁלְחָן אוֹ בְּאֵפֶר: ה חוּט שֶׁל תְּפִירָה שֶׁנִּפְתָּח אָסוּר לְמָתְחוֹ מִשּׁוּם תּוֹפֵר:
+                            
+                           
+                        </p>
+                    </section>
+                </div>
+            
+                <div class="wrapperHeader">
+                    <section id="bookHeader">
+                        <p>מוסר </p>
+                        <p>מרגניתא דרבי מאיר</p>
+                    </section>
+                </div>
+            
+                <div>
+                    <section class="wrapperParent">
+                        <p id="textMain">
+                            
+                          
+                            
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="wrapperHeader">
-        <section id="bookHeader">
-            <p>Profetas</p>
-            <p>Isaías 42:20-25</p>
-        </section>
+<!--------------español------>
+    <div class="wrap">
+        <div id="target" class="splitScreen2">
+            <div>
+                <div>
+                    <section class="wrapperParent">
+                        <p id="textMain"> 
+                            (16) El Omnipotente hizo las dos grandes luminarias: la luminaria grande para regir durante el día y la luminaria pequeña para regir durante la noche, y las estrellas.  (17) El Omnipotente las puso en la expansión de los cielos para alumbrar sobre la tierra, (18) y para regir de día y de noche, y para separar la luz de la obscuridad.  Y vio el Eterno que era bueno. (19) Y hubo anochecer y hubo mañana, cuarto día.  (20) El Omnipotente dijo: “Que las aguas produzcan seres pululantes, de alma viviente, y aves que vuelen sobre la tierra frente a la expansión de los cielos”.  (21) Y el Omnipotente creó a los grandes monstruos marinos y a todo ser viviente que se arrastra, que las aguas produjeron según sus especies, y a toda ave según su especie.  Y vio el Omnipotente que era bueno.
+                        </p>
+                    </section>
+                </div>
+            
+                <div>
+                    <section class="wrapperParent">
+                        <p>Rashi</p>
+                        <p id="textSecond">
+                            16.הַמְּארת הַגְּדלִים  / LAS DOS GRANDES LUMINARIAS, ETC. Al principio, ambas luminarias fueron creadas iguales tanto en tamaño como en intensidad, pero la luna            fue reducida porque protestó y dijo: “Es imposible que dos reyes iguales utilicen una    misma corona”.  וְאֵת הַכּוֹכָבִים / Y LAS ESTRELLAS. Puesto que había reducido a la       luna, HaShem multiplicó el séquito de la luna con el propósito de apaciguarla. 20.נֶפֶשׁ חַיָּה / ALMA VIVIENTE. Es decir, que tenga vida.  שֶׁרֶץ / SERES PULULANTES. Cualquier ser viviente que no se eleve mucho sobre el nivel del suelo es llamado en hebreo שֶׁרֶץ.  Entre los seres alados, como las moscas; entre las sabandijas, como las hormigas, los escarabajos y los gusanos; y entre criaturas más grandes, como los topos, los ratones, las lagartijas y similares, así como todos los peces.  21. הַתַּנִּינִם / MONSTRUOS MARINOS. Este término se refiere a los peces enormes que hay en el mar.  Y según la Hagadá, aquí la Torá se refiere específicamente al Leviatán y a su pareja, de los que el Eterno creó macho y hembra.  Y mató a la hembra y la aderezó en salmuera para preservarla para los justos en el Mundo Venidero, pues si se hubiesen multiplicado, el mundo no hubiera podido sobrevivir a causa de ellos.  Por esta razón, está escrito הַתַּנִּינִם.נֶפֶשׁ חַיָּה/ SER VIVIENTE. Es decir, que posee vida.
+            
+                            
+            
+                        </p>
+                    </section>
+                </div>
+            
+                <div class="wrapperHeader">
+                    <section id="bookHeader">
+                        <p>Profetas</p>
+                        <p>Isaías 42:20-25</p>
+                    </section>
+                </div>
+            
+                <div>
+                    <section class="wrapperParent">
+                        <p id="textMain">
+                            (20)Él ve muchas cosas pero no las advierte, él abre sus oídos, pero no escucha.  (21)El Eterno deseó en aras de su rectitud engrandecer la Torá y hacerla gloriosa.  (22) Pero éste es un país saqueado y despojado; todos ellos atrapados en hoyos, confinados en prisiones. Fueron presa del saqueo sin que alguien los rescatase, despojada sin que nadie dijera: ¡Restaura!  (23)¿Quién de ustedes prestará oído a esto, pondrá atención y escuchará respecto al futuro?  (24) ¿Quién entregó a Yaacob por despojo, y a Israel a los saqueadores?  ¿Acaso no fue el Eterno, contra quien pecamos, sin querer andar en Sus caminos ni obedecer Su Torá?  (25) Él derramó sobre Israel el enojo, la furia y la intensidad de la guerra. Lo puso en llamas alrededor pero no quiso saber; lo quemó, pero aún así no le hicieron caso en su corazón.
+            
+            
+                        </p>
+                    </section>
+                </div>
+            
+                <div>
+                    <section class="wrapperParent">
+                        <p>Rashi</p>
+                        <p id="textSecond">
+                            20. ÉL VE MUCHAS COSAS. Existen muchas pruebas ante ellos.  PERO NO LAS ADVIERTE. Ver Mis obras.  ÉL ABRE SUS OÍDOS. Intentó abrir sus oídos, a través de Mis profetas, pero no existe hombre sabio que escuche Mis palabras.  21. EL ETERNO DESEÓ. Demostrarles.  EN ARAS DE SU RECTITUD. Engrandeciendo Su Torá para ustedes.  22. PERO ÉSTE. Pueblo.TODOS ELLOS ATRAPADOS EN HOYOS. Dentro de sus hoyos están descontentos. CONFINADOS. Significa escondido.  23. AL FUTURO. Lo que conservará en el Mundo Venidero.  25. PERO NO QUISO SABER. Pretendió que no sabía. NO LE HICIERON CASO. Para entender esto y arrepentirse de sus sendas torcidas. 17. PORQUE EN VANO. Los pájaros que ven trigo o legumbres sobre una red no lo toman en cuenta, porque no lo entienden.18. Y ÉSTOS. Los cazadores.  19. ÁVIDO DE GANANCIA INJUSTA. Roba.  EL RESULTADO FINAL ES QUE. Quita la vida de su dueño, quien ahora es el dueño de la propiedad.  20. LA SABIDURÍA. De la Torá. Grita fuerte. EN LAS PLAZAS. En lugares donde son aumentadas, por ejemplo, en el Bet Midrash. 21. LLAMA EN LA ENCRUCIJADA DE LAS CALLES CONCURRIDAS. El lugar donde es escuchada.
+            
+                        </p>
+                    </section>
+                </div>
+            
+                <div class="wrapperParent">
+                    <section id="bookHeader">
+                        <p>Mishná</p>
+                        <p>Tratado Babá Kamá, capítulo 1</p>
+                    </section>
+                </div>
+            
+                <div>
+                    <section class="wrapperParent">
+                        <p id="textMain">
+                            1. Las cuatro principales categorías causantes de daños son: el buey, el pozo, el diente y el fuego.La categoría del buey es diferente a la del diente y no es la del diente como la del buey.  Tampoco son [las categorías] estas [del buey y el diente], que de por sí tienen vida, como el fuego que no tiene vida; y no son éstas [el buey, el diente y el fuego] que avanzan por sí mismas y son destructivas, como el pozo, que no avanza por sí mismo y destruye. La característica común de éstas es que todas generalmente causan daño y la responsabilidad de evitarlo recae en su propietario.  Si alguno de éstos causa un perjuicio, el propietario causante debe pagar con lo más selecto de su propiedad.  (2) De todo lo que soy responsable de cuidar también lo soy del perjuicio que pueda ocasionar, soy responsable en parte del daño, estoy obligado en el pago como de todo el daño. Propiedades no sujetas a la ley de sacrilegio, (no pertenecientes al Templo, deducimos que uno es responsable únicamente por el daño causado a la propiedad ajena, pero no a la perteneciente al Templo; a lo perteneciente a los Bené Berit (Judíos), objetos específicos, en cualquier lugar, fuera de la propiedad específica del causante del mismo, o el dominio común tanto de la víctima como de quien se le imputó la causa. Si existiese daño, el causante es responsable de restituirlo con lo mejor de su tierra. (3) El monto en dinero efectivo o de algo con valor monetario, debiendo efectuarse ante un tribunal, y solo ante testigos libres y judíos. Las mujeres están incluidas en la ley de perjuicios. El ejecutor y la víctima deberán participar en los pagos.  (4) Existen cinco tipos que son considerados tam (no reincidentes) y otros cinco son considerados mu'ad (reincidentes).  Un animal doméstico no es considerado mu'ad en cornear, ni empujar, ni morder, ni recostarse, ni patear. Los dientes se consideran mu'ad con referencia a consumir cualquier cosa relacionada con éstos; la pierna es mu'ad con respecto a romper mientras camina; así también el buey que es mu'ad; y el buey que cause daño en el dominio privado del perjudicado es considerado mu'ad con respecto al pago total de los daños; y el hombre.  El lobo, el león, el oso, la pantera, el leopardo y la serpiente son considerados mu'ad. Rabí Eliézer dice: Cuando están domados no son considerados mu'ad, mientras que la serpiente siempre es mu'ad.  ¿Qué diferencia existe entre tam y mu'ad?  En el primer caso, paga la mitad de los daños de su propio pecunio, y el mu'ad paga el daño completo de lo mejor.
+            
+            
+            
+                        </p>
+                    </section>
+                </div>
+            
+                <div>
+                    <section class="wrapperParent">
+                        <p>Rabí Ovadiá de Bartenura</p>
+                        <p id="textSecond">
+                            1. LAS CUATRO PRINCIPALES CATEGORÍAS CAUSANTES DE DAÑOS. Debido a que hay en cada una de ellas derivados, se les llamó a estas 'principales'. El buey: Se llama al daño que hace el animal al andar, es decir, lo que el animal daña con sus patas al caminar, como está dicho (Éxodo 22:4): “Y enviará su ganado”. Sobre esto enseña una Baraita: 'Y enviará',se refiere a la pata,como está dicho: “Los que extienden las patas, el buey y el burro” (Isaías 32:20).Derivado de 'pata' se considera cuando daña con su cuerpo al andar, o con su pelo cuando camina y se enreda con cualquier objeto, lo arrastra y lo rompe. También cuando daña con el manto que lleva encima, o con la carga que transportas en las bolsas, o con el atracadero, o con el yugo. EL POZO. El que escava un pozo en la vía pública y cae en él un burro o un buey, y muere, si el pozo tiene una profundidad de 10 puños (80 centímetros) es causante del daño, o si se hirió el buey cuando el pozo tiene una profundidad menor de 10 puños, como está escrito (Éxodo 21:33): “Cuando escave una persona un pozo...”. Derivado del pozo esla saliva que se encuentra en el suelo de la vía pública y daña.EL DIENTE. Cuando un animal come en campo ajeno, como está escrito (Ibíd. 22:4): “Y pastó en otro campo”.Se le llama al diente mab-é, ya que a veces está tapado y a veces está descubierto, como aparece en el profeta Ovadiá: “Nab-úmatspunab”,es decir, “Y destaparon sus escondites”.Un derivado del diente es por ejemplo cuando se rasca con la pared para su disfrute como acostumbran lo animales, y rompe la pared, o mancha las frutas con las que se rascó.EL FUEGO. El incendio que sale y daña, como está escrito (Ibíd. 22:5): “Cuando salga el fuego... y se coma la paja, o la gavilla, o el campo”.Son derivados del fuego, la piedra, el cuchillo, la carga que colocaron en lo alto del techo y cayeron con el viento y dañaron, que es parecido al fuego que el viento transporta. LaMishná no mencionó el cuerno entre los cuatro causantes principales de daños, porque sólo consideró los causantes que están predispuestos desde un principio a dañar, teniendo que pagar el daño completo desde un principio. Sin embargo, el cuerno, si no reincide y se convirtió en un peligro, no lo considera la Mishná.LA CATEGORÍA DEL BUEY ES DIFERENTE A LA DEL DIENTE. Es decir, si hubiese escrito la Torá 'buey', no hubiésemos aprendido “el diente” de él, pues siendo que el daño del pisar es común, lo condenó la Torá, pero “el diente” que no es un daño común, no lo castigó la Torá. Si hubiese escrito 'diente', habría dicho: “El diente” está castigado porque disfruta de su daño, pero “el andar”, que no tiene un disfrute de su daño, no estaría condenado. Si hubiera escrito la Torá 'diente y pata', y no hubiera escrito 'fuego', habría dicho: Siendo que el 'diente y la pata' son causados por un ser viviente, está condenado, pero el fuego, que no es un ser viviente, no está condenado. Y si hubiera escrito los tres (diente pata y fuego) y no hubiese escrito 'pozo', hubiésemos dicho que estos están condenados porque su costumbre es ir y dañar, pero el pozo, que no es su norma de moverse y dañar, no está condenado, por eso fueron necesarios todos los casos. El Talmud llega a la conclusión que si hubiera escrito pozo y uno de ellos, habría deducido el resto, excepto el cuerno, de acuerdo a la regla llamada “Tsad hashavé” (“Lo que es común”).  No fueron necesarios todos ellos sino porque son diferentes en sus detalles de Halajá, pues hay en una lo que no hay en la otra. Por ejemplo: “El diente y la pata” no están castigados en la vía pública, no siendo así en el caso del “Pozo y el fuego”. “El pozo”, lo liberó la Torá con respecto a las personas y utensilios, pues está escrito: “Y cayó en él un buey o un burro” (Éxodo 21) y aprendimos: “Buey”, y no persona, “Burro”, y no utensilios, cosa que no ocurre en los demás casos. El “fuego” está libre de los daños que hizo a objetos enterrados, por ejemplo: Si hay vestidos escondidos debajo de la paja, no se condena si alguien le prende fuego, pues está escrito: “O la gavilla” (Éxodo 22): Igual que la gavilla está al descubierto, se condena sólo lo que está descubierto. No obstante, en los demás casos, se condena incluso si está escondido. LA CARACTERÍSTICA COMÚN DE ÉSTAS. Asimismo, si lo compara con todo lo que acostumbra a dañar y tiene obligación de cuidarlo, cuando daña está condenado a pagar los daños que causó. LO MÁS SELECTO DE SU PROPIEDAD. Como está escrito: “Con lo mejor de su campo y lo mejor de su viñedo pagará”, pero si quiere pagarle con objetos, aceptamos cualquier objeto, pues se considera de lo mejor, debido a que si no se vende acá lo puede vender allá, y le puedo dar lo que desee, incluso paja, y esto es solamente con respecto a daños; pero el adeudado, si le debe dinero, deberá devolver en efectivo, y si no tiene efectivo, le paga con los objetos que quiera, y si le paga con terrenos, le pagará de clase media. El que alquila, mismo que no tenga dinero, no puede darle en pago sino dinero, y lo obligamos a que venda de sus propiedades hasta que encuentre para pagarle en efectivo. Por ejemplo: el que entrega su buey a un sordomudo, o a un enfermo mental, o a un menor de edad, está obligado a los daños del buey, pues tenía la responsabilidad de cuidar su buey, y no lo hizo como es necesario. TAMBIÉN LO SOY DEL PERJUICIO QUE PUEDA OCASIONAR. Si no lo cuidé como es debido y dañó, yo fui el que lo predispuse y lo preparé para su daño, por lo tanto soy responsable por él.  EN PARTE DEL DAÑO. Si preparé y predispuse parte del daño, incluso si no hice todo, estoy obligado como si lo hubiese terminado; por ejemplo: El que excavó un pozo de nueve puños en la vía pública, vino otro y cavó un puño más y cayó en él un buey ó un burro, el último es el responsable.Incluso si hizo solamente parte del daño, se considera que lo hizo totalmente, ya que en un pozo de nueve puños no hay causa de muerte.  PROPIEDADES NO SUJETAS A LA LEY DE SACRILEGIO. ¿Sobre qué objetos estoy obligado a pagar si se daña? Sobre objetos que no tienen la ley de sacrilegio, como propiedades que no fueron dedicadas al santuario, ya que si dañé propiedades dedicadas al santuario, no estoy obligado a pagar, pues está escrito: “El buey del…”, y no “el buey del santuario”, así también es la ley en todo los daños.  A LO PERTENECIENTE A LOS BENÉ BERIT (JUDÍOS). Si dañó la propiedad de un gentil, no está condenado.  OBJETOS ESPECÍFICOS. Que tiene propietarios, pues si dañó propiedades que no tienen propietarios no está obligado. FUERA DE LA PROPIEDAD ESPECÍFICA DEL CAUSANTE DEL MISMO. En todo lugar donde mis propiedades dañaron a las propiedades del prójimo, excepto en el recinto específico de mi propiedad, que si entró un buey y se dañó en el recinto de mi propiedad, estoy libre, pues le puedo decir: “Tu toro en mi recinto, ¿qué hace?”, y solamente si se dañaron los bienes, pero si dañó él mismo a su compañero, incluso si él se encuentra en su recinto, está obligado, pues le puede decir el perjudicado: “Tienes derecho a sacarme, a dañarme ¿quién te dio permiso?”.  O EL DOMINIO COMÚN TANTO DE LA VÍCTIMA COMO DE QUIEN SE LE IMPUTÓ LA CAUSA. Como un patio, donde dañó el buey de uno de ellos en aquel patio comiendo o en su caminar, está libre, con la condición de que aquel patio sea especial para los bueyes, pero si no estaba preparado para los bueyes, sino para frutas y dañó, es culpable. Y si dañó con los cuernos, en todo caso es culpable.  3. EL MONTO EN DINERO. El monto de los daños será solamente en efectivo, que el juzgado valorará la cuantía y lo pagará. Si la vaca de Reubén dañó la vestimenta de Shimón cuando la pisoteó en el recinto del damnificado, y después se le quebró la pierna de la vaca por causa de la vestimenta de Shimón en la vía pública, se considera como un pozo en la vía pública, y no decimos: “Debido a que éste dañó a éste, y éste a éste, se contrarresten los daños”, sino que se valorarán los daños de cada uno, y el que más deba le pagará al compañero. ALGO CON VALOR MONETARIO. Cuando se le quiere pagar el daño con los bienes de pequeños huérfanos no se pagan sino con terrenos, pero no con objetos, los objetos se consideran como efectivo ya que si no se venden acá se venden allá. DEBIENDO EFECTUARSE ANTE UN TRIBUNAL. El valor y los pagos de los daños no se realizarán sino delante de un tribunal de expertos y no delante de un tribunal de no expertos.  SÓLO ANTE TESTIGOS LIBRES Y JUDÍOS. Excluyendo a esclavos y a gentiles que no son aptos para el testimonio en asuntos monetarios.  LAS MUJERES ESTÁN INCLUIDAS EN LA LEY DE PERJUICIOS. Tanto si dañó ella a otros como si otros la dañaron a ella, la ley del hombre y la mujer son equitativas en cuestiones de daños. EL EJECUTOR Y LA VÍCTIMA. Ocurre que la victima participa con el que daña en el pago del daño, por ejemplo:Si disminuyó el valor del animal muerto (nebelá), desde el momento que murió hasta el momento del juicio, disminuyendo el valor del animal muerto, tanto si no era agresivo como si lo era, y nos encontramos que el que dañó no le paga incluso aquella mitad que le concedió la Torá si no era reincidente, o pagó completo si era reincidente, ya que el damnificado pierde y participa en los pagos de la caída del precio junto con el que daña.  4. EXISTEN CINCO TIPOS QUE SON CONSIDERADOS TAM (NO REINCIDENTE). Los que no están acostumbrados a dañar, y si dañan pagan la mitad del valor del daño.  OTROS CINCO SON CONSIDERADOS MU'AD (REINCIDENTE). Los que están acostumbrados a dañar y pagan el daño completo.  NI CORNEAR. Con el cuerno.  NI EMPUJAR. Empujando con todo el cuerpo, y todos estos son derivados del cuerno y pagan medio daño, he aquí son cinco los no reincidentes. El buey reincidente tres veces, que corneó, o empujó, o se postró, o pataleó, o mordió, he aquí los cinco casos de reincidentes para pagar el daño completo y para considerarlo reincidente es suficiente uno de ellos.  EL BUEY QUE CAUSE DAÑO EN EL DOMINIO PRIVADO DEL PERJUDICADO. Incluso si corneó sin reincidir se considera mu'ad para pagar el daño completo. Y la Mishná considera como aquel que dijo que es diferente el corneo en la propiedad del damnificado, por la que pagará por el daño completo aunque no sea reincidente. No siendo la Halajá así. Y la persona se considera reincidente desde un principio, pagará daño completo si dañó.  EL LOBO, EL LEÓN. Se consideran mu'ad desde un principio y los que no los consideramos dentro de los cinco tipos de mu'ad anteriormente recordados y se conviertan en once mu'adim debido a que no son normales o corrientes en una ciudad.  EL LEOPARDO. Bestia denominada en árabe 'alceva'. RABÍ ELIÉZER DICE. Y no es la Halajá como Rabí Eliézer. De lo mejor, de lo preferible de sus propiedades y mismo que el que corneó no vale el valor del daño, pues sobre el reincidente está escrito: “Pague buey por buey” (Éxodo 21:36) y no está escrito que pague del buey que ataca.
+            
+            
+            
+            
+            
+                        </p>
+                    </section>
+                </div>
+            
+                <div class="wrapperHeader">
+                    <section id="bookHeader">
+                        <p>Guemará</p>
+                        <p>Tratado Babá Kama 16b</p>
+                    </section>
+                </div>
+            
+                <div>
+                    <section class="wrapperParent">
+                        <p id="textMain">
+                            ¿Qué significa “lo más selecto”? Rabí Elazar dijo: Lo mejor del patrimonio del acusado, como dice la Escritura: “Y Jizquiyahu durmió con sus padres y ellos lo enterraron en el mejor (bema'alé) de los sepulcros de los hijos de David”. Rabí Eliézer dijo: “Bema'aleh” significa, cerca de lo mejor de la familia, y quiénes son: David y Shelomó. “Y lo enterraron en su propio sepulcro que esculpió para él en la ciudad de David, y lo tendieron en una cama llena de dulces fragancias y una variedad de especies (zinizini)”. ¿Qué es “Besamimu'zanim”? Rabí Elazar dijo: “Una variedad de especies”, Rabí Shemuel bar Najmaní dijo: “Fragancias que excitan a quienes la huelen inmoralmente”. Rabí Yojanán dijo en nombre de Rabí Shimón ben Yojai: ¿Qué significa el verso: “Bienaventurado seas que sembraste a lo largo de las aguas, que enviaste de las patas del buey y del burro”? Quien se ocupa de la Torá y con actos de bondad, merece heredar dos tribus, como está dicho: “Dichoso tú que sembraste”, y no hay mejor siembra que la caridad, como está dicho: “Siembra caridad, y recogerás según la bondad”. Nuevamente, aquí “agua” significa Torá, como está dicho: “Quien esté sediento, que venga a las aguas”. Merece heredar dos tribus, es merecedor de una herencia como Yosef, como está escrito: “Hijo de encanto es Yosef..., las jóvenes caminaban sobre los muros para observar”. También merece la herencia de Yisajar, como está escrito: “Yisajar es un burro con huesos fuertes”. Hay algunos que dicen: “Sus enemigos caerán frente a él como Yosef”, como está escrito: “Con ellos sesgará a la gente de los extremos de la tierra”. También es digno de comprender como Yisajar, como está escrito: “Y los hijos de Yisajar, hombres que conocían del futuro para saber qué debía hacer Israel”.
+            
+            
+            
+                        </p>
+                    </section>
+                </div>
+            
+                <div class="wrapperHeader">
+                    <section id="bookHeader">
+                        <p>Zóhar</p>
+                        <p>Bereshit 47a</p>
+                    </section>
+                </div>
+            
+                <div>
+                    <section class="wrapperParent">
+                        <p id="textMain">
+                            Nos dice el versículo: “Y se terminaron de hacer los cielos...”. Rabí Elazar hijo de Rabí Shimón comenzó diciendo: “Qué grande es Tu bondad, la que has guardado para los que temen” (Salmos 31). El Eterno creó al ser humano en este mundo y lo formó de manera que sea completo en el servicio a Él, y que vaya por el buen camino, gracias a esto merecerá la gran luz que el Eterno tiene guardada para los justos, como está escrito: “El ojo no vio…” (Isaías 64:3). ¿Cómo el ser humano puede merecer esta luz y estas bondades guardadas? Con el estudio de la Torá, porque todo aquel que se ocupa de ella y cumple sus preceptos día y noche, seguro que tendrá el mérito de pertenecer al Mundo Venidero y se le considera a esta persona como si estuviera construyendo el mundo, porque gracias al estudio de la Torá el mundo sigue en pie, como dice el versículo: “El Eterno con sabiduría fundamentó la tierra, y los cielos con entendimiento” (Proverbios 3:19) y sigue diciendo: “Y estaré delante de Él con fidelidad” (Ibíd. 8:30). En este versículo la palabra fidelidad en hebreo se dice Amón, pero según una de las reglas de las explicaciones del Midrash, la palabra Amón también se puede leer Umán, que significa artesano, es decir, que cuando el Eterno miraba la Torá lo iba moldeando como lo hace un artesano. O sea, que El Eterno iba mirando la Torá y según lo que en ella estaba escrito, creó al hombre, a las demás criaturas y todo el inmenso universo con todas las maravillas que comprende. De esto vemos la gran alegría que producimos al Eterno al estudiar la Torá. Y sigue diciendo el Zóhar, mucho más aún las palabras que salen de los niños que estudian Torá.Lo que nombramos anteriormente: “Qué grande es Tu bondad para los que te temen”. ¿Qué significa temer a Eterno? Si le preguntamos a mucha gente nos dirían que seguro que Le temen al Eterno, pero quizás no están comprendidos en esta categoría. Según la Torá, ¿qué significa temerle a Eterno? Significa temor al pecado, de no transgredir las leyes de la Torá y cumplir lo máximo de Mitzvot (preceptos y obras de bien). “Todo lo has hecho para los que se resguardan en Ti”(Salmos 31:20) ¿A qué obras se refiere? Se refiere a los actos de las buenas personas, las Mitsvot que cumplen. Entonces el Eterno creó un Gan-Eden (Paraíso) en el cielo que contiene ya grandes justos que tuvieron el Zejut de merecerlo, y nos dice que la gente justa en la tierra está en conexión con estos Tzadikim, y cuando llegue su momento subirán estos Tzadikim de la tierra a unirse con los Tzadikim que están en el cielo.Acerca de lo que dijimos al principio, con respecto a que el Eterno creó el cielo, la tierra y todos los astros, una de las explicaciones del Zóhar es: “Así como hay millones de astros que irradian luz, lo mismo cada letra o punto de la Torá tienen millones de explicaciones que irradian luz”, por ejemplo:Vemos que el Zóhar nos comenta, que después del fallecimiento de Rabí Shimón Bar Yojai (autor del Zóhar), uno de sus grandes alumnos Rabí Jiyá quiso ver en el cielo el lugar que ocupaba su maestro. Cuando le permitieron entrar a la Yeshivá de Rabí Shimón en el cielo y lo vio rodeado de miles de Tzadikim y ángeles dictando una clase, nos dice que le dijeron todos los que le rodeaban: Dichoso tu maestro y dichosa la Torá que estás enseñando, porque cada palabra irradia 370 luces, y cada una de estas luces es explicada a su vez en 613 formas, y todas van y se sumergen en ríos de perfumes puros (recordamos que todos estos ejemplos son elevaciones espirituales fuera de nuestro entendimiento, porque ni es la luz que conocemos, ni el río, ni perfumes, sino algo figurativo), de ahí vemos que una palabra de la Torá se expande en muchas luces y explicaciones. Conclusión: Nos dice el Zóhar que, el viernes, el Eterno acabó sus obras de creación y la Torá que fue creada 97.400 años antes que el Eterno creara este mundo. Era como un documento de un artesano para la creación de una obra de arte (por lo antes mencionado sobre Amón y Umán). Según los caminos de la Torá, creó al hombre y a todo lo demás, lo preparó para que sea correcto, temeroso y servidor del Eterno, entonces merecería deleitarse de la luz que el Eterno escondió para los Tzadikim,y merezca ir al Gan-Eden. ¿Cuál es el medio para conseguir todo esto? El estudio de la Torá y su cumplimiento. 
+            
+                        </p>
+                    </section>
+                </div>
+            
+                <div class="wrapperHeader">
+                    <section id="bookHeader">
+                        <p>Halajá</p>
+                        <p>Shulján Aruj, ÓrajJayim 339-340 </p>
+                    </section>
+                </div>
+            
+                <div>
+                    <section class="wrapperParent">
+                        <p id="textMain">
+                            (1) Durante el Shabat no se puede aplaudir, ni se puede golpear sobre el muslo con la mano, ni se puede bailar. Este decreto Rabínico fue establecido por si motivara a una persona a reparar algún instrumento musical. También está prohibido golpear con la punta del pie el piso o una tabla, o chasquear los dedos, o golpear una almendra para un niño, o jugar con una correa para tranquilizarlo, y demás actividades similares, debido al decreto Rabínico promulgado, no sea que una persona decida reparar un instrumento musical. Sin embargo, está permitido aplaudir con las contra palmas.  (2) No se debe cortar cabello, ni uñas, aunque sea con su propia mano, o sus dientes, o con un instrumento, ni tampoco a otros. Aunque solo arrancó dos cabellos está obligado a traer un sacrificio. Sin embargo, hasta uno está prohibido. Quien arranca cabellos blancos de entre los oscuros, es responsable hasta por uno solo. Esta prohibición de sacarse los cabellos blancos rige también durante los días de semana, pues está establecido: “No puede un hombre vestir prendas femeninas” (Deuteronomio 22:5), ni realizar actividades femeninas. (3) Quien quita tinta de un pergamino, o cera de una tabla: si esto deja espacio para escribir dos letras, está obligado a traer un sacrificio, aunque está prohibido incluso si solamente borró el espacio para una letra. (4) Se debe cuidar de no escribir con los dedos en superficies con líquidos, sobre una mesa o con polvo. (5). Se puede hilvanar una costura previamente cosida que se ha aflojado en la tela o prenda de vestir, pero sin apretar, pues se considera como coser, lo cual está prohibido.
+            
+            
+                        </p>
+                    </section>
+                </div>
+            
+                <div class="wrapperHeader">
+                    <section id="bookHeader">
+                        <p>Moral</p>
+                        <p>Marguenitá de RabíMeir </p>
+                    </section>
+                </div>
+            
+                <div>
+                    <section class="wrapperParent">
+                        <p id="textMain">
+            
+                            Hay castigos Divinos que llegan inmediatamente, y hay otros que tardan cierto tiempo. Están los que llegan uno después de otro, y hay otros que vienen todos juntos. Hay unos que le sobrevienen al estar despierto y otros mientras duerme. Algunos son abrumadores, y otros son aceptables. Hay quien se percata de algunos de ellos y de otros no. Algunos llegan en la vejez y otros en la juventud. Unos son ocultos, mientras que otros son revelados. Algunos le llegan en su casa, mientras que otros están fuera de la casa. Cualquier problema, angustia, celo, asalto, y contratiempo, disminuye el pecado. Algunas personas sirven al Todopoderoso por temor, para no verse privados de su sustento, otros lo sirven sin amor, otros sin vergüenza, otros con simpleza, otros para demostrar, otros en alegría y agradecimiento que se ha podido cumplir una Mitsvá a través de ellos, otros mediante sufrimiento, como está dicho: “En sus problemas me buscarán” (Oseas 5:15), cada uno según sus acciones. Cuando una persona muere, el ángel responsable de juzgarlo se para a su lado y le dice: “Desdichado este cuerpo que sale del mundo, vacío de méritos y lleno de iniquidad”. Mira sus pies y dice: “Desdichado estos pies que no anduvieron por caminos rectos.Desdichadas estas manos que se ocuparon de falsedades; desgraciadas las entrañas que se beneficiaron del robo; desgraciados los ojos que no vieron la fidelidad desgraciados los oídos que no escucharon reprimenda; desgraciada la boca que no se ocupó de la Torá; desgraciado el instinto que no se sometió a su Creador; desgraciado el corazón que no sirvió a su Creador, ya que en el futuro se le reprochará”. Le dicen: “Párate en juicio y reconoce tus actos. Debes saber de dónde vienes, y ante quién tendrás que rendir cuentas”. Si no es capaz de responder a estos cargos, ¿quién lo es? ¿Quién podrá sobrellevar tus pecados, que se propagan como el fuego y son como un cuchillo para tu garganta, como una flecha para el corazón, y cadenas para tus piernas? Como la oscuridad para los ojos, como la hiel para la boca, como una trampa para la pierna, como la sordera para los oídos, como un obstáculo para la fuerza, como tiempos malos en la vejez, como el sufrimiento para el cuerpo, como el corte para el cuerpo de un animal, como la hiel para la muerte, como el pecado para el Día del Juicio. Están los que dejan el mundo a la mitad de sus días, y los que lo hacen a edad avanzada. Quiera el Señor, el Guardián de Israel, librarnos de todo mal. Así sea Su voluntad. 
+            
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div>
-        <section class="wrapperParent">
-            <p id="textMain">
-                (20)Él ve muchas cosas pero no las advierte, él abre sus oídos, pero no escucha.  (21)El Eterno deseó en aras de su rectitud engrandecer la Torá y hacerla gloriosa.  (22) Pero éste es un país saqueado y despojado; todos ellos atrapados en hoyos, confinados en prisiones. Fueron presa del saqueo sin que alguien los rescatase, despojada sin que nadie dijera: ¡Restaura!  (23)¿Quién de ustedes prestará oído a esto, pondrá atención y escuchará respecto al futuro?  (24) ¿Quién entregó a Yaacob por despojo, y a Israel a los saqueadores?  ¿Acaso no fue el Eterno, contra quien pecamos, sin querer andar en Sus caminos ni obedecer Su Torá?  (25) Él derramó sobre Israel el enojo, la furia y la intensidad de la guerra. Lo puso en llamas alrededor pero no quiso saber; lo quemó, pero aún así no le hicieron caso en su corazón.
-
-
-            </p>
-        </section>
-    </div>
-
-    <div>
-        <section class="wrapperParent">
-            <p>Rashi</p>
-            <p id="textSecond">
-                20. ÉL VE MUCHAS COSAS. Existen muchas pruebas ante ellos.  PERO NO LAS ADVIERTE. Ver Mis obras.  ÉL ABRE SUS OÍDOS. Intentó abrir sus oídos, a través de Mis profetas, pero no existe hombre sabio que escuche Mis palabras.  21. EL ETERNO DESEÓ. Demostrarles.  EN ARAS DE SU RECTITUD. Engrandeciendo Su Torá para ustedes.  22. PERO ÉSTE. Pueblo.TODOS ELLOS ATRAPADOS EN HOYOS. Dentro de sus hoyos están descontentos. CONFINADOS. Significa escondido.  23. AL FUTURO. Lo que conservará en el Mundo Venidero.  25. PERO NO QUISO SABER. Pretendió que no sabía. NO LE HICIERON CASO. Para entender esto y arrepentirse de sus sendas torcidas. 17. PORQUE EN VANO. Los pájaros que ven trigo o legumbres sobre una red no lo toman en cuenta, porque no lo entienden.18. Y ÉSTOS. Los cazadores.  19. ÁVIDO DE GANANCIA INJUSTA. Roba.  EL RESULTADO FINAL ES QUE. Quita la vida de su dueño, quien ahora es el dueño de la propiedad.  20. LA SABIDURÍA. De la Torá. Grita fuerte. EN LAS PLAZAS. En lugares donde son aumentadas, por ejemplo, en el Bet Midrash. 21. LLAMA EN LA ENCRUCIJADA DE LAS CALLES CONCURRIDAS. El lugar donde es escuchada.
-
-            </p>
-        </section>
-    </div>
-
-    <div class="wrapperParent">
-        <section id="bookHeader">
-            <p>Mishná</p>
-            <p>Tratado Babá Kamá, capítulo 1</p>
-        </section>
-    </div>
-
-    <div>
-        <section class="wrapperParent">
-            <p id="textMain">
-                1. Las cuatro principales categorías causantes de daños son: el buey, el pozo, el diente y el fuego.La categoría del buey es diferente a la del diente y no es la del diente como la del buey.  Tampoco son [las categorías] estas [del buey y el diente], que de por sí tienen vida, como el fuego que no tiene vida; y no son éstas [el buey, el diente y el fuego] que avanzan por sí mismas y son destructivas, como el pozo, que no avanza por sí mismo y destruye. La característica común de éstas es que todas generalmente causan daño y la responsabilidad de evitarlo recae en su propietario.  Si alguno de éstos causa un perjuicio, el propietario causante debe pagar con lo más selecto de su propiedad.  (2) De todo lo que soy responsable de cuidar también lo soy del perjuicio que pueda ocasionar, soy responsable en parte del daño, estoy obligado en el pago como de todo el daño. Propiedades no sujetas a la ley de sacrilegio, (no pertenecientes al Templo, deducimos que uno es responsable únicamente por el daño causado a la propiedad ajena, pero no a la perteneciente al Templo; a lo perteneciente a los Bené Berit (Judíos), objetos específicos, en cualquier lugar, fuera de la propiedad específica del causante del mismo, o el dominio común tanto de la víctima como de quien se le imputó la causa. Si existiese daño, el causante es responsable de restituirlo con lo mejor de su tierra. (3) El monto en dinero efectivo o de algo con valor monetario, debiendo efectuarse ante un tribunal, y solo ante testigos libres y judíos. Las mujeres están incluidas en la ley de perjuicios. El ejecutor y la víctima deberán participar en los pagos.  (4) Existen cinco tipos que son considerados tam (no reincidentes) y otros cinco son considerados mu'ad (reincidentes).  Un animal doméstico no es considerado mu'ad en cornear, ni empujar, ni morder, ni recostarse, ni patear. Los dientes se consideran mu'ad con referencia a consumir cualquier cosa relacionada con éstos; la pierna es mu'ad con respecto a romper mientras camina; así también el buey que es mu'ad; y el buey que cause daño en el dominio privado del perjudicado es considerado mu'ad con respecto al pago total de los daños; y el hombre.  El lobo, el león, el oso, la pantera, el leopardo y la serpiente son considerados mu'ad. Rabí Eliézer dice: Cuando están domados no son considerados mu'ad, mientras que la serpiente siempre es mu'ad.  ¿Qué diferencia existe entre tam y mu'ad?  En el primer caso, paga la mitad de los daños de su propio pecunio, y el mu'ad paga el daño completo de lo mejor.
-
-
-
-            </p>
-        </section>
-    </div>
-
-    <div>
-        <section class="wrapperParent">
-            <p>Rabí Ovadiá de Bartenura</p>
-            <p id="textSecond">
-                1. LAS CUATRO PRINCIPALES CATEGORÍAS CAUSANTES DE DAÑOS. Debido a que hay en cada una de ellas derivados, se les llamó a estas 'principales'. El buey: Se llama al daño que hace el animal al andar, es decir, lo que el animal daña con sus patas al caminar, como está dicho (Éxodo 22:4): “Y enviará su ganado”. Sobre esto enseña una Baraita: 'Y enviará',se refiere a la pata,como está dicho: “Los que extienden las patas, el buey y el burro” (Isaías 32:20).Derivado de 'pata' se considera cuando daña con su cuerpo al andar, o con su pelo cuando camina y se enreda con cualquier objeto, lo arrastra y lo rompe. También cuando daña con el manto que lleva encima, o con la carga que transportas en las bolsas, o con el atracadero, o con el yugo. EL POZO. El que escava un pozo en la vía pública y cae en él un burro o un buey, y muere, si el pozo tiene una profundidad de 10 puños (80 centímetros) es causante del daño, o si se hirió el buey cuando el pozo tiene una profundidad menor de 10 puños, como está escrito (Éxodo 21:33): “Cuando escave una persona un pozo...”. Derivado del pozo esla saliva que se encuentra en el suelo de la vía pública y daña.EL DIENTE. Cuando un animal come en campo ajeno, como está escrito (Ibíd. 22:4): “Y pastó en otro campo”.Se le llama al diente mab-é, ya que a veces está tapado y a veces está descubierto, como aparece en el profeta Ovadiá: “Nab-úmatspunab”,es decir, “Y destaparon sus escondites”.Un derivado del diente es por ejemplo cuando se rasca con la pared para su disfrute como acostumbran lo animales, y rompe la pared, o mancha las frutas con las que se rascó.EL FUEGO. El incendio que sale y daña, como está escrito (Ibíd. 22:5): “Cuando salga el fuego... y se coma la paja, o la gavilla, o el campo”.Son derivados del fuego, la piedra, el cuchillo, la carga que colocaron en lo alto del techo y cayeron con el viento y dañaron, que es parecido al fuego que el viento transporta. LaMishná no mencionó el cuerno entre los cuatro causantes principales de daños, porque sólo consideró los causantes que están predispuestos desde un principio a dañar, teniendo que pagar el daño completo desde un principio. Sin embargo, el cuerno, si no reincide y se convirtió en un peligro, no lo considera la Mishná.LA CATEGORÍA DEL BUEY ES DIFERENTE A LA DEL DIENTE. Es decir, si hubiese escrito la Torá 'buey', no hubiésemos aprendido “el diente” de él, pues siendo que el daño del pisar es común, lo condenó la Torá, pero “el diente” que no es un daño común, no lo castigó la Torá. Si hubiese escrito 'diente', habría dicho: “El diente” está castigado porque disfruta de su daño, pero “el andar”, que no tiene un disfrute de su daño, no estaría condenado. Si hubiera escrito la Torá 'diente y pata', y no hubiera escrito 'fuego', habría dicho: Siendo que el 'diente y la pata' son causados por un ser viviente, está condenado, pero el fuego, que no es un ser viviente, no está condenado. Y si hubiera escrito los tres (diente pata y fuego) y no hubiese escrito 'pozo', hubiésemos dicho que estos están condenados porque su costumbre es ir y dañar, pero el pozo, que no es su norma de moverse y dañar, no está condenado, por eso fueron necesarios todos los casos. El Talmud llega a la conclusión que si hubiera escrito pozo y uno de ellos, habría deducido el resto, excepto el cuerno, de acuerdo a la regla llamada “Tsad hashavé” (“Lo que es común”).  No fueron necesarios todos ellos sino porque son diferentes en sus detalles de Halajá, pues hay en una lo que no hay en la otra. Por ejemplo: “El diente y la pata” no están castigados en la vía pública, no siendo así en el caso del “Pozo y el fuego”. “El pozo”, lo liberó la Torá con respecto a las personas y utensilios, pues está escrito: “Y cayó en él un buey o un burro” (Éxodo 21) y aprendimos: “Buey”, y no persona, “Burro”, y no utensilios, cosa que no ocurre en los demás casos. El “fuego” está libre de los daños que hizo a objetos enterrados, por ejemplo: Si hay vestidos escondidos debajo de la paja, no se condena si alguien le prende fuego, pues está escrito: “O la gavilla” (Éxodo 22): Igual que la gavilla está al descubierto, se condena sólo lo que está descubierto. No obstante, en los demás casos, se condena incluso si está escondido. LA CARACTERÍSTICA COMÚN DE ÉSTAS. Asimismo, si lo compara con todo lo que acostumbra a dañar y tiene obligación de cuidarlo, cuando daña está condenado a pagar los daños que causó. LO MÁS SELECTO DE SU PROPIEDAD. Como está escrito: “Con lo mejor de su campo y lo mejor de su viñedo pagará”, pero si quiere pagarle con objetos, aceptamos cualquier objeto, pues se considera de lo mejor, debido a que si no se vende acá lo puede vender allá, y le puedo dar lo que desee, incluso paja, y esto es solamente con respecto a daños; pero el adeudado, si le debe dinero, deberá devolver en efectivo, y si no tiene efectivo, le paga con los objetos que quiera, y si le paga con terrenos, le pagará de clase media. El que alquila, mismo que no tenga dinero, no puede darle en pago sino dinero, y lo obligamos a que venda de sus propiedades hasta que encuentre para pagarle en efectivo. Por ejemplo: el que entrega su buey a un sordomudo, o a un enfermo mental, o a un menor de edad, está obligado a los daños del buey, pues tenía la responsabilidad de cuidar su buey, y no lo hizo como es necesario. TAMBIÉN LO SOY DEL PERJUICIO QUE PUEDA OCASIONAR. Si no lo cuidé como es debido y dañó, yo fui el que lo predispuse y lo preparé para su daño, por lo tanto soy responsable por él.  EN PARTE DEL DAÑO. Si preparé y predispuse parte del daño, incluso si no hice todo, estoy obligado como si lo hubiese terminado; por ejemplo: El que excavó un pozo de nueve puños en la vía pública, vino otro y cavó un puño más y cayó en él un buey ó un burro, el último es el responsable.Incluso si hizo solamente parte del daño, se considera que lo hizo totalmente, ya que en un pozo de nueve puños no hay causa de muerte.  PROPIEDADES NO SUJETAS A LA LEY DE SACRILEGIO. ¿Sobre qué objetos estoy obligado a pagar si se daña? Sobre objetos que no tienen la ley de sacrilegio, como propiedades que no fueron dedicadas al santuario, ya que si dañé propiedades dedicadas al santuario, no estoy obligado a pagar, pues está escrito: “El buey del…”, y no “el buey del santuario”, así también es la ley en todo los daños.  A LO PERTENECIENTE A LOS BENÉ BERIT (JUDÍOS). Si dañó la propiedad de un gentil, no está condenado.  OBJETOS ESPECÍFICOS. Que tiene propietarios, pues si dañó propiedades que no tienen propietarios no está obligado. FUERA DE LA PROPIEDAD ESPECÍFICA DEL CAUSANTE DEL MISMO. En todo lugar donde mis propiedades dañaron a las propiedades del prójimo, excepto en el recinto específico de mi propiedad, que si entró un buey y se dañó en el recinto de mi propiedad, estoy libre, pues le puedo decir: “Tu toro en mi recinto, ¿qué hace?”, y solamente si se dañaron los bienes, pero si dañó él mismo a su compañero, incluso si él se encuentra en su recinto, está obligado, pues le puede decir el perjudicado: “Tienes derecho a sacarme, a dañarme ¿quién te dio permiso?”.  O EL DOMINIO COMÚN TANTO DE LA VÍCTIMA COMO DE QUIEN SE LE IMPUTÓ LA CAUSA. Como un patio, donde dañó el buey de uno de ellos en aquel patio comiendo o en su caminar, está libre, con la condición de que aquel patio sea especial para los bueyes, pero si no estaba preparado para los bueyes, sino para frutas y dañó, es culpable. Y si dañó con los cuernos, en todo caso es culpable.  3. EL MONTO EN DINERO. El monto de los daños será solamente en efectivo, que el juzgado valorará la cuantía y lo pagará. Si la vaca de Reubén dañó la vestimenta de Shimón cuando la pisoteó en el recinto del damnificado, y después se le quebró la pierna de la vaca por causa de la vestimenta de Shimón en la vía pública, se considera como un pozo en la vía pública, y no decimos: “Debido a que éste dañó a éste, y éste a éste, se contrarresten los daños”, sino que se valorarán los daños de cada uno, y el que más deba le pagará al compañero. ALGO CON VALOR MONETARIO. Cuando se le quiere pagar el daño con los bienes de pequeños huérfanos no se pagan sino con terrenos, pero no con objetos, los objetos se consideran como efectivo ya que si no se venden acá se venden allá. DEBIENDO EFECTUARSE ANTE UN TRIBUNAL. El valor y los pagos de los daños no se realizarán sino delante de un tribunal de expertos y no delante de un tribunal de no expertos.  SÓLO ANTE TESTIGOS LIBRES Y JUDÍOS. Excluyendo a esclavos y a gentiles que no son aptos para el testimonio en asuntos monetarios.  LAS MUJERES ESTÁN INCLUIDAS EN LA LEY DE PERJUICIOS. Tanto si dañó ella a otros como si otros la dañaron a ella, la ley del hombre y la mujer son equitativas en cuestiones de daños. EL EJECUTOR Y LA VÍCTIMA. Ocurre que la victima participa con el que daña en el pago del daño, por ejemplo:Si disminuyó el valor del animal muerto (nebelá), desde el momento que murió hasta el momento del juicio, disminuyendo el valor del animal muerto, tanto si no era agresivo como si lo era, y nos encontramos que el que dañó no le paga incluso aquella mitad que le concedió la Torá si no era reincidente, o pagó completo si era reincidente, ya que el damnificado pierde y participa en los pagos de la caída del precio junto con el que daña.  4. EXISTEN CINCO TIPOS QUE SON CONSIDERADOS TAM (NO REINCIDENTE). Los que no están acostumbrados a dañar, y si dañan pagan la mitad del valor del daño.  OTROS CINCO SON CONSIDERADOS MU'AD (REINCIDENTE). Los que están acostumbrados a dañar y pagan el daño completo.  NI CORNEAR. Con el cuerno.  NI EMPUJAR. Empujando con todo el cuerpo, y todos estos son derivados del cuerno y pagan medio daño, he aquí son cinco los no reincidentes. El buey reincidente tres veces, que corneó, o empujó, o se postró, o pataleó, o mordió, he aquí los cinco casos de reincidentes para pagar el daño completo y para considerarlo reincidente es suficiente uno de ellos.  EL BUEY QUE CAUSE DAÑO EN EL DOMINIO PRIVADO DEL PERJUDICADO. Incluso si corneó sin reincidir se considera mu'ad para pagar el daño completo. Y la Mishná considera como aquel que dijo que es diferente el corneo en la propiedad del damnificado, por la que pagará por el daño completo aunque no sea reincidente. No siendo la Halajá así. Y la persona se considera reincidente desde un principio, pagará daño completo si dañó.  EL LOBO, EL LEÓN. Se consideran mu'ad desde un principio y los que no los consideramos dentro de los cinco tipos de mu'ad anteriormente recordados y se conviertan en once mu'adim debido a que no son normales o corrientes en una ciudad.  EL LEOPARDO. Bestia denominada en árabe 'alceva'. RABÍ ELIÉZER DICE. Y no es la Halajá como Rabí Eliézer. De lo mejor, de lo preferible de sus propiedades y mismo que el que corneó no vale el valor del daño, pues sobre el reincidente está escrito: “Pague buey por buey” (Éxodo 21:36) y no está escrito que pague del buey que ataca.
-
-
-
-
-
-            </p>
-        </section>
-    </div>
-
-    <div class="wrapperHeader">
-        <section id="bookHeader">
-            <p>Guemará</p>
-            <p>Tratado Babá Kama 16b</p>
-        </section>
-    </div>
-
-    <div>
-        <section class="wrapperParent">
-            <p id="textMain">
-                ¿Qué significa “lo más selecto”? Rabí Elazar dijo: Lo mejor del patrimonio del acusado, como dice la Escritura: “Y Jizquiyahu durmió con sus padres y ellos lo enterraron en el mejor (bema'alé) de los sepulcros de los hijos de David”. Rabí Eliézer dijo: “Bema'aleh” significa, cerca de lo mejor de la familia, y quiénes son: David y Shelomó. “Y lo enterraron en su propio sepulcro que esculpió para él en la ciudad de David, y lo tendieron en una cama llena de dulces fragancias y una variedad de especies (zinizini)”. ¿Qué es “Besamimu'zanim”? Rabí Elazar dijo: “Una variedad de especies”, Rabí Shemuel bar Najmaní dijo: “Fragancias que excitan a quienes la huelen inmoralmente”. Rabí Yojanán dijo en nombre de Rabí Shimón ben Yojai: ¿Qué significa el verso: “Bienaventurado seas que sembraste a lo largo de las aguas, que enviaste de las patas del buey y del burro”? Quien se ocupa de la Torá y con actos de bondad, merece heredar dos tribus, como está dicho: “Dichoso tú que sembraste”, y no hay mejor siembra que la caridad, como está dicho: “Siembra caridad, y recogerás según la bondad”. Nuevamente, aquí “agua” significa Torá, como está dicho: “Quien esté sediento, que venga a las aguas”. Merece heredar dos tribus, es merecedor de una herencia como Yosef, como está escrito: “Hijo de encanto es Yosef..., las jóvenes caminaban sobre los muros para observar”. También merece la herencia de Yisajar, como está escrito: “Yisajar es un burro con huesos fuertes”. Hay algunos que dicen: “Sus enemigos caerán frente a él como Yosef”, como está escrito: “Con ellos sesgará a la gente de los extremos de la tierra”. También es digno de comprender como Yisajar, como está escrito: “Y los hijos de Yisajar, hombres que conocían del futuro para saber qué debía hacer Israel”.
-
-
-
-            </p>
-        </section>
-    </div>
-
-    <div class="wrapperHeader">
-        <section id="bookHeader">
-            <p>Zóhar</p>
-            <p>Bereshit 47a</p>
-        </section>
-    </div>
-
-    <div>
-        <section class="wrapperParent">
-            <p id="textMain">
-                Nos dice el versículo: “Y se terminaron de hacer los cielos...”. Rabí Elazar hijo de Rabí Shimón comenzó diciendo: “Qué grande es Tu bondad, la que has guardado para los que temen” (Salmos 31). El Eterno creó al ser humano en este mundo y lo formó de manera que sea completo en el servicio a Él, y que vaya por el buen camino, gracias a esto merecerá la gran luz que el Eterno tiene guardada para los justos, como está escrito: “El ojo no vio…” (Isaías 64:3). ¿Cómo el ser humano puede merecer esta luz y estas bondades guardadas? Con el estudio de la Torá, porque todo aquel que se ocupa de ella y cumple sus preceptos día y noche, seguro que tendrá el mérito de pertenecer al Mundo Venidero y se le considera a esta persona como si estuviera construyendo el mundo, porque gracias al estudio de la Torá el mundo sigue en pie, como dice el versículo: “El Eterno con sabiduría fundamentó la tierra, y los cielos con entendimiento” (Proverbios 3:19) y sigue diciendo: “Y estaré delante de Él con fidelidad” (Ibíd. 8:30). En este versículo la palabra fidelidad en hebreo se dice Amón, pero según una de las reglas de las explicaciones del Midrash, la palabra Amón también se puede leer Umán, que significa artesano, es decir, que cuando el Eterno miraba la Torá lo iba moldeando como lo hace un artesano. O sea, que El Eterno iba mirando la Torá y según lo que en ella estaba escrito, creó al hombre, a las demás criaturas y todo el inmenso universo con todas las maravillas que comprende. De esto vemos la gran alegría que producimos al Eterno al estudiar la Torá. Y sigue diciendo el Zóhar, mucho más aún las palabras que salen de los niños que estudian Torá.Lo que nombramos anteriormente: “Qué grande es Tu bondad para los que te temen”. ¿Qué significa temer a Eterno? Si le preguntamos a mucha gente nos dirían que seguro que Le temen al Eterno, pero quizás no están comprendidos en esta categoría. Según la Torá, ¿qué significa temerle a Eterno? Significa temor al pecado, de no transgredir las leyes de la Torá y cumplir lo máximo de Mitzvot (preceptos y obras de bien). “Todo lo has hecho para los que se resguardan en Ti”(Salmos 31:20) ¿A qué obras se refiere? Se refiere a los actos de las buenas personas, las Mitsvot que cumplen. Entonces el Eterno creó un Gan-Eden (Paraíso) en el cielo que contiene ya grandes justos que tuvieron el Zejut de merecerlo, y nos dice que la gente justa en la tierra está en conexión con estos Tzadikim, y cuando llegue su momento subirán estos Tzadikim de la tierra a unirse con los Tzadikim que están en el cielo.Acerca de lo que dijimos al principio, con respecto a que el Eterno creó el cielo, la tierra y todos los astros, una de las explicaciones del Zóhar es: “Así como hay millones de astros que irradian luz, lo mismo cada letra o punto de la Torá tienen millones de explicaciones que irradian luz”, por ejemplo:Vemos que el Zóhar nos comenta, que después del fallecimiento de Rabí Shimón Bar Yojai (autor del Zóhar), uno de sus grandes alumnos Rabí Jiyá quiso ver en el cielo el lugar que ocupaba su maestro. Cuando le permitieron entrar a la Yeshivá de Rabí Shimón en el cielo y lo vio rodeado de miles de Tzadikim y ángeles dictando una clase, nos dice que le dijeron todos los que le rodeaban: Dichoso tu maestro y dichosa la Torá que estás enseñando, porque cada palabra irradia 370 luces, y cada una de estas luces es explicada a su vez en 613 formas, y todas van y se sumergen en ríos de perfumes puros (recordamos que todos estos ejemplos son elevaciones espirituales fuera de nuestro entendimiento, porque ni es la luz que conocemos, ni el río, ni perfumes, sino algo figurativo), de ahí vemos que una palabra de la Torá se expande en muchas luces y explicaciones. Conclusión: Nos dice el Zóhar que, el viernes, el Eterno acabó sus obras de creación y la Torá que fue creada 97.400 años antes que el Eterno creara este mundo. Era como un documento de un artesano para la creación de una obra de arte (por lo antes mencionado sobre Amón y Umán). Según los caminos de la Torá, creó al hombre y a todo lo demás, lo preparó para que sea correcto, temeroso y servidor del Eterno, entonces merecería deleitarse de la luz que el Eterno escondió para los Tzadikim,y merezca ir al Gan-Eden. ¿Cuál es el medio para conseguir todo esto? El estudio de la Torá y su cumplimiento. 
-
-            </p>
-        </section>
-    </div>
-
-    <div class="wrapperHeader">
-        <section id="bookHeader">
-            <p>Halajá</p>
-            <p>Shulján Aruj, ÓrajJayim 339-340 </p>
-        </section>
-    </div>
-
-    <div>
-        <section class="wrapperParent">
-            <p id="textMain">
-                (1) Durante el Shabat no se puede aplaudir, ni se puede golpear sobre el muslo con la mano, ni se puede bailar. Este decreto Rabínico fue establecido por si motivara a una persona a reparar algún instrumento musical. También está prohibido golpear con la punta del pie el piso o una tabla, o chasquear los dedos, o golpear una almendra para un niño, o jugar con una correa para tranquilizarlo, y demás actividades similares, debido al decreto Rabínico promulgado, no sea que una persona decida reparar un instrumento musical. Sin embargo, está permitido aplaudir con las contra palmas.  (2) No se debe cortar cabello, ni uñas, aunque sea con su propia mano, o sus dientes, o con un instrumento, ni tampoco a otros. Aunque solo arrancó dos cabellos está obligado a traer un sacrificio. Sin embargo, hasta uno está prohibido. Quien arranca cabellos blancos de entre los oscuros, es responsable hasta por uno solo. Esta prohibición de sacarse los cabellos blancos rige también durante los días de semana, pues está establecido: “No puede un hombre vestir prendas femeninas” (Deuteronomio 22:5), ni realizar actividades femeninas. (3) Quien quita tinta de un pergamino, o cera de una tabla: si esto deja espacio para escribir dos letras, está obligado a traer un sacrificio, aunque está prohibido incluso si solamente borró el espacio para una letra. (4) Se debe cuidar de no escribir con los dedos en superficies con líquidos, sobre una mesa o con polvo. (5). Se puede hilvanar una costura previamente cosida que se ha aflojado en la tela o prenda de vestir, pero sin apretar, pues se considera como coser, lo cual está prohibido.
-
-
-            </p>
-        </section>
-    </div>
-
-    <div class="wrapperHeader">
-        <section id="bookHeader">
-            <p>Moral</p>
-            <p>Marguenitá de RabíMeir </p>
-        </section>
-    </div>
-
-    <div>
-        <section class="wrapperParent">
-            <p id="textMain">
-
-                Hay castigos Divinos que llegan inmediatamente, y hay otros que tardan cierto tiempo. Están los que llegan uno después de otro, y hay otros que vienen todos juntos. Hay unos que le sobrevienen al estar despierto y otros mientras duerme. Algunos son abrumadores, y otros son aceptables. Hay quien se percata de algunos de ellos y de otros no. Algunos llegan en la vejez y otros en la juventud. Unos son ocultos, mientras que otros son revelados. Algunos le llegan en su casa, mientras que otros están fuera de la casa. Cualquier problema, angustia, celo, asalto, y contratiempo, disminuye el pecado. Algunas personas sirven al Todopoderoso por temor, para no verse privados de su sustento, otros lo sirven sin amor, otros sin vergüenza, otros con simpleza, otros para demostrar, otros en alegría y agradecimiento que se ha podido cumplir una Mitsvá a través de ellos, otros mediante sufrimiento, como está dicho: “En sus problemas me buscarán” (Oseas 5:15), cada uno según sus acciones. Cuando una persona muere, el ángel responsable de juzgarlo se para a su lado y le dice: “Desdichado este cuerpo que sale del mundo, vacío de méritos y lleno de iniquidad”. Mira sus pies y dice: “Desdichado estos pies que no anduvieron por caminos rectos.Desdichadas estas manos que se ocuparon de falsedades; desgraciadas las entrañas que se beneficiaron del robo; desgraciados los ojos que no vieron la fidelidad desgraciados los oídos que no escucharon reprimenda; desgraciada la boca que no se ocupó de la Torá; desgraciado el instinto que no se sometió a su Creador; desgraciado el corazón que no sirvió a su Creador, ya que en el futuro se le reprochará”. Le dicen: “Párate en juicio y reconoce tus actos. Debes saber de dónde vienes, y ante quién tendrás que rendir cuentas”. Si no es capaz de responder a estos cargos, ¿quién lo es? ¿Quién podrá sobrellevar tus pecados, que se propagan como el fuego y son como un cuchillo para tu garganta, como una flecha para el corazón, y cadenas para tus piernas? Como la oscuridad para los ojos, como la hiel para la boca, como una trampa para la pierna, como la sordera para los oídos, como un obstáculo para la fuerza, como tiempos malos en la vejez, como el sufrimiento para el cuerpo, como el corte para el cuerpo de un animal, como la hiel para la muerte, como el pecado para el Día del Juicio. Están los que dejan el mundo a la mitad de sus días, y los que lo hacen a edad avanzada. Quiera el Señor, el Guardián de Israel, librarnos de todo mal. Así sea Su voluntad. 
-
-            </p>
-        </section>
+        <script src="..\..\Pdocument\scroll.js"></script>
     </div>
 </body>
 </html>

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
     <link rel="stylesheet" href="..\documentStyleSplit.css">
     <link rel="stylesheet" href="..\..\Pdocument\documentStyleHebreoSplit.css">
     <title>brd1</title>
@@ -26,8 +28,8 @@
 
     <!--------------hebreo pantalla 1--------------->
 
-    <div class="wrap">
-        <div class="splitScreen">
+    <div  class="wrap">
+        <div id="source" class="splitScreen">
             <div>
                 <div>
                     <section class="wrapperParentHe">
@@ -266,8 +268,8 @@
         </div>
     </div>
 <!-----------español pantalla 2------------->
-    <div class="wrap">
-        <div class="splitScreen2">
+    <div  class="wrap">
+        <div id="target" class="splitScreen2">
             <div>
                 <div>
                     <section class="wrapperParent">
@@ -464,6 +466,8 @@
             </div>
         </div>
     </div>
-   
+    <div>
+        <script src="..\..\Pdocument\scroll.js"></script>
+    </div>
 </body>
 </html>
