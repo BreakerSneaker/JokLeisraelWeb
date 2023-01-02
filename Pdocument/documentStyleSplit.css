@@ -30,7 +30,7 @@
     width: auto;
     background-color: antiquewhite;
     overflow: scroll;
-
+    
     -ms-overflow-style: none;  
 
 }
@@ -132,3 +132,12 @@ body{
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+.scroll-example {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid black;
+    margin-right: 20px;
+    height: 400px;
+    overflow: scroll;
+  }
