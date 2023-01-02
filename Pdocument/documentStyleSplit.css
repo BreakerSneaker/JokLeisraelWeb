@@ -14,7 +14,7 @@
 .splitScreen{
     
 
-    height: 50vh;
+    height: 49vh;
     width: auto;
     background-color: antiquewhite;
     overflow: scroll;
@@ -27,7 +27,7 @@
   }
 .splitScreen2{
     
-    height: 50vh;
+    height: 49vh;
     width: auto;
     background-color: antiquewhite;
     overflow: scroll;
@@ -131,7 +131,7 @@ body{
 
     background-color: #2f3e46;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 .scroll-example {
