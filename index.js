@@ -137,37 +137,6 @@ const semana = 51;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
 
 
@@ -296,7 +265,7 @@ const semana = 51;
     // Get first day of year
     var yearStart = new Date(Date.UTC(d.getUTCFullYear(),0,0));
     // Calculate full weeks to nearest Thursday 86400000
-    var weekNo = Math.ceil(( ( (d - yearStart) / 714890000 ) + 0)/6);
+    var weekNo = Math.ceil(( ( (d - yearStart) / 713780000 ) + 0)/6);
     // Return array of year and week number
     return [d.getUTCFullYear(), weekNo];
 }
