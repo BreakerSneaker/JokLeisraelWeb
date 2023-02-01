@@ -40,6 +40,7 @@ const semana = 51;
     if(mes===3){//abril
       alert("el dia es: "+ day + " el mes es: "+  mes +" numero de semana: " + result[1])//
       
+
       return
     }
     if (mes===4){//mayo
@@ -261,7 +262,7 @@ const semana = 51;
     d = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
     // Set to nearest Thursday: current date + 4 - current day number
     // Make Sunday's day number 7
-    d.setUTCDate(d.getUTCDate() - 4 - (d.getUTCDay()||6));
+    d.setUTCDate(d.getUTCDate() - (d.getUTCDay()||6));
     // Get first day of year
     var yearStart = new Date(Date.UTC(d.getUTCFullYear(),0,0));
     // Calculate full weeks to nearest Thursday 86400000
