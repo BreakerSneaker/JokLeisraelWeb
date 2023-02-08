@@ -3,47 +3,41 @@
     padding: 0;
 }
 
-
-body{
+body {
     background-color: antiquewhite;
 }
 
 
 /*-----------clasess section----------*/
 
-.wrapper{
+.wrapper {
     text-align: center;
     margin: 0 auto;
     width: 100%;
     height: fit-content;
     background-color: bisque;
-    
 }
 
-.wrapperChild{
+.wrapperChild {
     margin: 0 auto;
     width: auto;
     padding-right: 15px;
     padding-left: 0px;
 }
 
+
 /* links design*/
 
-
-
-.navBox{
+.navBox {
     display: inline-block;
-    
     width: 170px;
     height: 60px;
     padding-top: 15px;
     padding-left: 15px;
     padding-bottom: 20px;
-    
-    
 }
 
-.navBoxChild{
+.navBoxChild {
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     color: black;
@@ -54,44 +48,37 @@ body{
     height: 60px;
     background-color: rgb(247, 247, 238);
 }
-.navBoxChild:hover{
+
+.navBoxChild:hover {
     color: wheat;
 }
 
 
-
 /*--------------id section------------------*/
 
-#header{
-    
+#header {
     color: beige;
     background-color: #720026;
     width: auto;
     height: 80px;
     text-align: center;
     font-size: 60px;
-
-
 }
 
-
-
-#backBt{
+#backBt {
     padding-top: 20px;
     padding-bottom: 20px;
-    
     text-align: center;
 }
 
-#backBt a{
+#backBt a {
     color: rgb(0, 0, 0);
     font-size: 20px;
     text-decoration: none;
 }
 
-#backBt a:hover{
+#backBt a:hover {
     color: rgb(255, 0, 0);
     font-size: 20px;
     text-decoration: none;
 }
-
