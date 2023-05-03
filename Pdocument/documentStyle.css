@@ -41,12 +41,16 @@ body {
     display: inline-block;
 }
 
+
+/*----------------------------------------------------------------
 #textMain {
     font-size: 10px;
+    font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
     text-justify: inter-word;
 }
+*/
 
 #textSecond {
     font-size: 15px;
