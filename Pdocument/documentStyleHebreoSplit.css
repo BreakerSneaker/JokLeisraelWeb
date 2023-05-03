@@ -1,95 +1,79 @@
-
-#backButton{
+#backButton {
     text-align: center;
     list-style: none;
     text-decoration: none;
     padding-top: 20px;
-    
-    
 }
 
-
-
-body{
+body {
     margin: auto;
     padding: 0;
     background-color: antiquewhite;
-    
-    
-}
-/*----------positioning------------*/
-.wrapperHe{
-   position: sticky
-   
-    
-}
-.wrapperHeaderHe{
-    
-    padding-top: 0;
-    text-align: center;
-    
-    
 }
 
-.wrapperParentHe{
+
+/*----------positioning------------*/
+
+.wrapperHe {
+    position: sticky
+}
+
+.wrapperHeaderHe {
+    padding-top: 0;
+    text-align: center;
+}
+
+.wrapperParentHe {
     margin: 0 auto;
     padding: 0;
     width: 80%;
     text-align: center;
-
 }
-
 
 
 /*--------textStyles-------------*/
 
-#bookHeaderHe{
+#bookHeaderHe {
     direction: rtl;
-   font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 120%;
     line-height: 0;
     display: inline-block;
-    
 }
-#textMainHe{
+
+#textMainHe {
     direction: rtl;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
-    text-justify: inter-word ;
+    text-justify: inter-word;
 }
-#textSecondHe{
+
+#textSecondHe {
     direction: rtl;
     font-size: 15px;
     text-align: justify;
-    text-justify: inter-word ;
+    text-justify: inter-word;
     font-family: 'Times New Roman', Times, serif;
-    
-
 }
 
-#bubble{
+#bubble {
     list-style: none;
-    
     text-decoration: none;
-    
 }
 
-
-[data-msg]{
+[data-msg] {
     display: relative;
-    
-}
-[data-msg]:focus::after, [data-msg]:hover::after{
-    content: attr(data-msg);
-    
-    
-    
 }
 
-.stick{
+[data-msg]:focus::after,
+[data-msg]:hover::after {
+    content: attr(data-msg);
+}
+
+.stick {
     text-align: center;
     position: sticky;
     border-radius: 8px;
@@ -98,6 +82,7 @@ body{
     height: 25px;
     top: 240px;
     background-color: white;
-    
 }
+
+
 /*intenal link*/
