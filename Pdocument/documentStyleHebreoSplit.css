@@ -43,8 +43,8 @@ body {
 }
 
 #textMainHe {
-    direction: rtl;
     font-size: 15px;
+    direction: rtl;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
@@ -52,8 +52,8 @@ body {
 }
 
 #textSecondHe {
-    direction: rtl;
     font-size: 15px;
+    direction: rtl;
     text-align: justify;
     text-justify: inter-word;
     font-family: 'Times New Roman', Times, serif;
@@ -86,3 +86,12 @@ body {
 
 
 /*intenal link*/
+
+@media (min-width: 1366px) {
+    #textMainHe {
+        font-size: 25px;
+    }
+    #textSecondHe {
+        font-size: 20px;
+    }
+}

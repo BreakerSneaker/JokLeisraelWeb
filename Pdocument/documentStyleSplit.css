@@ -126,3 +126,12 @@ body {
     height: 400px;
     overflow: scroll;
 }
+
+@media (min-width: 1366px) {
+    #textMain {
+        font-size: 25px;
+    }
+    #textSecond {
+        font-size: 20px;
+    }
+}
