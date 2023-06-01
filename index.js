@@ -3,9 +3,7 @@ const date = new Date();
 const month = date.getMonth();
 const mes = Math.floor(month); //0-11
 const day = date.getDay();
-
 let a = day + 1;
-
 const semana = 51;
 
 
