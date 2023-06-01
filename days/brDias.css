@@ -57,12 +57,12 @@ body {
 /*--------------id section------------------*/
 
 #header {
+    display: grid;
+    padding-top: 0;
+    font-size: 50px;
+    text-align: center;
     color: beige;
     background-color: #720026;
-    width: auto;
-    height: 80px;
-    text-align: center;
-    font-size: 60px;
 }
 
 #backBt {
@@ -81,4 +81,14 @@ body {
     color: rgb(255, 0, 0);
     font-size: 20px;
     text-decoration: none;
+}
+
+@media only screen and (min-width: 300px)
+/*if less of 100px do !*/
+
+{
+    #header {
+        display: block;
+        font-size: 40px;
+    }
 }
