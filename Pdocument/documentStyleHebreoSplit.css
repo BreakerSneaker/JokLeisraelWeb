@@ -87,7 +87,7 @@ body {
 
 /*intenal link*/
 
-@media (min-width: 1366px) {
+@media (min-width: 1000px) {
     #textMainHe {
         font-size: 25px;
     }

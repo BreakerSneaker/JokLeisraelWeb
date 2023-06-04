@@ -127,11 +127,26 @@ body {
     overflow: scroll;
 }
 
-@media (min-width: 1366px) {
+@media (min-width: 1000px) {
     #textMain {
-        font-size: 25px;
+        font-size: 20px;
     }
     #textSecond {
-        font-size: 20px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 800px) {
+    .splitScreen {
+        padding-left: 30px;
+        height: 75vh;
+        width: 45vw;
+    }
+    .splitScreen2 {
+        height: 75vh;
+        width: 45vw;
+    }
+    .whiteSpace {
+        visibility: collapse;
     }
 }
