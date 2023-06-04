@@ -136,7 +136,7 @@ body {
     }
 }
 
-@media (min-width: 800px) {
+@media (max-height: 500px) {
     .splitScreen {
         padding-left: 30px;
         height: 75vh;
