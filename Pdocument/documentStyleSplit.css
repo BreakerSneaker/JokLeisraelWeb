@@ -54,7 +54,7 @@ body {
 .wrapperParent {
     margin: 0 auto;
     padding: 0;
-    width: 80%;
+    width: 90%;
     text-align: center;
 }
 
@@ -118,6 +118,12 @@ body {
     padding-bottom: 10px;
 }
 
+.whiteSpaceChild {
+    background-color: #2f3e46;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
 .scroll-example {
     display: inline-block;
     width: 100%;
@@ -141,13 +147,13 @@ body {
         position: relative;
         left: 100%;
         padding-left: 30px;
-        height: 75vh;
+        height: 90vh;
         width: 45vw;
     }
     .splitScreen2 {
         position: relative;
         right: 100%;
-        height: 75vh;
+        height: 90vh;
         width: 45vw;
     }
     .whiteSpace {
