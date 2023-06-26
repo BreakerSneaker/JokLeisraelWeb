@@ -42,15 +42,15 @@ body {
     display: inline-block;
 }
 
-#textMainHe {
-    font-size: 25px;
+.textMainHe {
+    font-size: 20px;
     direction: rtl;
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
     text-justify: inter-word;
 }
 
-#textMainhe strong{
+.textMainHe strong {
     font-size: 30px;
 }
 
