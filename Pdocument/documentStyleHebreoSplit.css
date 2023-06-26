@@ -43,7 +43,7 @@ body {
 }
 
 #textMainHe {
-    font-size: 15px;
+    font-size: 25px;
     direction: rtl;
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
@@ -51,7 +51,7 @@ body {
 }
 
 #textSecondHe {
-    font-size: 15px;
+    font-size: 20px;
     direction: rtl;
     text-align: justify;
     text-justify: inter-word;

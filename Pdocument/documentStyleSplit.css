@@ -71,9 +71,9 @@ body {
 
 #textMain {
     font-size: 15px;
-    font-family: 'Times New Roman', Times, serif;
     text-align: justify;
     text-justify: inter-word;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #textSecond {
