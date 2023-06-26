@@ -51,11 +51,11 @@ body {
 }
 
 .textMainHe strong {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 #textSecondHe {
-    font-size: 25px;
+    font-size: 20px;
     direction: rtl;
     text-align: justify;
     text-justify: inter-word;
